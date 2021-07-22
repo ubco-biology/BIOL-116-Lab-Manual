@@ -1,0 +1,24 @@
+--- 
+title: "Biology 116 Lab Manual"
+author: "Tristyn Hay"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+description: "Biology lab manual for BIOL 116 at the UBC Okanagan Campus"
+---
+
+# Welcome {-}
+
+Write any prefatory content here.
+
+## Copyright {-}
+
+This work is licenced under the Creative Commons [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Note** some content in this work has been reproduced with permission from the original creators. To further repoduce these sections, please contact the orginal creators directly for permission.
+
+Please use the following for citing this document
+
+Hay, T. (2021). *Biology 116 Lab Manual*. [url]()
+
+All source files are available from [url]().

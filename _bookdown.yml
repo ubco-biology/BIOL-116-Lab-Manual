@@ -1,0 +1,7 @@
+book_filename: "Biology-116-Lab-Manual"
+language:
+  ui:
+    chapter_name: ""
+delete_merged_file: true
+clean: true
+output_dir: "docs"

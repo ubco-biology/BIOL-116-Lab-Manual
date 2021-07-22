@@ -1,0 +1,8 @@
+# Lab 5: Naming Conventions {-}
+
+This week's lab content can be found [here](https://ubco-biology.github.io/Procedures-and-Guidelines/file-and-data-management.html). You are asked to read
+
+*Chapter 1: File and Data Management and
+* Chapter 2: File Naming.
+
+The accompanying quiz can be found in [Canvas](https://canvas.ubc.ca). 
