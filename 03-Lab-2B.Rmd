@@ -79,7 +79,7 @@ For example, \"plants will grow faster at higher temperatures\" is a hypothesis,
 
 **A hypothesis must be testable**
 
-The hypothesis does not need to be \"correct\" - after all, there\'s really know way to know that at this point - but you do have to be able to test whether it is correct or not. In our example from above, we can test the hypothesis, by growing the plants at different temperatures, and observing the effect.
+The hypothesis does not need to be \"correct\" - after all, there\'s really no way to know that at this point - but you do have to be able to test whether it is correct or not. In our example from above, we can test the hypothesis, by growing the plants at different temperatures, and observing the effect.
 
 **A testable hypothesis is a measurable hypothesis**
 

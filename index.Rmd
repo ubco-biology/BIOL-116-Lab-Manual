@@ -1,6 +1,6 @@
 --- 
 title: "Biology 116 Lab Manual"
-author: "Tristyn Hay"
+author: "Dr. Tristyn Hay and Dr. Robin Young"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -19,6 +19,6 @@ This work is licenced under the Creative Commons [Attribution-NonCommercial-Shar
 
 Please use the following for citing this document
 
-Hay, T. (2021). *Biology 116 Lab Manual*. [url]()
+Hay, T., Young, R. (2021). *Biology 116 Lab Manual*. [url]()
 
 All source files are available from [url]().
