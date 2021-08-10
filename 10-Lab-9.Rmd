@@ -1,3 +1,5 @@
 # Lab 7: Data Analysis & Shiny Apps {-}
 
+*Last updated `r Sys.Date()`*
+
 CONTENT PENDING

@@ -1,5 +1,7 @@
 # Lab 4: Experimental Research Pilot {-}
 
+*Last updated `r Sys.Date()`*
+
 This week you will be trying out your experimental design.
 
 This week is all about learning! Be prepared that things may not go as expected and that is okay. This week is about taking the time to figure out what works, what doesn\'t work and what we need to change.

@@ -1,5 +1,7 @@
 # Lab 2A: The Process of Science {-}
 
+*Last updated `r Sys.Date()`*
+
 **Note on Copyright**
 
 Images and some lessons used in this lab have been adapted from [www.understandingscience.org](http://www.understandingscience.org/) and used with permission from Deb Farkas, Stan Hitomi, and Judy Scotchmoor.

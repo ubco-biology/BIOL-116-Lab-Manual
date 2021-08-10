@@ -1,5 +1,7 @@
 # Lab 3: Open Science {-}
 
+*Last updated `r Sys.Date()`*
+
 This week's lab content can be found [here](https://ubco-biology.github.io/OS-Introduction/). You are asked to cover Part 1, Principles of Open Science.
 
 The accompanying quiz can be found in [Canvas](https://canvas.ubc.ca). 
