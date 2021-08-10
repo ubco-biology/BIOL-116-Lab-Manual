@@ -4,14 +4,10 @@
 %
 \documentclass[
 ]{book}
-\title{Biology 116 Lab Manual}
-\author{Dr.~Tristyn Hay and Dr.~Robin Young}
-\date{2021-08-10}
-
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -72,11 +68,15 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-\ifLuaTeX
+\ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
+
+\title{Biology 116 Lab Manual}
+\author{Dr.~Tristyn Hay and Dr.~Robin Young}
+\date{2021-08-10}
 
 \begin{document}
 \maketitle
@@ -1187,9 +1187,9 @@ Collaboration is a key part of science. During this time, you may want to start 
 
 Scientists often use each other to discuss their findings and / or issues in order to help better understand what is going on. Your peers and your teaching assistants are resources for you so take advantage. Collaboration provides the opportunity to learn much much more about science and the scientific method so use it wisely.
 
-\hypertarget{lab-7-data-analysis-shiny-apps}{%
-\chapter*{Lab 7: Data Analysis \& Shiny Apps}\label{lab-7-data-analysis-shiny-apps}}
-\addcontentsline{toc}{chapter}{Lab 7: Data Analysis \& Shiny Apps}
+\hypertarget{lab-9-data-analysis-shiny-apps}{%
+\chapter*{Lab 9: Data Analysis \& Shiny Apps}\label{lab-9-data-analysis-shiny-apps}}
+\addcontentsline{toc}{chapter}{Lab 9: Data Analysis \& Shiny Apps}
 
 \emph{Last updated 2021-08-10}
 
