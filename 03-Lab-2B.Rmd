@@ -148,7 +148,7 @@ Considering how you are going to keep track of everything is one of the FIRST de
 
 ### File Naming {-}
 
-In **Lab 4**  - online, asynchronous lab - you will be exploring best practices for file management and naming conventions. For now, here is an example of naming a data file for an experiment investigating how mealworm movement is affected by the presence of light. 
+In **Lab 5**  - online, asynchronous lab - you will be exploring best practices for file management and naming conventions. For now, here is an example of naming a data file for an experiment investigating how mealworm movement is affected by the presence of light. 
 
 ```
 20200626_Mealworm-project_Light-movement-data.csv 
@@ -473,4 +473,12 @@ The weekly plan is written in your course syllabus, along with which weeks are i
 
 One final thought… while science is serious and noble and logical and all of the rest… it\'s is also exciting and fun! We can be rigorous and careful in the work we do, and also be really excited by the cool questions we\'re exploring. So even while you are doing your best to learn the principles of science, it is our sincere hope that you also find the joy in research and discovery! 
 
-Happy Sciencing! 
+Happy Sciencing!
+
+## Assignment {-}
+
+Please use the following template for this assignment:
+
+[20210810_Lab2b_Experimental-Design-PreLab-Assignment.docx](files/20210810_Lab2b_Experimental-Design-PreLab-Assignment-V1.docx) (18 KB)
+
+**NOTE** This assignment is due at the start of your next in-person lab (i.e. Lab 4).

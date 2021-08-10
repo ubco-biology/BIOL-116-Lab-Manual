@@ -19,6 +19,6 @@ This work is licenced under the Creative Commons [Attribution-NonCommercial-Shar
 
 Please use the following for citing this document
 
-Hay, T., Young, R. (2021). *Biology 116 Lab Manual*. [url]()
+Hay, T., Young, R. (2021). *Biology 116 Lab Manual*. [https://ubco-biology.github.io/BIOL-116-Lab-Manual/](https://ubco-biology.github.io/BIOL-116-Lab-Manual/)
 
-All source files are available from [url]().
+All source files are available from [https://github.com/ubco-biology/BIOL-116-Lab-Manual](https://github.com/ubco-biology/BIOL-116-Lab-Manual).

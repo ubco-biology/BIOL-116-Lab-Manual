@@ -2,7 +2,7 @@
 
 **Note on Copyright**
 
-Images and some lessons used in these labs have been adapted from [www.understandingscience.org](http://www.understandingscience.org/) and used with permission from Deb Farkas, Stan Hitomi, and Judy Scotchmoor.
+Images and some lessons used in this lab have been adapted from [www.understandingscience.org](http://www.understandingscience.org/) and used with permission from Deb Farkas, Stan Hitomi, and Judy Scotchmoor.
 
 *Understanding Science* is a National Science Foundation grant funded project produced by the UC Museum of Paleontology of the University of California at Berkeley.
 
@@ -78,7 +78,7 @@ Once you feel confident with your predictions, you will need to submit them to C
 
 Study the simple science flowchart with your instructor:
 
-![Figure 2. Simple science flowchart.<br/>Image used with permission from [The University of California Museum of Paleontology, Berkeley, and the Regents of the University of California](www.understandingscience.org)](figures_images/Lab2a-Fig2.png)
+![Figure 2. Simple science flowchart.<br/>Image used with permission from [The University of California Museum of Paleontology, Berkeley, and the Regents of the University of California](www.understandingscience.org).](figures_images/Lab2a-Fig2.png)
 
 
 
@@ -86,7 +86,7 @@ Study the simple science flowchart with your instructor:
 
 Now let\'s view the complex science flowchart:
 
-![Figure 3. Complex science flowchart.<br />Image by [The University of California Museum of Paleontology, Berkeley, and the Regents of the University of California](www.understandingscience.org)](figures_images/Lab2a-Fig3.png)
+![Figure 3. Complex science flowchart.<br />Image used with permission from [The University of California Museum of Paleontology, Berkeley, and the Regents of the University of California](www.understandingscience.org).](figures_images/Lab2a-Fig3.png)
 
 ### Class Discussion {-}
 
@@ -94,7 +94,7 @@ Follow your instructor\'s directions as a class to place examples of the types o
 
 This discussion marks the end of the first part of this lab (Lab 2). If you have not already done so, make sure you have the information you need to complete your submission of the Mystery cylinder assignment before the end of the day. Once you leave your lab you will not have the opportunity to come back if there’s something you forgot or missed. 
 
-When you’re ready, you can proceed to Part 2 of Lab 2, where the research project is discussed.
+When you\'re ready, you can proceed to Part 2 of Lab 2, where the research project is discussed.
 
 ## Mystery Cylinder Assignment {-}
 
