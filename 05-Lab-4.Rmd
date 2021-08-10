@@ -8,7 +8,7 @@ This week is all about learning! Be prepared that things may not go as expected 
 
 This is all part of research but will help better prepare you for your next few weeks of data collection. 
 
-![Figure 1. Lab safety comic.<br />Image by [Amoeba Sisters](Lab4-Fig1.png). Used in accordance with the creators' [terms of use](https://www.amoebasisters.com/termsofuse.html)](figures_images/Lab4-Fig1.png)
+![Figure 1. Placebo comic.<br />Image by [xkcd](https://xkcd.com/1526/). Licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)](figures_images/Lab4-Fig1.png)
 
 
 

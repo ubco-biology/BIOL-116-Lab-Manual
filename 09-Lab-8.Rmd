@@ -8,7 +8,7 @@ Remember that you should be working to minimize the differences between today\'s
 
 **Note** making changes adds a new variable to your experiment, which will have an unknown impact on your results. If you must make changes for some reason, make sure that you carefully document everything once again. 
 
-![Figure 1. Experimental and control groups comic.<br />Image by [Amoeba Sisters](https://www.amoebasisters.com/parameciumparlorcomics/category/nature-of-science/2). Used in accordance with the creators' [terms of use](https://www.amoebasisters.com/termsofuse.html)](figures_images/Lab8-Fig1.png)
+![Figure 1. Data error.<br />Image by [xkcd](https://xkcd.com/2239/). Licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)](figures_images/Lab8-Fig1.png)
 
 Collaboration is a key part of science. During this time, you may want to start informally discussing what you are seeing with your partner, peers and / or your teaching assistant to see if you can explain what you are seeing.
 
