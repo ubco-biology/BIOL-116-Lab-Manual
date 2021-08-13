@@ -10,8 +10,6 @@ This is all part of research but will help better prepare you for your next few 
 
 ![Figure 1. Placebo comic.<br />Image by [xkcd](https://xkcd.com/1526/). Licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)](figures_images/Lab4-Fig1.png)
 
-
-
 ### Questions {-}
 
 Remember, there are 20 of you and only one teaching assistant in your lab. You may be feeling anxious and frustrated at times as you may not be able to get the help you need immediately but please be patient.

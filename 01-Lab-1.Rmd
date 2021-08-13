@@ -2,4 +2,4 @@
 
 *Last updated `r Sys.Date()`*
 
-Content for the first lab will all be on Canvas, the learning management system used at UBC. Enrolled students can access this content at https://canvas.ubc.ca
+Content for the first lab will all be on Canvas, the learning management system used at UBC. Enrolled students can access this content at [https://canvas.ubc.ca/courses/90147](https://canvas.ubc.ca/courses/90147)
