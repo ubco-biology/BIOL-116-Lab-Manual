@@ -23,7 +23,7 @@ There\'s much more information about what to expect from labs, the grading polic
 
 This work is licenced under the Creative Commons [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-**Note** some content in this work has been reproduced with permission from the original creators. To further repoduce these sections, please contact the orginal creators directly for permission.
+**Note** some content in this work has been reproduced with permission from the original creators. To further reproduce these sections, please contact the original creators directly for permission.
 
 Please use the following for citing this document
 
