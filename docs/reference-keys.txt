@@ -1,0 +1,9 @@
+data-tables-figures
+intro-to-r
+computational-reproducibility
+shiny-apps
+getting-started
+screencast-demo
+activity
+assignment-1
+grading-rubric
