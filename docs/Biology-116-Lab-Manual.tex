@@ -4,14 +4,10 @@
 %
 \documentclass[
 ]{book}
-\title{Biology 116 Lab Manual}
-\author{Dr.~Tristyn Hay and Dr.~Robin Young}
-\date{2021-08-17}
-
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -72,11 +68,15 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-\ifLuaTeX
+\ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
+
+\title{Biology 116 Lab Manual}
+\author{Dr.~Tristyn Hay and Dr.~Robin Young}
+\date{2021-08-17}
 
 \begin{document}
 \maketitle
@@ -225,7 +225,7 @@ Outside of opening the container, you have the option to hold it, shake it etc. 
 
 Work in groups to come up with three suggestions of ways you can manipulate your cylinders to try and determine what is inside. Remember that not all of your initial ideas will be plausible - you don't always have all the ideal tools available to you. You do not have an X-ray machine in the lab 😊. Offer three possible tests that could likely be done in lab.
 
-Designate one person in your group to write down all observations and information you attain during your experiment.Following this, you and your group now must try to reach a consensus about what is inside the interior of each cylinder.
+Designate one person in your group to write down all observations and information you attain during your experiment. Following this, you and your group now must try to reach a consensus about what is inside the interior of each cylinder.
 
 \textbf{Note} If you do not take extensive notes throughout the experimentation process - electronically or on paper - you will not have the information that you need to complete this assignment.
 
@@ -296,7 +296,7 @@ Now let's view the complex science flowchart:
 
 Follow your instructor's directions as a class to place examples of the types of things you did in the mystery box activity into each circle. See the list generated for the previous discussion question.
 
-This discussion marks the end of the first part of this lab (Lab 2). If you have not already done so, make sure you have the information you need to complete your submission of the Mystery cylinder assignment before the end of the day. Once you leave your lab you will not have the opportunity to come back if there's something you forgot or missed.
+This discussion marks the end of the first part of this lab (Lab 2). If you have not already done so, make sure you have the information you need to complete your submission of the Mystery cylinder assignment before the end of the day. Once you leave your lab you will not have the opportunity to come back if there is something you forgot or missed.
 
 When you're ready, you can proceed to Part 2 of Lab 2, where the research project is discussed.
 
