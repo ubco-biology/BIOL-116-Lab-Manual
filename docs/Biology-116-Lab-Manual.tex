@@ -76,7 +76,7 @@
 
 \title{Biology 116 Lab Manual}
 \author{Dr.~Tristyn Hay and Dr.~Robin Young}
-\date{2021-08-17}
+\date{2021-08-20}
 
 \begin{document}
 \maketitle
@@ -117,7 +117,7 @@ All source files are available from \url{https://github.com/ubco-biology/BIOL-11
 \chapter*{Lab 1: Introduction}\label{lab-1-introduction}}
 \addcontentsline{toc}{chapter}{Lab 1: Introduction}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 Content for the first lab will all be on Canvas, the learning management system used at UBC. Enrolled students can access this content at \url{https://canvas.ubc.ca/courses/90147}
 
@@ -125,7 +125,7 @@ Content for the first lab will all be on Canvas, the learning management system 
 \chapter*{Lab 2A: The Process of Science}\label{lab-2a-the-process-of-science}}
 \addcontentsline{toc}{chapter}{Lab 2A: The Process of Science}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 \textbf{Note on Copyright}
 
@@ -385,9 +385,9 @@ Total points: 10
 \chapter*{Lab 2B: Research Project}\label{lab-2b-research-project}}
 \addcontentsline{toc}{chapter}{Lab 2B: Research Project}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
-Over the term, you and your partner will be designing and conducting an experiment, analysing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab.
+Over the term, you and your partner will be designing and conducting an experiment, analyzing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab.
 
 \textbf{Learning Outcomes}
 
@@ -400,7 +400,7 @@ Students will participate in the process of science and demonstrate scientific t
 \item
   How to design an experiment to test your hypothesis.
 \item
-  How to analyse and display your results.
+  How to analyze and display your results.
 \item
   How to interpret your results so as to support or reject your hypothesis.
 \item
@@ -1073,7 +1073,7 @@ Please use the following template for this assignment:
 \chapter*{Lab 3: Open Science}\label{lab-3-open-science}}
 \addcontentsline{toc}{chapter}{Lab 3: Open Science}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/OS-Introduction/}{here}. You are asked to cover Part 1, Principles of Open Science.
 
@@ -1083,7 +1083,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Lab 4: Experimental Research Pilot}\label{lab-4-experimental-research-pilot}}
 \addcontentsline{toc}{chapter}{Lab 4: Experimental Research Pilot}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 This week you will be trying out your experimental design.
 
@@ -1127,7 +1127,7 @@ Yes, this may be a challenging week for you but we expect that it will also be a
 \chapter*{Lab 5: Naming Conventions}\label{lab-5-naming-conventions}}
 \addcontentsline{toc}{chapter}{Lab 5: Naming Conventions}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/Procedures-and-Guidelines/file-and-data-management.html}{here}. You are asked to read
 
@@ -1145,7 +1145,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Lab 6: Data Collection}\label{lab-6-data-collection}}
 \addcontentsline{toc}{chapter}{Lab 6: Data Collection}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 Now that you have conducted your pilot experiment and saw how it went, you are ready to collect some data.
 
@@ -1161,7 +1161,7 @@ Make sure you have worked through any major changes to your experimental methodo
 \chapter*{Lab 7: Intro to R \& Shiny Apps}\label{lab-7-intro-to-r-shiny-apps}}
 \addcontentsline{toc}{chapter}{Lab 7: Intro to R \& Shiny Apps}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 This lab will have you putting into practice through visualizations and data tables much of what was covered in Lab 2B.
 
@@ -1217,7 +1217,7 @@ The following is a descriptive overview of what you'll find in the two panes of 
 \subsection*{Left Pane}\label{left-pane}}
 \addcontentsline{toc}{subsection}{Left Pane}
 
-On the left navigation you have four menu options: Welcome; Upload Data; Plot; Descriptive Stats.
+On the left navigation you have four menu options: Welcome; Upload Data; Plot; Descriptive Stats; Analysis.
 
 \hypertarget{welcome-1}{%
 \subsubsection*{Welcome}\label{welcome-1}}
@@ -1281,6 +1281,36 @@ Once you've made your selections, the Shiny App will automatically calculated th
   \textbf{two categorical variables}, then a frequency table will be displayed showing you how many subjects fall into each group.
 \end{itemize}
 
+\hypertarget{analysis}{%
+\subsubsection*{Analysis}\label{analysis}}
+\addcontentsline{toc}{subsubsection}{Analysis}
+
+Here is where you will perform statistical tests using your selected data. The type of test performed by the Shiny App depends on the type of variables you select.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{T-test}: This analysis is used when examining a single quantitative (numeric) response variable in relation to a single categorical variable that has only 2 groups.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    When performing a T-test in this app, you will be asked for a few additional parameters.
+  \item
+    Type in the confidence level you would like to use for the T-test. For example, if you'd like a 95\% confidence interval, type in 0.95.
+  \item
+    One assumption of the T-test is that the variance for each sample is approximately equal. However, the t-test used by this app (Welch's t-test) is somewhat robust to deviations in this assumption. For now, we will assume that both of your samples have equal variance. As such, please select 'Yes' when prompted for this option.
+  \end{itemize}
+\item
+  \textbf{ANOVA}: This analysis is used when examining a single quantitative (numeric) response variable in relation to a single categorical variable that has more than 2 groups.
+\item
+  \textbf{Fisher's Exact Test}: This analysis is used when testing for an association between two categorical variables. It is only used when both categorical variables have exactly 2 levels/groups. For example, if one variable is sex (male/female) and the other is survival (yes/no).
+\item
+  \textbf{Chi-Squared Contingency Analysis}: This analysis is used when testing for an association between two categorical variables. It is only used when at least one of the categorical variables has more than 2 levels/groups. For example, if one variable is flower colour (pink/red/white) and the other is season (spring/summer/winter/fall).
+\end{itemize}
+
+Once you've conducted a statistical test, the Shiny App will provide you with instructions for 'Interpreting the Output'. For this course, the main output of interest is the p-value. Recall from Lab 2 that if the p-value is less than our pre-determined significance level, there is a significant relationship between the variables. However, if the p-value is less than the significance level, the relationship between the variables is insignificant.
+
 \hypertarget{right-pane}{%
 \subsection*{Right Pane}\label{right-pane}}
 \addcontentsline{toc}{subsection}{Right Pane}
@@ -1303,7 +1333,7 @@ This blue box shows the output that the Shiny App creates based on your selectio
 \subsubsection*{Source Code}\label{source-code}}
 \addcontentsline{toc}{subsubsection}{Source Code}
 
-This orange box shows the script used by R to generate the output. If there are any packages that need to be loaded in order to run the script, they are shown within the \texttt{library()} function at the beginning of the script. You don't need to worry about doing anything with this part for now. Rather, the script is included to enhance the transparency and computational reproducibility of your analysis. For example, since you know the script used to create your plots and calculate descriptive statistics, if you or someone else wanted to reproduce your methods, they could load your data, copy this script into R, and re-run everything exactly as shown in the Shiny App.
+This orange box shows the script used by R to generate the output. If there are any packages that need to be loaded in order to run the script, they are shown within the \texttt{library()} function at the beginning of the script. You don't need to worry about doing anything with this part for now. Rather, the script is included to enhance the transparency and computational reproducibility of your analysis. For example, since you know the script used to create your plots, calculate descriptive statistics, and perform statistical analysis; if you or someone else wanted to reproduce your methods, they could load your data, copy this script into R, and re-run everything exactly as shown in the Shiny App.
 
 \hypertarget{screencast-demo}{%
 \section*{Screencast Demo}\label{screencast-demo}}
@@ -1331,7 +1361,7 @@ Please use the following template for this assignment:
 
 \textbf{Question 1}
 
-1.5 marks for each correct figure based on types of variable inputs. Since there are 2 figures this part is out of 3 marks in total.
+1 mark for correct figure based on types of variable inputs.
 
 \begin{itemize}
 \tightlist
@@ -1343,7 +1373,7 @@ Please use the following template for this assignment:
   One numeric and one categorical variable = stripchart (if \textless{} 20 observations in each group), boxplot (if \textgreater{} 20 observations in each group)
 \end{itemize}
 
-1 mark for each figure caption that follows guidelines. Since there are 2 figures this part is out of 2 marks in total. At a minimum a caption:
+1 mark for figure caption that follows guidelines. At a minimum a caption:
 
 \begin{itemize}
 \tightlist
@@ -1359,27 +1389,37 @@ Please use the following template for this assignment:
 
 \textbf{Question 2}
 
-5 marks for a correctly formatted table.
+4 marks for a correctly formatted table.
 
 \begin{itemize}
 \tightlist
 \item
+  Correct values in the table (1 mark)
+\item
   Correct descriptive statistics were used for each variable type (1 mark)
 \item
-  The heading is placed above the table (1 mark)
-\item
-  The table should be interpretable on its own thanks to an informative heading (1 mark)
+  The heading is informative (1 mark)
 \item
   Sample sizes and units are always included (1 mark)
+\end{itemize}
+
+\textbf{Question 3}
+
+For each scenario (4 marks total):
+
+\begin{itemize}
+\tightlist
 \item
-  Use horizontal lines only; these are often placed above and below headings, and at bottom of table (1 mark)
+  1 mark for correct p-value
+\item
+  1 mark for correctly determining significance (or lack thereof) based on p-value
 \end{itemize}
 
 \hypertarget{lab-8-data-collection-continued}{%
 \chapter*{Lab 8: Data Collection Continued}\label{lab-8-data-collection-continued}}
 \addcontentsline{toc}{chapter}{Lab 8: Data Collection Continued}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 By now you should have already successfully run your entire experiment once, and collected some data.This is great!Take your time in your lab to attain as many trials as you can.The more trials you conduct the more assured you can be in the trends you are seeing.This is your last opportunity to collect your data so make the most of it.
 
@@ -1409,7 +1449,7 @@ Scientists often use each other to discuss their findings and / or issues in ord
 \chapter*{Lab 9: Data Analysis \& Shiny Apps}\label{lab-9-data-analysis-shiny-apps}}
 \addcontentsline{toc}{chapter}{Lab 9: Data Analysis \& Shiny Apps}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 CONTENT PENDING
 
@@ -1417,7 +1457,7 @@ CONTENT PENDING
 \chapter*{Lab 10: Poster Presentation}\label{lab-10-poster-presentation}}
 \addcontentsline{toc}{chapter}{Lab 10: Poster Presentation}
 
-\emph{Last updated 2021-08-17}
+\emph{Last updated 2021-08-20}
 
 CONTENT PENDING
 
