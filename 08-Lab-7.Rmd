@@ -44,7 +44,7 @@ The following is a descriptive overview of what you\'ll find in the two panes of
 
 ### Left Pane {-}
 
-On the left navigation you have four menu options: Welcome; Upload Data; Plot; Descriptive Stats.
+On the left navigation you have four menu options: Welcome; Upload Data; Plot; Descriptive Stats; Analysis.
 
 #### Welcome {-}
 
@@ -84,6 +84,20 @@ Once you\'ve made your selections, the Shiny App will automatically calculated t
 * **one categorical and one quantitative variable**, you will be provided with the sample size `n`, mean, standard deviation `sd`, median, and inter-quartile range `iqr` for each group of your categorical variable.
 * **two categorical variables**, then a frequency table will be displayed showing you how many subjects fall into each group.
 
+#### Analysis {-}
+
+Here is where you will perform statistical tests using your selected data. The type of test performed by the Shiny App depends on the type of variables you select. 
+
+* **T-test**: This analysis is used when examining a single quantitative (numeric) response variable in relation to a single categorical variable that has only 2 groups.
+  * When performing a T-test in this app, you will be asked for a few additional parameters.
+  * Type in the confidence level you would like to use for the T-test. For example, if you\'d like a 95% confidence interval, type in 0.95.
+  * One assumption of the T-test is that the variance for each sample is approximately equal. However, the t-test used by this app (Welch\'s t-test) is somewhat robust to deviations in this assumption. For now, we will assume that both of your samples have equal variance. As such, please select \'Yes\' when prompted for this option.
+* **ANOVA**: This analysis is used when examining a single quantitative (numeric) response variable in relation to a single categorical variable that has more than 2 groups.
+* **Fisher\'s Exact Test**: This analysis is used when testing for an association between two categorical variables. It is only used when both categorical variables have exactly 2 levels/groups. For example, if one variable is sex (male/female) and the other is survival (yes/no).
+* **Chi-Squared Contingency Analysis**: This analysis is used when testing for an association between two categorical variables. It is only used when at least one of the categorical variables has more than 2 levels/groups. For example, if one variable is flower colour (pink/red/white) and the other is season (spring/summer/winter/fall).
+
+Once you\'ve conducted a statistical test, the Shiny App will provide you with instructions for \'Interpreting the Output\'. For this course, the main output of interest is the p-value. Recall from Lab 2 that if the p-value is less than our pre-determined significance level, there is a significant relationship between the variables. However, if the p-value is less than the significance level, the relationship between the variables is insignificant.  
+
 ### Right Pane {-}
 
 Under each menu option (i.e. Plot), the right pane displays three sections: Instructions; Output; Source Code
@@ -98,7 +112,7 @@ This blue box shows the output that the Shiny App creates based on your selectio
 
 #### Source Code {-}
 
-This orange box shows the script used by R to generate the output. If there are any packages that need to be loaded in order to run the script, they are shown within the `library()` function at the beginning of the script. You don\'t need to worry about doing anything with this part for now. Rather, the script is included to enhance the transparency and computational reproducibility of your analysis. For example, since you know the script used to create your plots and calculate descriptive statistics, if you or someone else wanted to reproduce your methods, they could load your data, copy this script into R, and re-run everything exactly as shown in the Shiny App. 
+This orange box shows the script used by R to generate the output. If there are any packages that need to be loaded in order to run the script, they are shown within the `library()` function at the beginning of the script. You don\'t need to worry about doing anything with this part for now. Rather, the script is included to enhance the transparency and computational reproducibility of your analysis. For example, since you know the script used to create your plots, calculate descriptive statistics, and perform statistical analysis; if you or someone else wanted to reproduce your methods, they could load your data, copy this script into R, and re-run everything exactly as shown in the Shiny App. 
 
 ## Screencast Demo {-}
 
@@ -119,26 +133,31 @@ Please use the following template for this assignment:
 
 **Question 1** 
 
-1.5 marks for each correct figure based on types of variable inputs. Since there are 2 figures this part is out of 3 marks in total.
+1 mark for correct figure based on types of variable inputs.  
 
 * Two categorical variables = mosaic or barplot 
 * Two numeric variables = scatterplot 
 * One numeric and one categorical variable = stripchart (if < 20 observations in each group), boxplot (if > 20 observations in each group) 
 
-1 mark for each figure caption that follows guidelines. Since there are 2 figures this part is out of 2 marks in total. At a minimum a caption:  
+1 mark for figure caption that follows guidelines. At a minimum a caption: 
 
-* is located below the figure (0.25 marks)
-* includes a figure number (0.25 marks)
-* describes both variables (0.25 marks)
-* includes sample sizes  (0.25 marks)
+* is located below the figure (0.25 marks) 
+* includes a figure number (0.25 marks) 
+* describes both variables (0.25 marks) 
+* includes sample sizes (0.25 marks) 
 
+**Question 2** 
 
-**Question 2**
+4 marks for a correctly formatted table. 
 
-5 marks for a correctly formatted table. 
-
+* Correct values in the table (1 mark) 
 * Correct descriptive statistics were used for each variable type (1 mark) 
-* The heading is placed above the table (1 mark) 
-* The table should be interpretable on its own thanks to an informative heading (1 mark) 
+* The heading is informative (1 mark) 
 * Sample sizes and units are always included (1 mark) 
-* Use horizontal lines only; these are often placed above and below headings, and at bottom of table (1 mark) 
+
+**Question 3** 
+
+For each scenario (4 marks total): 
+
+* 1 mark for correct p-value 
+* 1 mark for correctly determining significance (or lack thereof) based on p-value 
