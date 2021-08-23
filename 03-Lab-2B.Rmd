@@ -2,7 +2,7 @@
 
 *Last updated `r Sys.Date()`*
 
-Over the term, you and your partner will be designing and conducting an experiment, analysing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab. 
+Over the term, you and your partner will be designing and conducting an experiment, analyzing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab. 
 
 **Learning Outcomes**
 
@@ -10,11 +10,11 @@ Students will participate in the process of science and demonstrate scientific t
 
 * How to form a hypothesis. 
 * How to design an experiment to test your hypothesis. 
-* How to analyse and display your results. 
+* How to analyze and display your results. 
 * How to interpret your results so as to support or reject your hypothesis. 
 * How to present your results as an oral presentation. 
 
-In addition, you will begin to explore the principles and practices of Open Science, as a way to help ensure reproducibility and transparency in the work that you do as scientists. 
+In addition, you will begin to explore the principles and practices of <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Open-science">Open Science</a>, as a way to help ensure <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Reproducibility">reproducibility</a> and <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Transparency">transparency</a> in the work that you do as scientists. 
 
 ## Science & The Scientific Method {-}
 
