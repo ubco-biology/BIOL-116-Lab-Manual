@@ -1,4 +1,6 @@
-# Lab 3: Open Science {-}
+# (PART\*) Lab 3 {-}
+
+# Open Science {-}
 
 *Last updated `r Sys.Date()`*
 

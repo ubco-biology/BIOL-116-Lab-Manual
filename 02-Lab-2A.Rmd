@@ -1,4 +1,6 @@
-# Lab 2A: The Process of Science {-}
+# (PART\*) Lab 2A {-}
+
+# The Process of Science {-}
 
 *Last updated `r Sys.Date()`*
 
@@ -8,9 +10,7 @@ Images and some lessons used in this lab have been adapted from [www.understandi
 
 *Understanding Science* is a National Science Foundation grant funded project produced by the UC Museum of Paleontology of the University of California at Berkeley.
 
-## Introduction to the Process of Science {-}
-
-### Objectives {-}
+## Objectives {-}
 
 At the end of this lab students should be able to: 
 
@@ -28,12 +28,12 @@ At the end of this lab students should be able to:
   - Scientists aim for their studies to be replicable 
   - Over time, scientific ideas or hypotheses that are supported by multiple methods and replicated in various studies become established theories that are widely accepted by the scientific community 
 
-### Discussion Questions {-}
+## Discussion Questions {-}
 
 1. What is science?
 2. What do scientists do and how - in general - do they do it? Discuss this with a partner.
 
-## Mystery Cylinders {-}
+# Mystery Cylinders {-}
 
 **Mystery Cylinders An exercise in the scientific process**
 
@@ -47,7 +47,7 @@ This activity is broken down into 3 steps:
 
 ![Figure 1. Mystery cylinders.<br />Image by UBCO, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)](figures_images/Lab2a-Fig1.jpg)
 
-### Phase 1 – \"Observe\" your cylinder {-}
+## Phase 1 – \"Observe\" your cylinder {-}
 
 Outside of opening the container, you have the option to hold it, shake it etc. What types of observations would you like to make? During this activity, you and your group will be able to interact with the cylinder. Think about the question you are addressing and how you would go about answering it. 
 
@@ -55,28 +55,36 @@ Work in groups to come up with three suggestions of ways you can manipulate your
 
 Designate one person in your group to write down all observations and information you attain during your experiment. Following this, you and your group now must try to reach a consensus about what is inside the interior of each cylinder.
 
-**Note** If you do not take extensive notes throughout the experimentation process - electronically or on paper - you will not have the information that you need to complete this assignment.
+<div class="note">
+**Note**
 
-### Phase 2 - Share & Collaborate {-}
+If you do not take extensive notes throughout the experimentation process - electronically or on paper - you will not have the information that you need to complete this assignment.
+</div>
+
+## Phase 2 - Share & Collaborate {-}
 
 Your instructor will then help your group to discuss findings with other groups.
 
 * Discuss whether you are using similar techniques to analyze your cylinders.
 * Collaborate with others to see if you can arrive at a consensus guess for the interior of your cylinder(s).
 
-### Phase 3 – Submit for marks {-}
+## Phase 3 – Submit for marks {-}
 
 Once you feel confident with your predictions, you will need to submit them to Canvas for marks. There is a separate file posted with the assignment instructions.
 
-### Discussion Question {-}
+## Discussion Question {-}
 
 1. With your original group, make a list of the **specific things** that you did during this activity and how / why they are a part of doing science - e.g. twisting the cylinders \= ??
 
-**NOTE** Wait for your instructor before proceeding to the next section *Science Flowchart*.
+<div class="note">
+**NOTE**
 
-## Science Flowchart {-}
+Wait for your instructor before proceeding to the next section *Science Flowchart*.
+</div>
 
-### A Simple Flowchart {-}
+# Science Flowchart {-}
+
+## A Simple Flowchart {-}
 
 Study the simple science flowchart with your instructor:
 
@@ -84,13 +92,13 @@ Study the simple science flowchart with your instructor:
 
 
 
-### A Complex Flowchart {-}
+## A Complex Flowchart {-}
 
 Now let\'s view the complex science flowchart:
 
 ![Figure 3. Complex science flowchart.<br />Image used with permission from [The University of California Museum of Paleontology, Berkeley, and the Regents of the University of California](www.understandingscience.org).](figures_images/Lab2a-Fig3.png)
 
-### Class Discussion {-}
+## Class Discussion {-}
 
 Follow your instructor\'s directions as a class to place examples of the types of things you did in the mystery box activity into each circle. See the list generated for the previous discussion question.
 
@@ -124,7 +132,7 @@ This means:
 * No copying and pasting from other sources - even if you plan to \'tweak\'. This is not your own words. 
 * Do not work it out together, and then alter the final draft to make it look less similar. Figure it out together, and then go away and write your final submission yourself.
 
-### Mystery Cylinder Assignment Grading Rubric {-}
+## Mystery Cylinder Assignment Grading Rubric {-}
 
 <table>
    <tr>

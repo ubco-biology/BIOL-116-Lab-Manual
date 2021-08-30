@@ -1,4 +1,6 @@
-# Lab 4: Experimental Research Pilot {-}
+# (PART\*) Lab 4 {-}
+
+# Experimental Research Pilot {-}
 
 *Last updated `r Sys.Date()`*
 
@@ -10,20 +12,20 @@ This is all part of research but will help better prepare you for your next few 
 
 ![Figure 1. Placebo comic.<br />Image by [xkcd](https://xkcd.com/1526/). Licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)](figures_images/Lab4-Fig1.png)
 
-### Questions {-}
+## Questions {-}
 
 Remember, there are 20 of you and only one teaching assistant in your lab. You may be feeling anxious and frustrated at times as you may not be able to get the help you need immediately but please be patient.
 
 Your teaching assistant will come around to provide whatever support they can, however there may be a bit of a wait. While you are waiting on your teaching assistant see if you and your partner aren\'t able to figure things out together. You may find you do not need your teaching assistant when you put both heads together. 
 
-### Materials & Safety {-}
+## Materials & Safety {-}
 
 All the materials needed will be along the far bench with some items being held in the fume hood. For those items in the fume hood please ensure you follow the guidelines indicated by your teaching assistant. There are safety issues that need to be considered and so we must ensure we are following all laboratory safety rules. If you are in doubt of how to dispose of something or where it should be placed please ask rather than guess.
 
-### Tidy Up {-}
+## Tidy Up {-}
 
 There are other students coming in immediately after you so please be considerate.Your station should look the same as it did when you arrived.Take the time to clean up your area and put everything away. 
 
-### Have Fun {-}
+## Have Fun {-}
 
 Yes, this may be a challenging week for you but we expect that it will also be a very enjoyable experience… you get to test your own theories! Have fun with it! 

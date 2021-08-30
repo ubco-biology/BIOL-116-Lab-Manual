@@ -1,4 +1,6 @@
-# Lab 9: Data Analysis & Shiny Apps {-}
+# (PART\*) Lab 9 {-}
+
+# Data Analysis & Shiny Apps {-}
 
 *Last updated `r Sys.Date()`*
 

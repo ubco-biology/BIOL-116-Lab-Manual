@@ -1,4 +1,6 @@
-# Lab 10: Poster Presentation {-}
+# (PART\*) Lab 10 {-}
+
+# Poster Presentation {-}
 
 *Last updated `r Sys.Date()`*
 

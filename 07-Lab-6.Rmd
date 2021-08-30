@@ -1,4 +1,6 @@
-# Lab 6: Data Collection {-}
+# (PART\*) Lab 6 {-}
+
+# Data Collection {-}
 
 *Last updated `r Sys.Date()`*
 

@@ -1,4 +1,6 @@
-# Lab 8: Data Collection Continued {-}
+# (PART\*) Lab 8 {-}
+
+# Data Collection Continued {-}
 
 *Last updated `r Sys.Date()`*
 
@@ -6,7 +8,11 @@ By now you should have already successfully run your entire experiment once, and
 
 Remember that you should be working to minimize the differences between today\'s trials and the trial(s) you ran in the last data collection period. Your methods should be as similar as possible - assuming, of course, your experiment worked last time.
 
-**Note** making changes adds a new variable to your experiment, which will have an unknown impact on your results. If you must make changes for some reason, make sure that you carefully document everything once again. 
+<div class="note">
+**Note**
+
+Making changes adds a new variable to your experiment, which will have an unknown impact on your results. If you must make changes for some reason, make sure that you carefully document everything once again.
+</div>
 
 ![Figure 1. Data error.<br />Image by [xkcd](https://xkcd.com/2239/). Licensed under [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/)](figures_images/Lab8-Fig1.png)
 

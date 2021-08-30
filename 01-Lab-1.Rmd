@@ -1,4 +1,6 @@
-# Lab 1: Introduction {-}
+# (PART\*) Lab 1 {-}
+
+# Introduction {-}
 
 *Last updated `r Sys.Date()`*
 

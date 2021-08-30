@@ -1,5 +1,0 @@
-research-question
-statement-of-hypothesis
-experimental-design
-analysis
-reporting-conclusions

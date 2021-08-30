@@ -1,10 +1,12 @@
+# (PART\*) Lab 7 {-}
+
 # Lab 7: Intro to R & Shiny Apps {-}
 
 *Last updated `r Sys.Date()`*
 
 This lab will have you putting into practice through visualizations and data tables much of what was covered in Lab 2B. 
 
-## Data Tables & Figures {-}
+# Data Tables & Figures {-}
 
 Before we tackle data visualization and analysis, we should talk about data presentation conventions.
 
@@ -12,13 +14,13 @@ The UBCO Biology faculty has a [Procedures and Guidelines document](https://ubco
 
 Before continuing through this lab, please take some time individually or with your groups to read sections [5.1](https://ubco-biology.github.io/Procedures-and-Guidelines/tables.html), [5.2](https://ubco-biology.github.io/Procedures-and-Guidelines/descriptive-summary-statistics.html), and [5.4](https://ubco-biology.github.io/Procedures-and-Guidelines/figures.html) of the [UBCO Biology Procedures and Guidelines document](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html). For this lab\'s assignment and all future assignments in this course, you wil be expected to follow these guidelines!
 
-## Intro to R {-}
+# Intro to R {-}
 
 Visualizing data is a key part of science communication. Until now, it is likely that you\'ve used or interacted with visualizations built using tools like Excel. In Biology, it is increasingly common to not use Excel, but instead to use an application, or programming language, called R.
 
 R offers several advantages when it comes to building visualizations. R is what we call a scripted progamming language. When we use scripts to manage our data and create visualizations, we\'re engaging in reproducible workflows, specifically computationally reproducible workflows.
 
-## Computational reproducibility {-}
+# Computational reproducibility {-}
 
 What is computational reproducibility?
 
@@ -26,7 +28,7 @@ When you load data into an application like Excel, you click through a series of
 
 Working in a scripted programming language like R, instead of clicking buttons, we write code that tells the program how to clean, organize, and then visualize our data. When we want to repeat the process, we just run our script - or mini program - and it exactly, computationally, reproduces our workflow. It\'s less work for us and it\'s reproducible. And, since anyone we share our script with can read our script to see the steps taken to go from raw data to visualization, it\'s transparent. We just don\'t get this level of reproducibility and transparency with Excel.
 
-## Shiny Apps {-}
+# Shiny Apps {-}
 
 In BIOL 116 we\'re not going to learn how to write R, we\'ll save that for later. What we are going to do is start working with learning to visualize data in an application built in R called Shiny Apps. Shiny Apps allow a user to interactively visualize a data set. It will also show you the R code that is running in the background to build the visualization. This will be your first window into R.
 
@@ -36,25 +38,25 @@ The first is a data set about penguins, called `palmerpenguins`. From the author
 
 The second is about cars, called `mtcars`. From the authors: \"The data was extracted from the 1974 *Motor Trend* US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).\" [Read more about the `mtcars` data set](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html) here if you\'d like.
 
-## Getting Started {-}
+# Getting Started {-}
 
 The Shiny App that we\'ll be using [can be found at this link](https://openscience.ok.ubc.ca/shiny/BIOL-116/).
 
 The following is a descriptive overview of what you\'ll find in the two panes of the application.
 
-### Left Pane {-}
+## Left Pane {-}
 
 On the left navigation you have four menu options: Welcome; Upload Data; Plot; Descriptive Stats; Analysis.
 
-#### Welcome {-}
+### Welcome {-}
 
 This is an overview of the app itself.
 
-#### Upload Data {-}
+### Upload Data {-}
 
 For now, ignore the option to upload your own data. Instead, use either the `palmerpenguins` data or the `mtcars` data, selected from the drop down menu in the Plot menu. In **Lab 9**, you\'ll upload your own data set from your experimental research project to build visualizations for your report.
 
-#### Plot {-}
+### Plot {-}
 
 Here we select the variables we\'d like to visualize.
 
@@ -72,7 +74,7 @@ You\'ll want to first select a dataset, `penguins` or `mtcars`, and then select 
 
 Once you\'ve selected your data sources and identified the data types you\'re working with, you\'ll be presented with a series of plotting options. You may also be presented with the option to group one of your variables. You will also be presented with the option to save a copy of your plot.
 
-#### Descriptive Stats {-}
+### Descriptive Stats {-}
 
 Here you can run basic descriptive stats on the data that you\'ve plotted.
 
@@ -84,7 +86,7 @@ Once you\'ve made your selections, the Shiny App will automatically calculated t
 * **one categorical and one quantitative variable**, you will be provided with the sample size `n`, mean, standard deviation `sd`, median, and inter-quartile range `iqr` for each group of your categorical variable.
 * **two categorical variables**, then a frequency table will be displayed showing you how many subjects fall into each group.
 
-#### Analysis {-}
+### Analysis {-}
 
 Here is where you will perform statistical tests using your selected data. The type of test performed by the Shiny App depends on the type of variables you select. 
 
@@ -98,38 +100,38 @@ Here is where you will perform statistical tests using your selected data. The t
 
 Once you\'ve conducted a statistical test, the Shiny App will provide you with instructions for \'Interpreting the Output\'. For this course, the main output of interest is the p-value. Recall from Lab 2 that if the p-value is less than our pre-determined significance level, there is a significant relationship between the variables. However, if the p-value is less than the significance level, the relationship between the variables is insignificant.  
 
-### Right Pane {-}
+## Right Pane {-}
 
 Under each menu option (i.e. Plot), the right pane displays three sections: Instructions; Output; Source Code
 
-#### Instructions {-}
+### Instructions {-}
 
 This green box shows detailed instructions for how to use that specific page. For example, under the `Plot` menu option, there are detailed instructions for how to create, visualize, and save your plot.
 
-#### Output {-}
+### Output {-}
 
 This blue box shows the output that the Shiny App creates based on your selections. For example, under the `Plot` menu option, this box will show the plot you created.
 
-#### Source Code {-}
+### Source Code {-}
 
 This orange box shows the script used by R to generate the output. If there are any packages that need to be loaded in order to run the script, they are shown within the `library()` function at the beginning of the script. You don\'t need to worry about doing anything with this part for now. Rather, the script is included to enhance the transparency and computational reproducibility of your analysis. For example, since you know the script used to create your plots, calculate descriptive statistics, and perform statistical analysis; if you or someone else wanted to reproduce your methods, they could load your data, copy this script into R, and re-run everything exactly as shown in the Shiny App. 
 
-## Screencast Demo {-}
+# Screencast Demo {-}
 
 The following is a brief screencast introduction to using the Shiny App with the included datasets.
 
-## Activity {-}
+# Activity {-}
 
 This is your opportunity to play around with several different data types, visualizations and descriptive statistical summaries. The assignment will ask that you submit a couple of examples of both data visualizations and tables, all properly formatted according to [Section 5 of the UBCO Biology Procedures and Guidelines document](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html).
 
 
-## Assignment {-}
+# Assignment {-}
 
 Please use the following template for this assignment:
 
 [20210810_Lab7_Shiny-App-Visualization_Assignment_V1.docx](files/20210810_Lab7_Shiny-App-Visualization_Assignment_V1.docx) (22 KB)
 
-## Grading Rubric {-}
+# Grading Rubric {-}
 
 **Question 1** 
 

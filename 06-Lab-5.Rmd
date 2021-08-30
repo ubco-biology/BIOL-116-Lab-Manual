@@ -1,4 +1,6 @@
-# Lab 5: Naming Conventions {-}
+# (PART\*) 5 {-}
+
+# Naming Conventions {-}
 
 *Last updated `r Sys.Date()`*
 
