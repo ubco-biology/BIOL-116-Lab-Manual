@@ -101,7 +101,7 @@ We call this an <a href="https://ubco-biology.github.io/Procedures-and-Guideline
 BIOL202 is the course designed to teach you the foundations of biological statistics, including experimental design, how to decide what statistical test to use when, and how to visualize data. Here we are giving you only enough information so that you will be able to complete your BIOL116 research project. We recommend that you take BIOL202 as early in your degree as possible, as it will make all of your lab work easier.
 </div>
 
-## Designing Your Experiment {-}
+## Designing the Experiment {-}
 
 Once you have a research question and a clear and testable *a priori* hypothesis, you can design an experiment to test it.
 
