@@ -364,6 +364,8 @@ If there are only 2 categories in the dependent variable, then the most powerful
 </div>
 
 <div class="advanced">
+**Deeper Dive: Optional**
+
 **Scenario 3: Categorical Dependent Variable and one Categorical Independent Variable**
 
 This scenario is also typical of \"choice experiments\", and above we provided one example in which we hypothesized that female mice showed a food preference whereas males do not. In this case, we plan to conduct something called a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Chi-squared-contingency-test">$\chi{^2}$ contingency test</a>, also called a $\chi{^2}$ test of association. For example, if indeed we were correct with our research hypothesis, then the evidence would show that a preference for food type is *contingent* on the sex of the mouse. 
