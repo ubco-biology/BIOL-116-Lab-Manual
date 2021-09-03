@@ -4,14 +4,10 @@
 %
 \documentclass[
 ]{book}
-\title{Biology 116 Lab Manual}
-\author{Dr.~Tristyn Hay and Dr.~Robin Young}
-\date{2021-08-30}
-
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -72,11 +68,15 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-\ifLuaTeX
+\ifluatex
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
+
+\title{Biology 116 Lab Manual}
+\author{Dr.~Tristyn Hay and Dr.~Robin Young}
+\date{2021-09-03}
 
 \begin{document}
 \maketitle
@@ -121,7 +121,7 @@ All source files are available from \url{https://github.com/ubco-biology/BIOL-11
 \chapter*{Introduction}\label{introduction}}
 \addcontentsline{toc}{chapter}{Introduction}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 Content for the first lab will all be on Canvas, the learning management system used at UBC. Enrolled students can access this content at \url{https://canvas.ubc.ca/courses/90147}
 
@@ -133,7 +133,7 @@ Content for the first lab will all be on Canvas, the learning management system 
 \chapter*{The Process of Science}\label{the-process-of-science}}
 \addcontentsline{toc}{chapter}{The Process of Science}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 \textbf{Note on Copyright}
 
@@ -397,7 +397,7 @@ Total points: 10
 \chapter*{Research Project}\label{research-project}}
 \addcontentsline{toc}{chapter}{Research Project}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 Over the term, you and your partner will be designing and conducting an experiment, analyzing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab.
 
@@ -487,15 +487,15 @@ Open Science is a movement to make scientific research transparent and accessibl
 
 Now that we've briefly introduced you to Open Science, and what it means in the context of this project, let's talk more about what you're going to be doing. In a nutshell, you are going to use the scientific method to learn something about an organism, in the controlled setting of a lab experiment.
 
-We expect that you have been exposed to the principles of the Scientific Method before this, while you were still in high school. As such, we are assuming that you have a little bit of prior knowledge to draw from. However, we need to update traditional representations of the scientific method by including the steps of a registered report. The diagram below shows the steps in a nutshell.
+We expect that you have been exposed to the principles of the Scientific Method before this, while you were still in high school. As such, we are assuming that you have a little bit of prior knowledge to draw from. However, we need to update traditional representations of the scientific method by including the steps of a \href{https://www.cos.io/initiatives/registered-reports?_ga=2.246781956.1490314874.1630517054-739975224.1630517054}{\textbf{registered report}}. The diagram below shows the steps in a nutshell.
 
 \begin{figure}
 \centering
-\includegraphics{figures_images/Lab2b-Fig1.jpeg}
-\caption{Figure 4. Visual representation of the steps of the Scientific Method.Image by \href{https://commons.wikimedia.org/wiki/File:The_Scientific_Method.svg}{Efbrazil}, licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}}
+\includegraphics{figures_images/Lab2b-Fig1.png}
+\caption{Figure 4. Visual representation of the steps of the Scientific Method.Image by Robin Young, licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}}
 \end{figure}
 
-In the following sections, we will discuss each step of the scientific method, and how it applies in the context of this research project.
+The key update to the traditional representation of the scientific method is the inclusion of an ``Independent review and feedback'' step at the Design Experiment \& Plan analysis stage. In the following sections, we will discuss each step of the scientific method, and how it applies in the context of this research project.
 
 \hypertarget{research-question}{%
 \chapter*{Research Question}\label{research-question}}
@@ -535,9 +535,9 @@ We call this an \emph{a priori} hypothesis, meaning that we made the hypothesis 
 
 BIOL202 is the course designed to teach you the foundations of biological statistics, including experimental design, how to decide what statistical test to use when, and how to visualize data. Here we are giving you only enough information so that you will be able to complete your BIOL116 research project. We recommend that you take BIOL202 as early in your degree as possible, as it will make all of your lab work easier.
 
-\hypertarget{designing-your-experiment}{%
-\section*{Designing Your Experiment}\label{designing-your-experiment}}
-\addcontentsline{toc}{section}{Designing Your Experiment}
+\hypertarget{designing-the-experiment}{%
+\section*{Designing the Experiment}\label{designing-the-experiment}}
+\addcontentsline{toc}{section}{Designing the Experiment}
 
 Once you have a research question and a clear and testable \emph{a priori} hypothesis, you can design an experiment to test it.
 
@@ -729,7 +729,7 @@ First, we need to cover some foundational statistical concepts. We'll do our bes
 \subsection*{Inferential Statistics}\label{inferential-statistics}}
 \addcontentsline{toc}{subsection}{Inferential Statistics}
 
-In the previous section about planning to describe our data, we learned that the average (mean) was a useful descriptor of a "typical value" for a continuous, numeric variable, and that a \textless a href=``\url{https://ubco-biology.github.io/Procedures-and-Guidelines/glossary\#Proportion}\textgreater proportion was the best descriptor for categorical variables. We were planning our "descriptive statistics". Now our goal is to plan for drawing \emph{inferences} from our data about the world at large. We are embarking on \emph{inferential statistics}.
+In the previous section about planning to describe our data, we learned that the average (mean) was a useful descriptor of a "typical value" for a continuous, numeric variable, and that a \textless a href="\url{https://ubco-biology.github.io/Procedures-and-Guidelines/glossary\#Proportion}\textgreater proportion was the best descriptor for categorical variables. We were planning our "descriptive statistics". Now our goal is to plan for drawing \emph{inferences} from our data about the world at large. We are embarking on \emph{inferential statistics}.
 
 We now need to cast the descriptors we calculate, like the mean, into a different light: no longer is it a simple, calculated, fixed value; now we consider it an \emph{estimate} of some true mean in a population at large, and we need to recognize that this calculated value has uncertainty associated with it.
 
@@ -857,6 +857,8 @@ Although the test is relatively straightforward to undertake, you can make use o
 \textbf{Pro Tip}
 
 If there are only 2 categories in the dependent variable, then the most powerful statistical test to use is a \textbf{binomial test}, but a \(\chi{^2}\) goodness-of-fit test will still work.
+
+\textbf{Deeper Dive: Optional}
 
 \textbf{Scenario 3: Categorical Dependent Variable and one Categorical Independent Variable}
 
@@ -1042,7 +1044,7 @@ Please use the following template for this assignment:
 \chapter*{Open Science}\label{open-science-1}}
 \addcontentsline{toc}{chapter}{Open Science}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/OS-Introduction/}{here}. You are asked to cover Part 1, Principles of Open Science.
 
@@ -1056,7 +1058,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Experimental Research Pilot}\label{experimental-research-pilot}}
 \addcontentsline{toc}{chapter}{Experimental Research Pilot}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 This week you will be trying out your experimental design.
 
@@ -1104,7 +1106,7 @@ Yes, this may be a challenging week for you but we expect that it will also be a
 \chapter*{Naming Conventions}\label{naming-conventions}}
 \addcontentsline{toc}{chapter}{Naming Conventions}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/Procedures-and-Guidelines/file-and-data-management.html}{here}. You are asked to read
 
@@ -1126,7 +1128,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Data Collection}\label{data-collection}}
 \addcontentsline{toc}{chapter}{Data Collection}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 Now that you have conducted your pilot experiment and saw how it went, you are ready to collect some data.
 
@@ -1146,7 +1148,7 @@ Make sure you have worked through any major changes to your experimental methodo
 \chapter*{Lab 7: Intro to R \& Shiny Apps}\label{lab-7-intro-to-r-shiny-apps}}
 \addcontentsline{toc}{chapter}{Lab 7: Intro to R \& Shiny Apps}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 This lab will have you putting into practice through visualizations and data tables much of what was covered in Lab 2B.
 
@@ -1408,7 +1410,7 @@ For each scenario (4 marks total):
 \chapter*{Data Collection Continued}\label{data-collection-continued}}
 \addcontentsline{toc}{chapter}{Data Collection Continued}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 By now you should have already successfully run your entire experiment once, and collected some data.This is great!Take your time in your lab to attain as many trials as you can.The more trials you conduct the more assured you can be in the trends you are seeing.This is your last opportunity to collect your data so make the most of it.
 
@@ -1444,7 +1446,7 @@ Scientists often use each other to discuss their findings and / or issues in ord
 \chapter*{Data Analysis \& Shiny Apps}\label{data-analysis-shiny-apps}}
 \addcontentsline{toc}{chapter}{Data Analysis \& Shiny Apps}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 CONTENT PENDING
 
@@ -1456,7 +1458,7 @@ CONTENT PENDING
 \chapter*{Poster Presentation}\label{poster-presentation}}
 \addcontentsline{toc}{chapter}{Poster Presentation}
 
-\emph{Last updated 2021-08-30}
+\emph{Last updated 2021-09-03}
 
 CONTENT PENDING
 
