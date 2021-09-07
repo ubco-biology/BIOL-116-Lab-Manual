@@ -16,7 +16,7 @@ Students will participate in the process of science and demonstrate scientific t
 * How to interpret your results so as to support or reject your hypothesis. 
 * How to present your results as an oral presentation. 
 
-In addition, you will begin to explore the principles and practices of <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Open-science">Open Science</a>, as a way to help ensure <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Reproducibility">reproducibility</a> and <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Transparency">transparency</a> in the work that you do as scientists. 
+In addition, you will begin to explore the principles and practices of <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Open-science">Open Science</a>, as a way to help ensure <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Reproducibility">reproducibility</a> and transparency in the work that you do as scientists. 
 
 # Science & The Scientific Method {-}
 
@@ -61,7 +61,7 @@ Open Science is a movement to make scientific research transparent and accessibl
 
 Now that we\'ve briefly introduced you to Open Science, and what it means in the context of this project, let\'s talk more about what you\'re going to be doing. In a nutshell, you are going to use the scientific method to learn something about an organism, in the controlled setting of a lab experiment. 
 
-We expect that you have been exposed to the principles of the Scientific Method before this, while you were still in high school. As such, we are assuming that you have a little bit of prior knowledge to draw from. However, we need to update traditional representations of the scientific method by including the steps of a [**registered report**](https://www.cos.io/initiatives/registered-reports?_ga=2.246781956.1490314874.1630517054-739975224.1630517054). The diagram below shows the steps in a nutshell. 
+We expect that you have been exposed to the principles of the Scientific Method before this, while you were still in high school. As such, we are assuming that you have a little bit of prior knowledge to draw from. However, we need to update traditional representations of the scientific method by including the steps of a [registered report](https://www.cos.io/initiatives/registered-reports?_ga=2.246781956.1490314874.1630517054-739975224.1630517054). The diagram below shows the steps in a nutshell. 
 
 ![Figure 4. Visual representation of the steps of the Scientific Method.<br />Image by Robin Young, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)](figures_images/Lab2b-Fig1.png)
 
@@ -123,11 +123,11 @@ To continue our example above, if you wanted to investigate the effects of tempe
 
 Another important rule governing experimentation is that each treatment group (which includes the control group) should include a decent number of individual test subjects or \"replicates\" (and ideally an equal number of individuals in each group). The more replicates you include in your experiment, or in other words the larger your \"sample size\" (indicated by the letter *n*) per treatment group, the more confident you would be in your results and the more power your study has. However, in most situations, increasing the number of replicates increases the cost and / or logistical difficulty of the experiment.
 
-The key is to have a sufficient number of replicates per group to ensure your experiment has the <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Study-power">**power**</a> to detect meaningful treatment effects (if they exist). Determining what the minimum sample size per group should be is beyond our scope here, but for our purposes you can assume that three is the bare minimum, and ten or more is desirable. 
+The key is to have a sufficient number of replicates per group to ensure your experiment has the <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Study-power">power</a> to detect meaningful treatment effects (if they exist). Determining what the minimum sample size per group should be is beyond our scope here, but for our purposes you can assume that three is the bare minimum, and ten or more is desirable. 
 
 ### Variation & Random Assignment {-}
 
-Biological variation is the inherent differences among organisms in a study that arise due to differences in genetic makeup, age, sex, health, etc. This natural variation has the potential to obscure or confuse experimental treatment effects. Thus, it is important to attempt to minimize this variation when designing your experiment (e.g., by using organisms of the same age, sex, etc.). Even when potential sources of variation are accounted for, it is crucial that subjects be <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Random-assignment">**randomly assigned**</a> to the treatment groups, so that any inherent variation among individuals will be distributed at random among all treatments, including the control group. 
+Biological variation is the inherent differences among organisms in a study that arise due to differences in genetic makeup, age, sex, health, etc. This natural variation has the potential to obscure or confuse experimental treatment effects. Thus, it is important to attempt to minimize this variation when designing your experiment (e.g., by using organisms of the same age, sex, etc.). Even when potential sources of variation are accounted for, it is crucial that subjects be <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Random-assignment">randomly assigned</a> to the treatment groups, so that any inherent variation among individuals will be distributed at random among all treatments, including the control group. 
 
 ## Planning Ahead {-}
 
@@ -253,7 +253,7 @@ First, we need to cover some foundational statistical concepts. We\'ll do our be
 
 ### Inferential Statistics {-}
 
-In the previous section about planning to describe our data, we learned that the average (mean) was a useful descriptor of a \"typical value\" for a continuous, numeric variable, and that a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Proportion>proportion</a> was the best descriptor for categorical variables. We were planning our \"descriptive statistics\". Now our goal is to plan for drawing *inferences* from our data about the world at large. We are embarking on *inferential statistics*. 
+In the previous section about planning to describe our data, we learned that the average (mean) was a useful descriptor of a \"typical value\" for a continuous, numeric variable, and that a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Proportion">proportion</a> was the best descriptor for categorical variables. We were planning our \"descriptive statistics\". Now our goal is to plan for drawing *inferences* from our data about the world at large. We are embarking on *inferential statistics*. 
 
 We now need to cast the descriptors we calculate, like the mean, into a different light: no longer is it a simple, calculated, fixed value; now we consider it an *estimate* of some true mean in a population at large, and we need to recognize that this calculated value has uncertainty associated with it. 
 
@@ -447,14 +447,18 @@ Considering how you are going to keep track of everything is one of the **first*
 * How will you make sure you know which test subject/ trial each data point belongs to at all times? 
 * Once your data are recorded, how will you explore them to check for mistakes, such as typos? And how exactly will you deal with such mistakes to make the data \"clean\"? 
 * With the \"clean\" data in hand, were you able to implement the statistical analysis as originally planned? Or did you need to modify your analysis in any way? 
-* In **Lab 4** (online, asynchronous lab) you will be exploring best practices for file management and naming conventions. For now, here is an example of naming a data file for an experiment investigating how mealworm movement is affected by the presence of light.
+* In [Lab 5](https://ubco-biology.github.io/BIOL-116-Lab-Manual/naming-conventions.html) (online, asynchronous lab) you will be exploring best practices for file management and naming conventions. For now, here is an example of naming a data file for an experiment investigating how mealworm movement is affected by the presence of light.
  * 20200626_MealwormProject_Light-movement-data.csv 
 * Here is an example of naming a written proposal for the same experiment: 
  * 20200724_Mealworm-project_Proposal_V01.docx 
 
 As you design your experiment, and develop (and troubleshoot!) the method you expect to use, it can be very helpful to draw out your proposed methodology into a flow chart. This can help you better visualize what you want to do, and may help you realize where you need to think a little more critically about your proposed plan and how it will work.
 
-PRO-TIP: visual representations of your methods work really well on posters! So, if you start working on it right from the start, it should be awesome by the time you\'re ready to build your poster! 
+<div class="note">
+**Pro Tip**
+
+visual representations of your methods work really well on posters! So, if you start working on it right from the start, it should be awesome by the time you\'re ready to build your poster!
+</div>
 
 As stated earlier, all your decisions about experimental design, analyses, and data management and cleaning should be made and documented (see below) *before* you collect any data, otherwise you may subconsciously (or consciously) let the data influence your actions, which will *bias* your conclusions. 
 
@@ -500,4 +504,8 @@ Please use the following template for this assignment:
 
 [20210813_Lab2b_Experimental-Design-PreLab-Assignment.docx](files/20210813_Lab2b_Experimental-Design-PreLab-Assignment-V1.docx) (18 KB)
 
-**NOTE** This assignment is due at the start of your next in-person lab (i.e. Lab 4).
+<div class="note">
+**Note**
+
+This assignment is due at the start of your next in-person lab (i.e. Lab 4).
+</div>
