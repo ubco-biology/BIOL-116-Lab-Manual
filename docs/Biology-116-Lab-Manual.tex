@@ -4,10 +4,14 @@
 %
 \documentclass[
 ]{book}
+\title{Biology 116 Lab Manual}
+\author{Dr.~Tristyn Hay and Dr.~Robin Young}
+\date{2021-09-09}
+
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -68,15 +72,11 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
-
-\title{Biology 116 Lab Manual}
-\author{Dr.~Tristyn Hay and Dr.~Robin Young}
-\date{2021-09-03}
 
 \begin{document}
 \maketitle
@@ -93,7 +93,7 @@ Welcome to the BIOL116 lab manual!
 
 The material in this manual is designed to be used as part of the BIOL116 labs. It integrates heavily with additional material that can be accessed only through the \href{https://canvas.ubc.ca/courses/90147}{BIOL116 Canvas page}, including assignments, quizzes, and other material that is specific to this year's offering of the course. As such you will be expected to access BOTH this website and Canvas regularly.
 
-\textbf{Your first lab}, Lab 1, is asynchronous (meaning that you complete it online, in your own time during that week) and the material is posted exclusively on \href{https://canvas.ubc.ca/courses/90147}{Canvas}. \textbf{Your second lab}, Lab 2, will be your first chance to physically enter the lab, and meet your TA and your fellow lab mates. The material for Lab 2 can be found in this text, under the \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/lab-2a-the-process-of-science.html}{Lab 2A} and \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/lab-2b-research-project.html}{Lab2B} headings (with links to this content also on Canvas).
+\textbf{Your first lab}, Lab 1, is asynchronous (meaning that you complete it online, in your own time during that week) and the material is posted exclusively on \href{https://canvas.ubc.ca/courses/90147}{Canvas}. \textbf{Your second lab}, Lab 2, will be your first chance to physically enter the lab, and meet your TA and your fellow lab mates. The material for Lab 2 can be found in this text, under the \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/the-process-of-science.html}{Lab 2A} and \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/research-project.html}{Lab2B} headings (with links to this content also on Canvas).
 
 The rest of the labs will continue to alternate between asynchronous, online labs, and synchronous, in-person labs. \textbf{For in-person labs it is vital that you attend the lab in which you are registered} (Check your registration online to be sure of where you are supposed to be!).
 
@@ -121,7 +121,7 @@ All source files are available from \url{https://github.com/ubco-biology/BIOL-11
 \chapter*{Introduction}\label{introduction}}
 \addcontentsline{toc}{chapter}{Introduction}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 Content for the first lab will all be on Canvas, the learning management system used at UBC. Enrolled students can access this content at \url{https://canvas.ubc.ca/courses/90147}
 
@@ -133,7 +133,7 @@ Content for the first lab will all be on Canvas, the learning management system 
 \chapter*{The Process of Science}\label{the-process-of-science}}
 \addcontentsline{toc}{chapter}{The Process of Science}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 \textbf{Note on Copyright}
 
@@ -397,7 +397,7 @@ Total points: 10
 \chapter*{Research Project}\label{research-project}}
 \addcontentsline{toc}{chapter}{Research Project}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 Over the term, you and your partner will be designing and conducting an experiment, analyzing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab.
 
@@ -487,7 +487,7 @@ Open Science is a movement to make scientific research transparent and accessibl
 
 Now that we've briefly introduced you to Open Science, and what it means in the context of this project, let's talk more about what you're going to be doing. In a nutshell, you are going to use the scientific method to learn something about an organism, in the controlled setting of a lab experiment.
 
-We expect that you have been exposed to the principles of the Scientific Method before this, while you were still in high school. As such, we are assuming that you have a little bit of prior knowledge to draw from. However, we need to update traditional representations of the scientific method by including the steps of a \href{https://www.cos.io/initiatives/registered-reports?_ga=2.246781956.1490314874.1630517054-739975224.1630517054}{\textbf{registered report}}. The diagram below shows the steps in a nutshell.
+We expect that you have been exposed to the principles of the Scientific Method before this, while you were still in high school. As such, we are assuming that you have a little bit of prior knowledge to draw from. However, we need to update traditional representations of the scientific method by including the steps of a \href{https://www.cos.io/initiatives/registered-reports?_ga=2.246781956.1490314874.1630517054-739975224.1630517054}{registered report}. The diagram below shows the steps in a nutshell.
 
 \begin{figure}
 \centering
@@ -565,13 +565,13 @@ To continue our example above, if you wanted to investigate the effects of tempe
 
 Another important rule governing experimentation is that each treatment group (which includes the control group) should include a decent number of individual test subjects or "replicates" (and ideally an equal number of individuals in each group). The more replicates you include in your experiment, or in other words the larger your "sample size" (indicated by the letter \emph{n}) per treatment group, the more confident you would be in your results and the more power your study has. However, in most situations, increasing the number of replicates increases the cost and / or logistical difficulty of the experiment.
 
-The key is to have a sufficient number of replicates per group to ensure your experiment has the \textbf{power} to detect meaningful treatment effects (if they exist). Determining what the minimum sample size per group should be is beyond our scope here, but for our purposes you can assume that three is the bare minimum, and ten or more is desirable.
+The key is to have a sufficient number of replicates per group to ensure your experiment has the power to detect meaningful treatment effects (if they exist). Determining what the minimum sample size per group should be is beyond our scope here, but for our purposes you can assume that three is the bare minimum, and ten or more is desirable.
 
 \hypertarget{variation-random-assignment}{%
 \subsection*{Variation \& Random Assignment}\label{variation-random-assignment}}
 \addcontentsline{toc}{subsection}{Variation \& Random Assignment}
 
-Biological variation is the inherent differences among organisms in a study that arise due to differences in genetic makeup, age, sex, health, etc. This natural variation has the potential to obscure or confuse experimental treatment effects. Thus, it is important to attempt to minimize this variation when designing your experiment (e.g., by using organisms of the same age, sex, etc.). Even when potential sources of variation are accounted for, it is crucial that subjects be \textbf{randomly assigned} to the treatment groups, so that any inherent variation among individuals will be distributed at random among all treatments, including the control group.
+Biological variation is the inherent differences among organisms in a study that arise due to differences in genetic makeup, age, sex, health, etc. This natural variation has the potential to obscure or confuse experimental treatment effects. Thus, it is important to attempt to minimize this variation when designing your experiment (e.g., by using organisms of the same age, sex, etc.). Even when potential sources of variation are accounted for, it is crucial that subjects be randomly assigned to the treatment groups, so that any inherent variation among individuals will be distributed at random among all treatments, including the control group.
 
 \hypertarget{planning-ahead}{%
 \section*{Planning Ahead}\label{planning-ahead}}
@@ -729,7 +729,7 @@ First, we need to cover some foundational statistical concepts. We'll do our bes
 \subsection*{Inferential Statistics}\label{inferential-statistics}}
 \addcontentsline{toc}{subsection}{Inferential Statistics}
 
-In the previous section about planning to describe our data, we learned that the average (mean) was a useful descriptor of a "typical value" for a continuous, numeric variable, and that a \textless a href="\url{https://ubco-biology.github.io/Procedures-and-Guidelines/glossary\#Proportion}\textgreater proportion was the best descriptor for categorical variables. We were planning our "descriptive statistics". Now our goal is to plan for drawing \emph{inferences} from our data about the world at large. We are embarking on \emph{inferential statistics}.
+In the previous section about planning to describe our data, we learned that the average (mean) was a useful descriptor of a "typical value" for a continuous, numeric variable, and that a proportion was the best descriptor for categorical variables. We were planning our "descriptive statistics". Now our goal is to plan for drawing \emph{inferences} from our data about the world at large. We are embarking on \emph{inferential statistics}.
 
 We now need to cast the descriptors we calculate, like the mean, into a different light: no longer is it a simple, calculated, fixed value; now we consider it an \emph{estimate} of some true mean in a population at large, and we need to recognize that this calculated value has uncertainty associated with it.
 
@@ -965,7 +965,7 @@ Considering how you are going to keep track of everything is one of the \textbf{
 \item
   With the "clean" data in hand, were you able to implement the statistical analysis as originally planned? Or did you need to modify your analysis in any way?
 \item
-  In \textbf{Lab 4} (online, asynchronous lab) you will be exploring best practices for file management and naming conventions. For now, here is an example of naming a data file for an experiment investigating how mealworm movement is affected by the presence of light.
+  In \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/naming-conventions.html}{Lab 5} (online, asynchronous lab) you will be exploring best practices for file management and naming conventions. For now, here is an example of naming a data file for an experiment investigating how mealworm movement is affected by the presence of light.
 \item
   20200626\_MealwormProject\_Light-movement-data.csv
 \item
@@ -976,7 +976,9 @@ Considering how you are going to keep track of everything is one of the \textbf{
 
 As you design your experiment, and develop (and troubleshoot!) the method you expect to use, it can be very helpful to draw out your proposed methodology into a flow chart. This can help you better visualize what you want to do, and may help you realize where you need to think a little more critically about your proposed plan and how it will work.
 
-PRO-TIP: visual representations of your methods work really well on posters! So, if you start working on it right from the start, it should be awesome by the time you're ready to build your poster!
+\textbf{Pro Tip}
+
+visual representations of your methods work really well on posters! So, if you start working on it right from the start, it should be awesome by the time you're ready to build your poster!
 
 As stated earlier, all your decisions about experimental design, analyses, and data management and cleaning should be made and documented (see below) \emph{before} you collect any data, otherwise you may subconsciously (or consciously) let the data influence your actions, which will \emph{bias} your conclusions.
 
@@ -1034,7 +1036,9 @@ Please use the following template for this assignment:
 
 \href{files/20210813_Lab2b_Experimental-Design-PreLab-Assignment-V1.docx}{20210813\_Lab2b\_Experimental-Design-PreLab-Assignment.docx} (18 KB)
 
-\textbf{NOTE} This assignment is due at the start of your next in-person lab (i.e.~Lab 4).
+\textbf{Note}
+
+This assignment is due at the start of your next in-person lab (i.e.~Lab 4).
 
 \hypertarget{part-lab-3}{%
 \part*{Lab 3}\label{part-lab-3}}
@@ -1044,7 +1048,7 @@ Please use the following template for this assignment:
 \chapter*{Open Science}\label{open-science-1}}
 \addcontentsline{toc}{chapter}{Open Science}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/OS-Introduction/}{here}. You are asked to cover Part 1, Principles of Open Science.
 
@@ -1058,7 +1062,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Experimental Research Pilot}\label{experimental-research-pilot}}
 \addcontentsline{toc}{chapter}{Experimental Research Pilot}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 This week you will be trying out your experimental design.
 
@@ -1106,7 +1110,7 @@ Yes, this may be a challenging week for you but we expect that it will also be a
 \chapter*{Naming Conventions}\label{naming-conventions}}
 \addcontentsline{toc}{chapter}{Naming Conventions}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/Procedures-and-Guidelines/file-and-data-management.html}{here}. You are asked to read
 
@@ -1128,7 +1132,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Data Collection}\label{data-collection}}
 \addcontentsline{toc}{chapter}{Data Collection}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 Now that you have conducted your pilot experiment and saw how it went, you are ready to collect some data.
 
@@ -1148,7 +1152,7 @@ Make sure you have worked through any major changes to your experimental methodo
 \chapter*{Lab 7: Intro to R \& Shiny Apps}\label{lab-7-intro-to-r-shiny-apps}}
 \addcontentsline{toc}{chapter}{Lab 7: Intro to R \& Shiny Apps}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 This lab will have you putting into practice through visualizations and data tables much of what was covered in Lab 2B.
 
@@ -1410,7 +1414,7 @@ For each scenario (4 marks total):
 \chapter*{Data Collection Continued}\label{data-collection-continued}}
 \addcontentsline{toc}{chapter}{Data Collection Continued}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 By now you should have already successfully run your entire experiment once, and collected some data.This is great!Take your time in your lab to attain as many trials as you can.The more trials you conduct the more assured you can be in the trends you are seeing.This is your last opportunity to collect your data so make the most of it.
 
@@ -1446,7 +1450,7 @@ Scientists often use each other to discuss their findings and / or issues in ord
 \chapter*{Data Analysis \& Shiny Apps}\label{data-analysis-shiny-apps}}
 \addcontentsline{toc}{chapter}{Data Analysis \& Shiny Apps}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 CONTENT PENDING
 
@@ -1458,7 +1462,7 @@ CONTENT PENDING
 \chapter*{Poster Presentation}\label{poster-presentation}}
 \addcontentsline{toc}{chapter}{Poster Presentation}
 
-\emph{Last updated 2021-09-03}
+\emph{Last updated 2021-09-09}
 
 CONTENT PENDING
 
