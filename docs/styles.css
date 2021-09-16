@@ -13,3 +13,7 @@
   border: 1pt solid #1f7b0d;
   background-color: #f1fdf0;
 }
+
+td {
+  vertical-align: top;
+}
