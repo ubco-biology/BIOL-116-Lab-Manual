@@ -7,3 +7,8 @@ poster-printing
 presenting-your-poster
 rubric
 experimental-design-and-poster-presentation
+preparing-your-data
+data-organization
+file-formats
+activity
+assignment
