@@ -127,13 +127,13 @@ The following is a brief screencast introduction to using the Shiny App with the
 This is your opportunity to play around with several different data types, visualizations and descriptive statistical summaries. The assignment will ask that you submit a couple of examples of both data visualizations and tables, all properly formatted according to [Section 5 of the UBCO Biology Procedures and Guidelines document](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html).
 
 
-# Assignment {-}
+# Lab 7 Assignment {-}
 
 Please use the following template for this assignment:
 
 [20210810_Lab7_Shiny-App-Visualization_Assignment_V1.docx](files/20210810_Lab7_Shiny-App-Visualization_Assignment_V1.docx) (22 KB)
 
-# Grading Rubric {-}
+# Lab 7 Rubric {-}
 
 **Question 1** 
 
