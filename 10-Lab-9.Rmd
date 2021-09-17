@@ -32,21 +32,23 @@ Once you\'ve got your data organized in Excel - or whichever program your are us
 
 If we were to use the `palmerpenguin` data from Lab 7 as an example, following is what our data in Excel might look like:
 
-![Screenshot of Penguins data](figures_images/Penguins-Excel.png)
+![Screenshot of `Penguins` data](figures_images/Penguins-Excel.png)
 
 Note that we have a header row with values for each of the variables, including the species, island and various measurements taken. Since we have a header, when we import our data into the Shiny App, we\'ll want to make sure we\'re indicating that there\'s a header. We also have one row for each observation of an individual penguin.
 
 <div class="note">
-**Headers in Data Files**
+**Getting to Know Your Data**
 
-Not all data that you come across will include a header in the file. Sometimes the variables are described exclusively in the `_Data-Dictionary` that accompanies the data set.
+Not all data that you come across will include a header in the file. Sometimes the variables are described exclusively in the `_Data-Dictionary` that accompanies the data set. Nor will all data that you come across use the convention of `NA`, especially if that data has already been opened in - or saved from - another piece of statistical software.
+
+Familiarizing yourself with your data is critically important, which is why `_README` and `_Data-Dictionary` files are so important. It\'s also important that we examine the data file itself - opening the `csv` or Excel file and having a look through. Doing so can help to avoid common errors such as misinterpreting empty cells, including variable values stored in a header as data itself and the like.
 </div>
 
 ## File Formats {-}
 
-Most of the data that you\'ll encounter or produce will be rectangular in nature; that is, it will organized into columns and rows. Rectangular data can be stored in many file formats with `xlsx` perhaps being the one you\'ll be most familiar with, which is an Excel file. To be fair, we could store this data within a Word document in a table. But if we want to be able to work programmatically with the data - if we want to be able to use a computer program to help interpret the data, perform calculations, make inferences, and build visualizations - the data needs to be in a file format that will allow for this. A Word document does not allow for this. An Excel file allows for this within Excel. But we can do better.
+Most of the data that you\'ll encounter or produce will be rectangular in nature; that is, it will be organized into columns and rows. Rectangular data can be stored in many file formats with `xlsx` perhaps being the one you\'ll be most familiar with, which is an Excel file. To be fair, we could store this data within a Word document in a table. But if we want to be able to work programmatically with the data - if we want to be able to use a computer program to help interpret the data, perform calculations, make inferences, and build visualizations - the data needs to be in a file format that will allow for this. A Word document does not allow for this. An Excel file allows for this within Excel. But we can do better.
 
-A common file format for storing rectangular data is a `csv` file, or comma separated value file. Each row in a csv file contains data for a single observation, and each piece of data is separated by a comma. If we were to look at the `palmerpenguin` data from Lab 7 saved as a csv, it would look something like:
+A common file format for storing rectangular data is a `csv` file, or comma separated value file. Each row in a `csv` file contains data for a single observation, and each piece of data - or each potential variable value - is separated by a comma. If we were to look at the `palmerpenguin` data from Lab 7 saved as a `csv`, it would look something like this
 
 ```
 "species","island","bill_length_mm","bill_depth_mm","flipper_length_mm","body_mass_g","sex","year"
@@ -59,9 +61,11 @@ A common file format for storing rectangular data is a `csv` file, or comma sepa
 ```
 
 <div class="note">
-**csv & Open Science**
+**`csv` & Open Science**
 
-`csv` files are particularly important when we think about transparency, reproducibility, and accessibility. `csv` files are plain text files, which means they can be read by virtually any operating system and any text editor. A `csv` file produced in 1975 can still be opened on the computer you\'re using right now. Your prof probably has a mountain of early spreadsheet data stored in proprietary file formats that predate Excel somewhere on a floppy disk from about 15 years ago that they can no longer read because the file format is no longer supported.
+`csv` files are particularly important when we think about transparency, reproducibility, and accessibility. `csv` files are plain text files, which means they can be read by virtually any operating system and any text editor. A `csv` file produced in 1975 can still be opened on the computer you\'re using right now.
+
+Conversely, your prof probably has a mountain of early spreadsheet data stored in proprietary file formats that predate Excel somewhere on a floppy disk from about 15 years ago that they can no longer read because the file format is no longer supported.
 </div>
 
 So, we want to ensure that our data is saved as `csv`. If you are currently working in Excel or another a similar spreadsheet program like LibreOffice Calc, `csv` should be a `save as...` option.
@@ -69,6 +73,8 @@ So, we want to ensure that our data is saved as `csv`. If you are currently work
 # Activity {-}
 
 Similar to Lab 7, take a bit of time to upload your data into the Shiny App and explore it - run some descriptive and inferential statistics and attempt some visualizations. Make sure that you understand the type of data that you\'ve collected and ensure that the analyses that you\'re performing are suitable to the data types you\'re selecting.
+
+The Shiny App that we'll be using [can be found at this link](https://openscience.ok.ubc.ca/shiny/BIOL-116/).
 
 # Lab 9 Assignment {-}
 
