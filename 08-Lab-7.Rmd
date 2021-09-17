@@ -120,8 +120,6 @@ This orange box shows the script used by R to generate the output. If there are 
 
 The following is a brief screencast introduction to using the Shiny App with the included datasets.
 
-[![](https://i9.ytimg.com/vi/8WBR-0rjTv8/mq2.jpg?sqp=CKDXjooG&rs=AOn4CLA9RsWTfJM43wTfKq50qA-nBjsVzQ)](https://youtu.be/8WBR-0rjTv8)
-
 # Activity {-}
 
 This is your opportunity to play around with several different data types, visualizations and descriptive statistical summaries. The assignment will ask that you submit a couple of examples of both data visualizations and tables, all properly formatted according to [Section 5 of the UBCO Biology Procedures and Guidelines document](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html).
