@@ -507,5 +507,5 @@ Please use the following template for this assignment:
 <div class="note">
 **Note**
 
-This assignment is due at the start of your next in-person lab (i.e. Lab 4).
+See [Canvas](https://canvas.ubc.ca) for assignment due date.
 </div>
