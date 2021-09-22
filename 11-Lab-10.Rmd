@@ -80,7 +80,13 @@ This would also be a good opportunity to review the [data presentation guideline
 
 [PowerPoint](https://it.ubc.ca/services/desktop-print-services/software-licensing/microsoft-365-office-students) Available to all UBC students for free, through Microsoft 365. [UBC also has PowerPoint Poster Templates](https://brand.ubc.ca/guidelines/downloads/print-and-presentation-templates/) that you can use for inspiration.
 
-Adobe Illustrator, Photoshop, and InDesign. This software is accessible using the Apple computers along the North wall of the Library.
+Adobe Illustrator, Photoshop, and InDesign. This software is accessible using the Apple computers along the North wall of the [Library](https://library.ok.ubc.ca/) during regular hours. This software is also accessible in SCI 128; the following times in SCI 128 are subject to change:
+
+* **Monday** 6:00am - 10:30am & 12:00pm onward
+* **Tuesday** 6:00am - 9:30am & 12:00pm onward
+* **Wednesday** 6:00am - 8:0am & 12:00pm onward
+* **Thursday** 6:00am - 9:30am & 12:00pm onward
+* **Friday** 6:00am - 9:30am & 12:00pm onward
 
 Open-source alternatives include:
 
