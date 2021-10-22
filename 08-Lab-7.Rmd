@@ -157,11 +157,4 @@ Please use the following template for this assignment:
 * Correct values in the table (1 mark) 
 * Correct descriptive statistics were used for each variable type (1 mark) 
 * The heading is informative (1 mark) 
-* Sample sizes and units are always included (1 mark) 
-
-**Question 3** 
-
-For each scenario (4 marks total): 
-
-* 1 mark for correct p-value 
-* 1 mark for correctly determining significance (or lack thereof) based on p-value 
+* Sample sizes and units are always included (1 mark)
