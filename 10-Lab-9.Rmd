@@ -70,7 +70,7 @@ Conversely, your prof probably has a mountain of early spreadsheet data stored i
 
 So, we want to ensure that our data is saved as `csv`. If you are currently working in Excel or another a similar spreadsheet program like LibreOffice Calc, `csv` should be a `save as...` option.
 
-# Activity {-}
+# Lab 9 Activity {-}
 
 Similar to Lab 7, take a bit of time to upload your data into the Shiny App and explore it - run some descriptive and inferential statistics and attempt some visualizations. Make sure that you understand the type of data that you\'ve collected and ensure that the analyses that you\'re performing are suitable to the data types you\'re selecting.
 
