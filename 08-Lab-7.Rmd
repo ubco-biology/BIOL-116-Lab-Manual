@@ -60,6 +60,11 @@ For now, ignore the option to upload your own data. Instead, use either the `pal
 
 Here we select the variables we\'d like to visualize.
 
+<div class="note">
+**Note**
+The shiny app currently does not include the option to visualize a single variable on its own. Rather, the app focuses on visualizing associations between two variables. If you're curious about how to visualize a single variable (either categorical or quantitative), consult the relevant [BIOL202 tutorial](https://ubco-biology.github.io/BIOL202/vis-variable.html). 
+</div>
+
 You\'ll want to first select a dataset, `penguins` or `mtcars`, and then select an `x` and a `y` variable from the drop down menus. Lastly, tell the Shiny App if your variable is `quantitative` or `categorical`. In Lab 2 we learned about each of these variable types, but here is a brief refresher:
 
 **Quantitative**, or numeric, data may be either discrete or continuous.
