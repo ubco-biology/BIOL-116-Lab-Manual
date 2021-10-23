@@ -87,9 +87,9 @@ Similar to the instructions under the Plot tab, here, you must first select a da
 
 Once you\'ve made your selections, the Shiny App will automatically calculate the preferred descriptive statistics for the type of variables you have selected. For example, if you choose 
 
-* **two quantitative variables**, the Shiny App will provide you with the sample size `n`, mean, standard deviation `sd`, median, and inter-quartile range `iqr`.
-* **one categorical and one quantitative variable**, you will be provided with descriptive statistics for the quantitative variable, grouped according to the categories of the categorical variable.  Specifically: the sample size `n` (the number of observations belonging to each category), and the mean, standard deviation `sd`, and inter-quartile range `iqr` of the quantitative variable calculated for each category separately.
-* **two categorical variables**, then a "contingency table" will be displayed, showing you how many observations fall into each combination of categories. 
+* **Two quantitative variables**, the Shiny App will provide you with the sample size `n`, mean, standard deviation `sd`, median, and inter-quartile range `iqr`.
+* **Quantitative response (Y) variable and Categorical explanatory (X) variable**, you will be provided with descriptive statistics for the quantitative variable, grouped according to the categories of the categorical variable.  Specifically: the sample size `n` (the number of observations belonging to each category), and the mean, standard deviation `sd`, and inter-quartile range `iqr` of the quantitative variable calculated for each category separately.
+* **Two categorical variables**, then a "contingency table" will be displayed, showing you how many observations fall into each combination of categories. 
 
 ### Analysis {-}
 
