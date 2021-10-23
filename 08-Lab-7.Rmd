@@ -32,11 +32,13 @@ Working in a scripted programming language like R, instead of clicking buttons, 
 
 In BIOL 116 we\'re not going to learn how to write R, we\'ll save that for later. What we are going to do is start working with learning to visualize data in an application built in R called Shiny Apps. Shiny Apps allow a user to interactively visualize a data set. It will also show you the R code that is running in the background to build the visualization. This will be your first window into R.
 
-In this lab, we\'ll work with a couple of data sets that are preloaded into the Shiny App, so you can explore mapping different variables to a visual space.
+In this lab, we\'ll work with a few data sets that are preloaded into the Shiny App, so you can explore mapping different variables to a visual space.
 
 The first is a data set about penguins, called `palmerpenguins`. From the authors: \"The `palmerpenguins` data contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica.\" [Read more about the `palmerpenguins` data set](https://www.rdocumentation.org/packages/palmerpenguins/versions/0.1.0) here if you\'d like.
 
 The second is about cars, called `mtcars`. From the authors: \"The data was extracted from the 1974 *Motor Trend* US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).\" [Read more about the `mtcars` data set](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html) here if you\'d like.
+
+The third dataset, called `titanic`, includes exclusively categorical variables describing attributes of passengers on the Titanic. 
 
 # Getting Started {-}
 
