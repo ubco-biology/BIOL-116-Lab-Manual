@@ -40,9 +40,17 @@ The second is about cars, called `mtcars`. From the authors: \"The data was extr
 
 # Getting Started {-}
 
-The Shiny App that we\'ll be using [can be found at this link](https://openscience.ok.ubc.ca/shiny/BIOL-116/).
+The Shiny App that we\'ll be using lives in two places online. One instance of it [can be found at this link](https://openscience.ok.ubc.ca/shiny/BIOL-116/) which is hosted on UBC servers. The other [can be found at this link](https://ubco-biology.shinyapps.io/biol-116/) and is hosted on US servers. They are both identical in terms of what they allow you to do with your data.
 
-The following is a descriptive overview of what you\'ll find in the two panes of the application.
+### So, what's the difference? {-}
+
+The instance on UBC servers cannot handle nearly as much user traffic as the one hosted in the US. And so it occasionally crashes when a lot of students are tyring to access it simultaneously. If you notice it\'s down, please let your TA know so we can reboot it!
+
+We provide the UBC based option to allow students to access the app without having to worry about data sovereignty; when using this app, everything you share is kept within Canada. For lab 7, where you\'re only using pre-loaded data sets, this isn\'t a concern as you\'re not actively sharing any non-anonymous data with the server. However, for lab 9 when you\'ll be using your own data it\'s good to think about the nature of the data that you\'re working with and if there is any aspect of it that you might be concerned being on US servers. This includes not just the data you collected, but any associated meta data, such as a name or other identifier in the file name you upload.
+
+Likely, there is nothing to be concerned about with this particular project, but it\'s important to have the choice! And it\'s important to always consider where one\'s research data - and personal data - are being transmitted and the implications this might have on who has access to that data. In fact, this is a key consideration when we talk about Open Science and the fact that it is not always our decision to choose what does and what does not get shared and along what channels or platforms it gets shared through.
+
+Ok, and now in then next couple of pages you\'ll find a descriptive overview of what you\'ll encounter in the two panes of the Shiny application.
 
 ## Left Pane {-}
 

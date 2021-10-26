@@ -6,7 +6,7 @@
 ]{book}
 \title{Biology 116 Lab Manual}
 \author{Dr.~Tristyn Hay and Dr.~Robin Young}
-\date{2021-10-22}
+\date{2021-10-26}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -121,7 +121,7 @@ All source files are available from \url{https://github.com/ubco-biology/BIOL-11
 \chapter*{Introduction}\label{introduction}}
 \addcontentsline{toc}{chapter}{Introduction}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 Content for the first lab will all be on Canvas, the learning management system used at UBC. Enrolled students can access this content at \url{https://canvas.ubc.ca/courses/90147}
 
@@ -133,7 +133,7 @@ Content for the first lab will all be on Canvas, the learning management system 
 \chapter*{The Process of Science}\label{the-process-of-science}}
 \addcontentsline{toc}{chapter}{The Process of Science}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 \textbf{Note on Copyright}
 
@@ -397,7 +397,7 @@ Total points: 10
 \chapter*{Research Project}\label{research-project}}
 \addcontentsline{toc}{chapter}{Research Project}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 Over the term, you and your partner will be designing and conducting an experiment, analyzing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab.
 
@@ -1048,7 +1048,7 @@ See \href{https://canvas.ubc.ca}{Canvas} for assignment due date.
 \chapter*{Open Science}\label{open-science-1}}
 \addcontentsline{toc}{chapter}{Open Science}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/OS-Introduction/}{here}. You are asked to cover Part 1, Principles of Open Science.
 
@@ -1062,7 +1062,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Experimental Research Pilot}\label{experimental-research-pilot}}
 \addcontentsline{toc}{chapter}{Experimental Research Pilot}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 This week you will be trying out your experimental design.
 
@@ -1110,7 +1110,7 @@ Yes, this may be a challenging week for you but we expect that it will also be a
 \chapter*{Naming Conventions}\label{naming-conventions}}
 \addcontentsline{toc}{chapter}{Naming Conventions}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/Procedures-and-Guidelines/file-and-data-management.html}{here}. You are asked to read
 
@@ -1132,7 +1132,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca/courses/90147}
 \chapter*{Data Collection}\label{data-collection}}
 \addcontentsline{toc}{chapter}{Data Collection}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 Now that you have conducted your pilot experiment and saw how it went, you are ready to collect some data.
 
@@ -1152,7 +1152,7 @@ Make sure you have worked through any major changes to your experimental methodo
 \chapter*{Intro to R \& Shiny Apps}\label{intro-to-r-shiny-apps}}
 \addcontentsline{toc}{chapter}{Intro to R \& Shiny Apps}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 This lab will have you putting into practice through visualizations and data tables much of what was covered in Lab 2B.
 
@@ -1190,7 +1190,7 @@ Working in a scripted programming language like R, instead of clicking buttons, 
 
 In BIOL 116 we're not going to learn how to write R, we'll save that for later. What we are going to do is start working with learning to visualize data in an application built in R called Shiny Apps. Shiny Apps allow a user to interactively visualize a data set. It will also show you the R code that is running in the background to build the visualization. This will be your first window into R.
 
-In this lab, we'll work with a couple of data sets that are preloaded into the Shiny App, so you can explore mapping different variables to a visual space.
+In this lab, we'll work with a couple data sets that are preloaded into the Shiny App, so you can explore mapping different variables to a visual space.
 
 The first is a data set about penguins, called \texttt{palmerpenguins}. From the authors: "The \texttt{palmerpenguins} data contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica." \href{https://www.rdocumentation.org/packages/palmerpenguins/versions/0.1.0}{Read more about the \texttt{palmerpenguins} data set} here if you'd like.
 
@@ -1200,9 +1200,19 @@ The second is about cars, called \texttt{mtcars}. From the authors: "The data wa
 \chapter*{Getting Started}\label{getting-started}}
 \addcontentsline{toc}{chapter}{Getting Started}
 
-The Shiny App that we'll be using \href{https://openscience.ok.ubc.ca/shiny/BIOL-116/}{can be found at this link}.
+The Shiny App that we'll be using lives in two places online. One instance of it \href{https://openscience.ok.ubc.ca/shiny/BIOL-116/}{can be found at this link} which is hosted on UBC servers. The other \href{https://ubco-biology.shinyapps.io/biol-116/}{can be found at this link} and is hosted on US servers. They are both identical in terms of what they allow you to do with your data.
 
-The following is a descriptive overview of what you'll find in the two panes of the application.
+\hypertarget{so-whats-the-difference}{%
+\subsection*{So, what's the difference?}\label{so-whats-the-difference}}
+\addcontentsline{toc}{subsection}{So, what's the difference?}
+
+The instance on UBC servers cannot handle nearly as much user traffic as the one hosted in the US. And so it occasionally crashes when a lot of students are tyring to access it simultaneously. If you notice it's down, please let your TA know so we can reboot it!
+
+We provide the UBC based option to allow students to access the app without having to worry about data sovereignty; when using this app, everything you share is kept within Canada. For lab 7, where you're only using pre-loaded data sets, this isn't a concern as you're not actively sharing any non-anonymous data with the server. However, for lab 9 when you'll be using your own data it's good to think about the nature of the data that you're working with and if there is any aspect of it that you might be concerned being on US servers. This includes not just the data you collected, but any associated meta data, such as a name or other identifier in the file name you upload.
+
+Likely, there is nothing to be concerned about with this particular project, but it's important to have the choice! And it's important to always consider where one's research data - and personal data - are being transmitted and the implications this might have on who has access to that data. In fact, this is a key consideration when we talk about Open Science and the fact that it is not always our decision to choose what does and what does not get shared and along what channels or platforms it gets shared through.
+
+Ok, and now in then next couple of pages you'll find a descriptive overview of what you'll encounter in the two panes of the Shiny application.
 
 \hypertarget{left-pane}{%
 \section*{Left Pane}\label{left-pane}}
@@ -1227,6 +1237,9 @@ For now, ignore the option to upload your own data. Instead, use either the \tex
 \addcontentsline{toc}{subsection}{Plot}
 
 Here we select the variables we'd like to visualize.
+
+\textbf{Note}
+The shiny app currently does not include the option to visualize a single variable on its own. Rather, the app focuses on visualizing associations between two variables. If you're curious about how to visualize a single variable (either categorical or quantitative), consult the relevant \href{https://ubco-biology.github.io/BIOL202/vis-variable.html}{BIOL202 tutorial}.
 
 You'll want to first select a dataset, \texttt{penguins} or \texttt{mtcars}, and then select an \texttt{x} and a \texttt{y} variable from the drop down menus. Lastly, tell the Shiny App if your variable is \texttt{quantitative} or \texttt{categorical}. In Lab 2 we learned about each of these variable types, but here is a brief refresher:
 
@@ -1265,11 +1278,11 @@ Once you've made your selections, the Shiny App will automatically calculate the
 \begin{itemize}
 \tightlist
 \item
-  \textbf{two quantitative variables}, the Shiny App will provide you with the sample size \texttt{n}, mean, standard deviation \texttt{sd}, median, and inter-quartile range \texttt{iqr}.
+  \textbf{Two quantitative variables}, the Shiny App will provide you with the sample size \texttt{n}, mean, standard deviation \texttt{sd}, median, and inter-quartile range \texttt{iqr}.
 \item
-  \textbf{one categorical and one quantitative variable}, you will be provided with the sample size \texttt{n}, mean, standard deviation \texttt{sd}, median, and inter-quartile range \texttt{iqr} for each group of your categorical variable.
+  \textbf{Quantitative response (Y) variable and Categorical explanatory (X) variable}, you will be provided with descriptive statistics for the quantitative variable, grouped according to the categories of the categorical variable. Specifically: the sample size \texttt{n} (the number of observations belonging to each category), and the mean, standard deviation \texttt{sd}, and inter-quartile range \texttt{iqr} of the quantitative variable calculated for each category separately.
 \item
-  \textbf{two categorical variables}, then a frequency table will be displayed showing you how many subjects fall into each group.
+  \textbf{Two categorical variables}, then a ``contingency table'' will be displayed, showing you how many observations fall into each combination of categories.
 \end{itemize}
 
 \hypertarget{analysis}{%
@@ -1403,7 +1416,7 @@ Please use the following template for this assignment:
 \chapter*{Data Collection Continued}\label{data-collection-continued}}
 \addcontentsline{toc}{chapter}{Data Collection Continued}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 By now you should have already successfully run your entire experiment once, and collected some data.This is great!Take your time in your lab to attain as many trials as you can.The more trials you conduct the more assured you can be in the trends you are seeing.This is your last opportunity to collect your data so make the most of it.
 
@@ -1439,7 +1452,7 @@ Scientists often use each other to discuss their findings and / or issues in ord
 \chapter*{Data Analysis \& Shiny Apps}\label{data-analysis-shiny-apps}}
 \addcontentsline{toc}{chapter}{Data Analysis \& Shiny Apps}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 In Lab 7 you had a short introduction to data visualization and using R through a Shiny App to explore some core descriptive and inferential statistics for a couple of pre-loaded data sets.
 
@@ -1535,7 +1548,7 @@ Please use the following template for this assignment:
 \chapter*{Poster Presentation}\label{poster-presentation}}
 \addcontentsline{toc}{chapter}{Poster Presentation}
 
-\emph{Last updated 2021-10-22}
+\emph{Last updated 2021-10-26}
 
 \hypertarget{what-is-a-research-poster}{%
 \section*{What is a Research Poster?}\label{what-is-a-research-poster}}
