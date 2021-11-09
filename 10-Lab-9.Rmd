@@ -74,7 +74,10 @@ So, we want to ensure that our data is saved as `csv`. If you are currently work
 
 Similar to Lab 7, take a bit of time to upload your data into the Shiny App and explore it - run some descriptive and inferential statistics and attempt some visualizations. Make sure that you understand the type of data that you\'ve collected and ensure that the analyses that you\'re performing are suitable to the data types you\'re selecting.
 
-The Shiny App that we'll be using [can be found at this link](https://openscience.ok.ubc.ca/shiny/BIOL-116/).
+The Shiny App is available in two locations:
+
+* [UBC hosted](https://openscience.ok.ubc.ca/shiny/BIOL-116/)
+* [Shinyapp.io hosted](https://ubco-biology.shinyapps.io/biol-116/)
 
 # Lab 9 Assignment {-}
 
