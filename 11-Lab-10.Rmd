@@ -24,7 +24,7 @@ Posters are typically a mix of text, figures, tables, graphs and other data. The
 * The poster must include acknowledgments, your name and the institution this project was affiliated with (So, in your case, the University of British Columbia Okanagan)
 
 <div class="note">
-**Additional Resources**
+Additional Resources
 
 [Colby College page on Student Academic posters](http://www.colby.edu/acits/student-academic-poster-guidelines/). We especially like the additional links in this one, including a nice video from University of Guelph.
 
@@ -38,7 +38,7 @@ Start by thinking about who this presentation is for. So, in your case you will 
 Next think about what exactly you want to tell them. For example, to understand your research, they likely need to know what your **research question** was, how you went about **testing your hypothesis**, and, most importantly, what were the **conclusions** that you drew, based on the research that you conducted. Some of the details of your work will be vital to the understanding of the work, while others maybe don\'t need to be highlighted quite so prominently on the poster. 
 
 <div class="note">
-**Don\'t Procrastinate!**
+Don\'t Procrastinate!
 
 Think about these things well ahead of time and make a list of all the things you want to say and put them in a list of priority. The top items should make it on the poster while the rest can be saved for your presentation. If there was one thing you wanted your audience to know (we often call this the \'take home message\') what would that be?
 </div>
@@ -76,7 +76,7 @@ Instead, we would suggest that you use a combination of your high school art pro
 This would also be a good opportunity to review the [data presentation guidelines](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html) in the Procedures and Guidelines manual.
 
 <div class="note">
-**Additional Software Options**
+Additional Software Options
 
 [PowerPoint](https://it.ubc.ca/services/desktop-print-services/software-licensing/microsoft-365-office-students) Available to all UBC students for free, through Microsoft 365. [UBC also has PowerPoint Poster Templates](https://brand.ubc.ca/guidelines/downloads/print-and-presentation-templates/) that you can use for inspiration.
 
@@ -102,7 +102,7 @@ Now that you\'ve got the poster, it\'s time for the poster session, where you wi
 You can think of your poster presentation as a type of performance, but also a conversation with your audience. You should know what you want to tell them, but also be prepared for the fact that they will have questions, and specific interests. Before you present, you will need to prepare, much like any singer or actor. This is going to set you up for success!
 
 <div class="note">
-**Rehearse & Get Feedback**
+Rehearse & Get Feedback
 
 Rehearse what you will be saying to your friends and/or family and ask for feedback. Were you speaking at a normal pace? Were you fidgety? Did your voice carry well enough so that everyone could hear clearly? We often don\'t realize some of the things we do out of habit when we get nervous or are feeling a bit uncertain and so getting that feedback can help you determine where you need to put your energy.
 </div>
@@ -117,7 +117,7 @@ Before the poster presentations begin you will want to be sure you are comfortab
 * Be ready! Be ready to answer any question with confidence! Be comfortable being able to deal with difficult question that you may not be able to answer fully. (This is why it is always great to have someone not involved in your research ask you questions).
 
 <div class="note">
-**Never forget...**
+Never forget...
 
 This is YOUR research, and no one knows it better than you! You have worked hard all term to get to this point, and you should be proud of the work that you did! Presenting your work can be scary, but also exciting and fun! It means you made to the end, and you’ve accomplished something. That is something to celebrate!
 </div>

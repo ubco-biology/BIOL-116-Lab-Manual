@@ -69,7 +69,6 @@ For now, ignore the option to upload your own data. Instead, use either the `pal
 Here we select the variables we\'d like to visualize.
 
 <div class="note">
-**Note**
 The shiny app currently does not include the option to visualize a single variable on its own. Rather, the app focuses on visualizing associations between two variables. If you're curious about how to visualize a single variable (either categorical or quantitative), consult the relevant [BIOL202 tutorial](https://ubco-biology.github.io/BIOL202/vis-variable.html). 
 </div>
 

@@ -9,8 +9,6 @@ By now you should have already successfully run your entire experiment once, and
 Remember that you should be working to minimize the differences between today\'s trials and the trial(s) you ran in the last data collection period. Your methods should be as similar as possible - assuming, of course, your experiment worked last time.
 
 <div class="note">
-**Note**
-
 Making changes adds a new variable to your experiment, which will have an unknown impact on your results. If you must make changes for some reason, make sure that you carefully document everything once again.
 </div>
 

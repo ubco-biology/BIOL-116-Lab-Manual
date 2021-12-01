@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2021-11-09" />
+<meta name="date" content="2021-12-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -85,6 +85,7 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a>
 <ul>
 <li class="chapter" data-level="" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i>Copyright</a></li>
+<li class="chapter" data-level="" data-path="ubco-biology-open-materials.html"><a href="ubco-biology-open-materials.html"><i class="fa fa-check"></i>UBCO Biology open materials</a></li>
 </ul></li>
 <li class="part"><span><b>Lab 1</b></span></li>
 <li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i>Introduction</a></li>
@@ -280,7 +281,7 @@
 <p>When we load our data into a program, that program is expecting our data to be organized in a particular way. The way that we should ideally organize our data is often referred to as Tidy Data.</p>
 <p>Refer to the chapter <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/tidy-data.html">Tidy Data</a> in the Procedures and Guidelines document to help you get your data in order before continuing with the rest of the material here.</p>
 <div class="note">
-<p><strong>Missing Values</strong></p>
+<p>Missing data</p>
 <p>If your data contain any missing values, make sure your have a standard way of filling those cells. Blank cells are not very useful - a blank cell tells us very little about why it's blank - Was this a mistake? Is it supposed to be empty? Who knows?</p>
 <p>Instead, be purposeful. A standard filler or stand in for a missing piece of data is <code>NA</code>, standing for "not available". Your <code>_README</code> file or <code>_DATA-DICTIONARY</code> should indicate that missing data points are noted with <code>NA</code>.</p>
 </div>
@@ -292,7 +293,7 @@
 </div>
 <p>Note that we have a header row with values for each of the variables, including the species, island and various measurements taken. Since we have a header, when we import our data into the Shiny App, we'll want to make sure we're indicating that there's a header. We also have one row for each observation of an individual penguin.</p>
 <div class="note">
-<p><strong>Getting to Know Your Data</strong></p>
+<p>Getting to Know Your Data</p>
 <p>Not all data that you come across will include a header in the file. Sometimes the variables are described exclusively in the <code>_Data-Dictionary</code> that accompanies the data set. Nor will all data that you come across use the convention of <code>NA</code>, especially if that data has already been opened in - or saved from - another piece of statistical software.</p>
 <p>Familiarizing yourself with your data is critically important, which is why <code>_README</code> and <code>_Data-Dictionary</code> files are so important. It's also important that we examine the data file itself - opening the <code>csv</code> or Excel file and having a look through. Doing so can help to avoid common errors such as misinterpreting empty cells, including variable values stored in a header as data itself and the like.</p>
 </div>

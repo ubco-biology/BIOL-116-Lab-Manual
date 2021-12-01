@@ -96,8 +96,6 @@ We call this an <a href="https://ubco-biology.github.io/Procedures-and-Guideline
 # Design Experiment & Plan Analysis {-}
 
 <div class="note">
-**Note**
-
 BIOL202 is the course designed to teach you the foundations of biological statistics, including experimental design, how to decide what statistical test to use when, and how to visualize data. Here we are giving you only enough information so that you will be able to complete your BIOL116 research project. We recommend that you take BIOL202 as early in your degree as possible, as it will make all of your lab work easier.
 </div>
 
@@ -164,8 +162,6 @@ The example experiment we\'ve been describing is a type of <a href="https://ubco
 An example of an experiment in which the response variable is a categorical variable is a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Choice-experiment">choice experiment</a>. Here, organisms such as insects or mice are presented with two or more categories of, say, food, to choose from. With categorical variables, what is measured and analyzed is the *frequency* of the different categories. For example, consider the *a priori* hypothesis that mice prefer high-protein food over low protein and high fibre foods. One could implement a single choice experiment in which 20 individual female mice (of similar age and health) were each independently provided 2 minutes within an experimental \"arena\" (the apparatus) to make a choice between the 3 food types. Across these 20 independent \"trials\", the researcher tallies the *frequency* with which each category of food is chosen. In this example, the dependent variable is \"food type\", and there is no independent variable. 
 
 <div class="advanced">
-**Deeper Dive: Optional**
-
 If our *a priori* hypothesis had been that female mice show a preference for high protein foods whereas males do not, then we could have randomly selected 20 male mice and 20 female mice to undergo the same type of choice experiment. In this case, the \"sex\" of the mouse would be the independent, nominal categorical variable, and \"food type\" would be the nominal categorical dependent variable.
 </div>
 
@@ -222,8 +218,6 @@ Recall that for categorical dependent variables, like \"food type\" in our examp
 Be sure to report your sample size $n$ for each treatment group, regardless of what type of variable your dependent variable is. Also make sure to tally any missing values in any of the groups (e.g. that may have arisen due to problems during the experiment)
 
 <div class="advanced">
-**Deeper Dive: Optional**
-
 If your choice experiment includes an independent categorical variable, such as sex (male / female), then you should calculate and report the raw frequencies and corresponding proportions for each category of the dependent variable (food type) for each category of the independent variable (here, male and female).
 </div>
 
@@ -236,8 +230,6 @@ For common measured-response experimental designs, in which a continuous numeric
 For study designs in which the dependent variable is categorical, as in the food choice experiment, the appropriate way to visualize the frequency data (the tallies of the different food types chosen) is a bar graph.  
 
 <div class="advanced">
-**Deeper Dive: Optional**
-
 When there is both a dependent and independent categorical variable in the study design, then one can use a grouped bar graph or a mosaic plot to visualize the data.
 </div>
 
@@ -290,8 +282,6 @@ Lastly, with your testable hypotheses and significance level stated, you\'ll nee
 The critical value demarcates an outcome that is sufficiently convincing - based on your significance level chosen - that it is unlikely to have arisen solely from sampling error. After stating your significance level, and deciding which test is appropriate (see below), it is good practice to write down what the critical value of the corresponding test statistic is. Using your experiment data, you will then calculate (or the computer will provide) an observed value of the test statistic, and assess this against the critical value.
 
 <div class="note">
-**Note**
-
 In BIOL116 you\'ll be using a Shiny app to conduct your analyses, and it will tell you whether you\'ve exceeded the critical value or not. Thus, there is no need to write down the critical value in the planning stage.
 </div>
 
@@ -358,15 +348,11 @@ H<sub>A</sub>: The three food types are NOT chosen with equal frequency by the m
 Although the test is relatively straightforward to undertake, you can make use of shiny app to do the test. In brief, as the overall difference between your observed frequencies (from the experiment) and those expected by the null expectation increase, the value of your calculated $\chi{^2}$ will increase. If it increases in magnitude to the point that it equals or exceeds the \"critical value\" of $\chi{^2}$ that you would have established before, then the P-value will be less than or equal to 0.05, and you would reject the null hypothesis in favour of the alternative. 
 
 <div class="note">
-**Pro Tip**
-
 If there are only 2 categories in the dependent variable, then the most powerful statistical test to use is a **binomial test**, but a $\chi{^2}$ goodness-of-fit test will still work.
 </div>
 
 <div class="advanced">
-**Deeper Dive: Optional**
-
-**Scenario 3: Categorical Dependent Variable and one Categorical Independent Variable**
+Scenario 3: Categorical Dependent Variable and one Categorical Independent Variable
 
 This scenario is also typical of \"choice experiments\", and above we provided one example in which we hypothesized that female mice showed a food preference whereas males do not. In this case, we plan to conduct something called a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Chi-squared-contingency-test">$\chi{^2}$ contingency test</a>, also called a $\chi{^2}$ test of association. For example, if indeed we were correct with our research hypothesis, then the evidence would show that a preference for food type is *contingent* on the sex of the mouse. 
 
@@ -404,8 +390,6 @@ Or
 > We found that temperature had no significant effect on plant height. 
 
 <div class="note">
-**Pro Tip**
-
 The statistical results are typically summarized in parentheses at the end of your main statement of results, as follows
 
 > We found that temperature significantly affected plant height (ANOVA: F = 4.42; n = 20 per group; P = 0.023).
@@ -455,8 +439,6 @@ Considering how you are going to keep track of everything is one of the **first*
 As you design your experiment, and develop (and troubleshoot!) the method you expect to use, it can be very helpful to draw out your proposed methodology into a flow chart. This can help you better visualize what you want to do, and may help you realize where you need to think a little more critically about your proposed plan and how it will work.
 
 <div class="note">
-**Pro Tip**
-
 visual representations of your methods work really well on posters! So, if you start working on it right from the start, it should be awesome by the time you\'re ready to build your poster!
 </div>
 
@@ -505,7 +487,5 @@ Please use the following template for this assignment:
 [20210921_Lab2b_Experimental-Design-PreLab-Assignment-V1.1.docx](files/20210921_Lab2b_Experimental-Design-PreLab-Assignment-V1.1.docx) (18 KB)
 
 <div class="note">
-**Note**
-
 See [Canvas](https://canvas.ubc.ca) for assignment due date.
 </div>

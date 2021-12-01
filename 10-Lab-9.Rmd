@@ -21,7 +21,7 @@ When we load our data into a program, that program is expecting our data to be o
 Refer to the chapter [Tidy Data](https://ubco-biology.github.io/Procedures-and-Guidelines/tidy-data.html) in the Procedures and Guidelines document to help you get your data in order before continuing with the rest of the material here.
 
 <div class="note">
-**Missing Values**
+Missing data
 
 If your data contain any missing values, make sure your have a standard way of filling those cells. Blank cells are not very useful - a blank cell tells us very little about why it\'s blank - Was this a mistake? Is it supposed to be empty? Who knows?
 
@@ -37,7 +37,7 @@ If we were to use the `palmerpenguin` data from Lab 7 as an example, following i
 Note that we have a header row with values for each of the variables, including the species, island and various measurements taken. Since we have a header, when we import our data into the Shiny App, we\'ll want to make sure we\'re indicating that there\'s a header. We also have one row for each observation of an individual penguin.
 
 <div class="note">
-**Getting to Know Your Data**
+Getting to Know Your Data
 
 Not all data that you come across will include a header in the file. Sometimes the variables are described exclusively in the `_Data-Dictionary` that accompanies the data set. Nor will all data that you come across use the convention of `NA`, especially if that data has already been opened in - or saved from - another piece of statistical software.
 
@@ -61,7 +61,7 @@ A common file format for storing rectangular data is a `csv` file, or comma sepa
 ```
 
 <div class="note">
-**`csv` & Open Science**
+`csv` & Open Science
 
 `csv` files are particularly important when we think about transparency, reproducibility, and accessibility. `csv` files are plain text files, which means they can be read by virtually any operating system and any text editor. A `csv` file produced in 1975 can still be opened on the computer you\'re using right now.
 

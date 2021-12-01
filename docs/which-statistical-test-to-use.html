@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2021-11-09" />
+<meta name="date" content="2021-12-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -85,6 +85,7 @@
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a>
 <ul>
 <li class="chapter" data-level="" data-path="copyright.html"><a href="copyright.html"><i class="fa fa-check"></i>Copyright</a></li>
+<li class="chapter" data-level="" data-path="ubco-biology-open-materials.html"><a href="ubco-biology-open-materials.html"><i class="fa fa-check"></i>UBCO Biology open materials</a></li>
 </ul></li>
 <li class="part"><span><b>Lab 1</b></span></li>
 <li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i>Introduction</a></li>
@@ -316,12 +317,10 @@ The same procedure would be used for the ANOVA test, but in this case you evalua
 <p>H<sub>A</sub>: The three food types are NOT chosen with equal frequency by the mice (or something similarly clear).</p>
 <p>Although the test is relatively straightforward to undertake, you can make use of shiny app to do the test. In brief, as the overall difference between your observed frequencies (from the experiment) and those expected by the null expectation increase, the value of your calculated <span class="math inline">\(\chi{^2}\)</span> will increase. If it increases in magnitude to the point that it equals or exceeds the "critical value" of <span class="math inline">\(\chi{^2}\)</span> that you would have established before, then the P-value will be less than or equal to 0.05, and you would reject the null hypothesis in favour of the alternative.</p>
 <div class="note">
-<p><strong>Pro Tip</strong></p>
 <p>If there are only 2 categories in the dependent variable, then the most powerful statistical test to use is a <strong>binomial test</strong>, but a <span class="math inline">\(\chi{^2}\)</span> goodness-of-fit test will still work.</p>
 </div>
 <div class="advanced">
-<p><strong>Deeper Dive: Optional</strong></p>
-<p><strong>Scenario 3: Categorical Dependent Variable and one Categorical Independent Variable</strong></p>
+<p>Scenario 3: Categorical Dependent Variable and one Categorical Independent Variable</p>
 <p>This scenario is also typical of "choice experiments", and above we provided one example in which we hypothesized that female mice showed a food preference whereas males do not. In this case, we plan to conduct something called a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Chi-squared-contingency-test"><span class="math inline">\(\chi{^2}\)</span> contingency test</a>, also called a <span class="math inline">\(\chi{^2}\)</span> test of association. For example, if indeed we were correct with our research hypothesis, then the evidence would show that a preference for food type is <em>contingent</em> on the sex of the mouse.</p>
 <p>The appropriate null and alternative hypotheses are:</p>
 <p>H<sub>0</sub>: The three food types are chosen with equal frequency by male and female mice.</p>

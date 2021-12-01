@@ -30,3 +30,19 @@ Please use the following for citing this document
 Hay, T., Young, R. (2021). *Biology 116 Lab Manual*. [https://ubco-biology.github.io/BIOL-116-Lab-Manual/](https://ubco-biology.github.io/BIOL-116-Lab-Manual/)
 
 All source files are available from [https://github.com/ubco-biology/BIOL-116-Lab-Manual](https://github.com/ubco-biology/BIOL-116-Lab-Manual).
+
+## UBCO Biology open materials {-}
+
+This resource is part of a larger project to host UBCO Biology lab materials in an open, accessible format.
+
+All BIOL open materials can be found at [https://ubco-biology.github.io/](https://ubco-biology.github.io/)
+
+## Conventions {-}
+
+<div class = "note">
+Further insights or notes on presented materials.
+</div>
+
+<div class = "advanced">
+Optional material that dives deeper into a presented concept.
+</div>
