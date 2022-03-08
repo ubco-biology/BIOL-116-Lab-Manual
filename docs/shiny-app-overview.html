@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Getting Started | Biology 116 Lab Manual</title>
+  <title>Shiny App Overview | Biology 116 Lab Manual</title>
   <meta name="description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Getting Started | Biology 116 Lab Manual" />
+  <meta property="og:title" content="Shiny App Overview | Biology 116 Lab Manual" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Getting Started | Biology 116 Lab Manual" />
+  <meta name="twitter:title" content="Shiny App Overview | Biology 116 Lab Manual" />
   
   <meta name="twitter:description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
   
@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2021-12-02" />
+<meta name="date" content="2022-03-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,9 @@
   
 <link rel="prev" href="shiny-apps.html"/>
 <link rel="next" href="left-pane.html"/>
-<script src="libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -42,7 +43,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -99,7 +99,7 @@
 <li class="chapter" data-level="" data-path="mystery-cylinders.html"><a href="mystery-cylinders.html"><i class="fa fa-check"></i>Mystery Cylinders</a>
 <ul>
 <li class="chapter" data-level="" data-path="phase-1-observe-your-cylinder.html"><a href="phase-1-observe-your-cylinder.html"><i class="fa fa-check"></i>Phase 1 – "Observe" your cylinder</a></li>
-<li class="chapter" data-level="" data-path="phase-2-share-collaborate.html"><a href="phase-2-share-collaborate.html"><i class="fa fa-check"></i>Phase 2 - Share &amp; Collaborate</a></li>
+<li class="chapter" data-level="" data-path="phase-2---share-collaborate.html"><a href="phase-2---share-collaborate.html"><i class="fa fa-check"></i>Phase 2 - Share &amp; Collaborate</a></li>
 <li class="chapter" data-level="" data-path="phase-3-submit-for-marks.html"><a href="phase-3-submit-for-marks.html"><i class="fa fa-check"></i>Phase 3 – Submit for marks</a></li>
 <li class="chapter" data-level="" data-path="discussion-question.html"><a href="discussion-question.html"><i class="fa fa-check"></i>Discussion Question</a></li>
 </ul></li>
@@ -197,9 +197,8 @@
 <li class="chapter" data-level="" data-path="intro-to-r.html"><a href="intro-to-r.html"><i class="fa fa-check"></i>Intro to R</a></li>
 <li class="chapter" data-level="" data-path="computational-reproducibility.html"><a href="computational-reproducibility.html"><i class="fa fa-check"></i>Computational reproducibility</a></li>
 <li class="chapter" data-level="" data-path="shiny-apps.html"><a href="shiny-apps.html"><i class="fa fa-check"></i>Shiny Apps</a></li>
-<li class="chapter" data-level="" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i>Getting Started</a>
+<li class="chapter" data-level="" data-path="shiny-app-overview.html"><a href="shiny-app-overview.html"><i class="fa fa-check"></i>Shiny App Overview</a>
 <ul>
-<li class="chapter" data-level="" data-path="getting-started.html"><a href="getting-started.html#so-whats-the-difference"><i class="fa fa-check"></i>So, what’s the difference?</a></li>
 <li class="chapter" data-level="" data-path="left-pane.html"><a href="left-pane.html"><i class="fa fa-check"></i>Left Pane</a>
 <ul>
 <li class="chapter" data-level="" data-path="left-pane.html"><a href="left-pane.html#welcome-1"><i class="fa fa-check"></i>Welcome</a></li>
@@ -277,16 +276,9 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="getting-started" class="section level1 unnumbered">
-<h1>Getting Started</h1>
-<p>The Shiny App that we'll be using lives in two places online. One instance of it <a href="https://openscience.ok.ubc.ca/shiny/BIOL-116/">can be found at this link</a> which is hosted on UBC servers. The other <a href="https://ubco-biology.shinyapps.io/biol-116/">can be found at this link</a> and is hosted on US servers. They are both identical in terms of what they allow you to do with your data.</p>
-<div id="so-whats-the-difference" class="section level3 unnumbered">
-<h3>So, what’s the difference?</h3>
-<p>The instance on UBC servers cannot handle nearly as much user traffic as the one hosted in the US. And so it occasionally crashes when a lot of students are tyring to access it simultaneously. If you notice it's down, please let your TA know so we can reboot it!</p>
-<p>We provide the UBC based option to allow students to access the app without having to worry about data sovereignty; when using this app, everything you share is kept within Canada. For lab 7, where you're only using pre-loaded data sets, this isn't a concern as you're not actively sharing any non-anonymous data with the server. However, for lab 9 when you'll be using your own data it's good to think about the nature of the data that you're working with and if there is any aspect of it that you might be concerned being on US servers. This includes not just the data you collected, but any associated meta data, such as a name or other identifier in the file name you upload.</p>
-<p>Likely, there is nothing to be concerned about with this particular project, but it's important to have the choice! And it's important to always consider where one's research data - and personal data - are being transmitted and the implications this might have on who has access to that data. In fact, this is a key consideration when we talk about Open Science and the fact that it is not always our decision to choose what does and what does not get shared and along what channels or platforms it gets shared through.</p>
-<p>Ok, and now in then next couple of pages you'll find a descriptive overview of what you'll encounter in the two panes of the Shiny application.</p>
-</div>
+<div id="shiny-app-overview" class="section level1 unnumbered">
+<h1>Shiny App Overview</h1>
+<p>The Shiny App that we'll be using <a href="https://openscience.ok.ubc.ca/shiny/BIOL-116/">can be found at this link</a></p>
 </div>
             </section>
 
@@ -298,7 +290,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -338,6 +329,10 @@ gitbook.start({
 "text": null
 },
 "download": ["Biology-116-Lab-Manual.pdf", "Biology-116-Lab-Manual.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section",
 "scroll_highight": true

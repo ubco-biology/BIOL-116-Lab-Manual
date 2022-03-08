@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Data Organization | Biology 116 Lab Manual</title>
   <meta name="description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Data Organization | Biology 116 Lab Manual" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2021-12-02" />
+<meta name="date" content="2022-03-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,8 +33,9 @@
   
 <link rel="prev" href="preparing-your-data.html"/>
 <link rel="next" href="file-formats.html"/>
-<script src="libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -42,7 +43,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -99,7 +99,7 @@
 <li class="chapter" data-level="" data-path="mystery-cylinders.html"><a href="mystery-cylinders.html"><i class="fa fa-check"></i>Mystery Cylinders</a>
 <ul>
 <li class="chapter" data-level="" data-path="phase-1-observe-your-cylinder.html"><a href="phase-1-observe-your-cylinder.html"><i class="fa fa-check"></i>Phase 1 – "Observe" your cylinder</a></li>
-<li class="chapter" data-level="" data-path="phase-2-share-collaborate.html"><a href="phase-2-share-collaborate.html"><i class="fa fa-check"></i>Phase 2 - Share &amp; Collaborate</a></li>
+<li class="chapter" data-level="" data-path="phase-2---share-collaborate.html"><a href="phase-2---share-collaborate.html"><i class="fa fa-check"></i>Phase 2 - Share &amp; Collaborate</a></li>
 <li class="chapter" data-level="" data-path="phase-3-submit-for-marks.html"><a href="phase-3-submit-for-marks.html"><i class="fa fa-check"></i>Phase 3 – Submit for marks</a></li>
 <li class="chapter" data-level="" data-path="discussion-question.html"><a href="discussion-question.html"><i class="fa fa-check"></i>Discussion Question</a></li>
 </ul></li>
@@ -197,9 +197,8 @@
 <li class="chapter" data-level="" data-path="intro-to-r.html"><a href="intro-to-r.html"><i class="fa fa-check"></i>Intro to R</a></li>
 <li class="chapter" data-level="" data-path="computational-reproducibility.html"><a href="computational-reproducibility.html"><i class="fa fa-check"></i>Computational reproducibility</a></li>
 <li class="chapter" data-level="" data-path="shiny-apps.html"><a href="shiny-apps.html"><i class="fa fa-check"></i>Shiny Apps</a></li>
-<li class="chapter" data-level="" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i>Getting Started</a>
+<li class="chapter" data-level="" data-path="shiny-app-overview.html"><a href="shiny-app-overview.html"><i class="fa fa-check"></i>Shiny App Overview</a>
 <ul>
-<li class="chapter" data-level="" data-path="getting-started.html"><a href="getting-started.html#so-whats-the-difference"><i class="fa fa-check"></i>So, what’s the difference?</a></li>
 <li class="chapter" data-level="" data-path="left-pane.html"><a href="left-pane.html"><i class="fa fa-check"></i>Left Pane</a>
 <ul>
 <li class="chapter" data-level="" data-path="left-pane.html"><a href="left-pane.html#welcome-1"><i class="fa fa-check"></i>Welcome</a></li>
@@ -309,7 +308,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -349,6 +347,10 @@ gitbook.start({
 "text": null
 },
 "download": ["Biology-116-Lab-Manual.pdf", "Biology-116-Lab-Manual.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section",
 "scroll_highight": true
