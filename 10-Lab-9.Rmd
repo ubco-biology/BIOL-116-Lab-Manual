@@ -8,7 +8,7 @@ In Lab 7 you had a short introduction to data visualization and using R through 
 
 You may wish to re-familiarize yourself with the content of Lab 7, in particular the best practices for presenting tables and figures and how to navigate the Shiny App interface.
 
-This lab, we\'ll be undertaking a similar exercise to what we did two weeks ago, but instead of working with a supplied data set, you\'ll be working with the data that you\'ve collected conducting your research.
+This lab, we\'ll be undertaking a similar exercise to what we did last week, but instead of working with a supplied data set, you\'ll be working with the data that you\'ve collected conducting your research.
 
 # Preparing Your Data {-}
 
