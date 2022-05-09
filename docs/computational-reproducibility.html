@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Computational reproducibility | Biology 116 Lab Manual</title>
   <meta name="description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Computational reproducibility | Biology 116 Lab Manual" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
   
@@ -24,7 +23,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2022-03-08" />
+<meta name="date" content="2022-05-09" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,6 @@
   
 <link rel="prev" href="intro-to-r.html"/>
 <link rel="next" href="shiny-apps.html"/>
-<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -51,8 +49,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYSMQZW871"></script>
 <script>
@@ -243,19 +242,7 @@
 </ul></li>
 <li class="chapter" data-level="" data-path="poster-printing.html"><a href="poster-printing.html"><i class="fa fa-check"></i>Poster Printing</a></li>
 <li class="chapter" data-level="" data-path="presenting-your-poster.html"><a href="presenting-your-poster.html"><i class="fa fa-check"></i>Presenting Your Poster</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html"><i class="fa fa-check"></i>Lab 10 Rubric</a>
-<ul>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#title"><i class="fa fa-check"></i>Title</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#experimental-design"><i class="fa fa-check"></i>Experimental Design</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#background"><i class="fa fa-check"></i>Background</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#figures"><i class="fa fa-check"></i>Figures</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#references-citation"><i class="fa fa-check"></i>References &amp; Citation</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#spelling-grammar"><i class="fa fa-check"></i>Spelling &amp; Grammar</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#hypothesis"><i class="fa fa-check"></i>Hypothesis</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#study-significance"><i class="fa fa-check"></i>Study Significance</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#results"><i class="fa fa-check"></i>Results</a></li>
-<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html#display"><i class="fa fa-check"></i>Display</a></li>
-</ul></li>
+<li class="chapter" data-level="" data-path="lab-10-rubric.html"><a href="lab-10-rubric.html"><i class="fa fa-check"></i>Lab 10 Rubric</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -276,8 +263,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="computational-reproducibility" class="section level1 unnumbered">
-<h1>Computational reproducibility</h1>
+<div id="computational-reproducibility" class="section level1 unnumbered hasAnchor">
+<h1>Computational reproducibility<a href="computational-reproducibility.html#computational-reproducibility" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>What is computational reproducibility?</p>
 <p>When you load data into an application like Excel, you click through a series of options to clean up or organize and then visualize your data. If you wanted to repeat this process, you would have to manually go through the same series of steps over and over again, which is a lot of mouse clicking. It's also very difficult to communicate your workflow from raw data to visualization as you would have to write down every step and do so in a way that was clear enough for someone else to reproduce exactly.</p>
 <p>Working in a scripted programming language like R, instead of clicking buttons, we write code that tells the program how to clean, organize, and then visualize our data. When we want to repeat the process, we just run our script - or mini program - and it exactly, computationally, reproduces our workflow. It's less work for us and it's reproducible. And, since anyone we share our script with can read our script to see the steps taken to go from raw data to visualization, it's transparent. We just don't get this level of reproducibility and transparency with Excel.</p>
