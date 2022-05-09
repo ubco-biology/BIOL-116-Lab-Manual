@@ -9,4 +9,4 @@ This week's lab content can be found [here](https://ubco-biology.github.io/Proce
 * [Chapter 1: File and Data Management](https://ubco-biology.github.io/Procedures-and-Guidelines/file-and-data-management.html) and
 * [Chapter 2: File Naming](https://ubco-biology.github.io/Procedures-and-Guidelines/file-naming.html).
 
-The accompanying quiz can be found in [Canvas](https://canvas.ubc.ca/courses/90147). 
+The accompanying quiz can be found in [Canvas](https://canvas.ubc.ca). 

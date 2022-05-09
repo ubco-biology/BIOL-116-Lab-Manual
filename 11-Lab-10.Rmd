@@ -147,7 +147,7 @@ This is YOUR research, and no one knows it better than you! You have worked hard
     <th class="tg-7btt">Pts</th>
   </tr>
 </thead>
-<tbody>
+<tbody overflow-x: scroll;>
   <tr>
     <td class="tg-0pky"><span style="font-weight:bold">Title</span><br>- Title is clear<br>- Title is concise<br>- Title informs the listener as to what the experiment is about</td>
     <td class="tg-0pky" colspan="2"><span style="font-weight:bold">1.5 pts </span><br><span style="font-weight:bold">Excellent</span><br>All 3 criteria are met</td>
