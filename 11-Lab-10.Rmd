@@ -124,18 +124,203 @@ This is YOUR research, and no one knows it better than you! You have worked hard
 
 # Lab 10 Rubric {-}
 
-**\ /41.5**
+**Total\ /41.5**
 
-|                                                                                                                                                                                                                            Criteria                                                                                                                                                                                                                           |                       Ratings                      |                                              |                                                     |                                               |                                                    |                                                       |                                                                        |                                            |   Pts   |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------:|----------------------------------------------|-----------------------------------------------------|-----------------------------------------------|----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------|:-------:|
-| <b>Title</b> <br /> - Title is clear <br /> - Title is concise <br />- Title informs the listener as to what the experiment is about <br />                                                                                                                                                                                                                                                                                                                                                    | <b>1.5 pts<br />    Excellent<br /></b> All 3 criteria are met          |                                              | <b>1 pt<br />   Satisfactory<br /></b> 2 of the 3 criteria are met       |                                               | <b>0.5 pts<br />    Poor</b><br /> Only 1 of the criteria is met        |                                                       |<b> 0 pts <br />  Absent</b><br /> None of the criteria are met and/or no title was provided |                                            | 1.5 pts |
-| <b>Introduction/Background Information</b> <br />- Relevant biological background provided <br />- Student has clearly articulated how this background information is relevant <br />- the information included is accurately reported <br />- Student has clearly explained the significance of this information with respect to their experiment <br />- There is no ambiguity within the information provided <br />- Information provided is coherent, has a sensible flow, and is easy to follow   | <b>6 pts<br /> Exceeds Expectations</b><br /> All 6 criteria met      |                                              | <b>5 pts<br />  Excellent</b><br /> 5 of the 6 criteria are met        | <b>4 pts<br /> Proficient</b><br /> 4 of the 6 criteria are met  | <b>3 pts<br />  Satisfactory</b><br /> 3 of the 6 criteria are met    | <b>2 pts<br /> Poor</b><br /> 2 of the 6 criteria are met                | <b>1 pt<br /> Unsatisfactory</b><br />  1 of the 6 criteria are met                       | <b>0 pts<br /> Absent</b><br /> None of the criteria are met  | 6 pts   |
-| <b>Hypothesis</b> <br />- Is clearly stated in one sentence <br />- Is supported by previous knowledge or research described within the background information <br />- Is correctly stated based on the experimentation that was conducted                                                                                                                                                                                                                                             | <b>3 pts<br />  Excellent</b><br /> All 3 criteria are met            |                                              | <b>2 pts<br />  Satisfactory</b><br /> 2 of the 3 criteria             |                                               | <b>1 pt<br />  Unsatisfactory</b><br /> 1 of the 3 criteria are met   |                                                       | <b>0 pts <br /> Absent</b><br />  No criteria are met                                     | <b>0 pts<br /> Absent</b><br />  No criteria are met          | 3 pts   |
-| <b>Experimental Design</b> <br />- Procedure outlined is clearly explained <br />- No bullet points are used here <br />- Experimental design properly addresses the hypothesis provided earlier <br />- Clearly defines the type of data that was collected <br />- Clearly identifies and describes the appropriate controls and variable(s) <br />- Identifies which are the dependent and independent variable(s) <br />- Statistical analysis used in this research is clearly explained                  | <b>7 pts<br />  Exceeds Expectations</b><br /> All 7 criteria are met | <b>6 pts<br />  Excellent</b><br /> 6 of the 7 criteria are met | <b>5 pts<br />  Satisfactory</b><br />  5 of the 7 criteria are met    | <b>4 pts<br />  Fair</b><br /> 4 of the 7 criteria are met       | <b>3 pts<br />  Unsatisfactory</b><br />  3 of the 7 criteria are met | <b>2 pts<br />  Below Expectations</b><br /> 2 of the 7 criteria are met | <b>1 pt<br />  Unacceptable</b><br /> 1 of the 7 criteria is met                          | <b>0 pts<br />  Absent</b><br /> None of the criteria are met | 7 pts   |
-| <b>Figures</b> <br />- Appropriate figures are included  <br />- Key findings are clearly indicated within the figures <br />- All axes are properly labeled and include units <br />- Legend is provided <br />- The explanation of the figure(s) is clear and includes a description of axes, legend, means, n value, p-value, and variance information when required <br />- Figure is clear and easy to interpret on its own <br />- Figure and/or table caption is clear and provides a clear description | <b>7 pts<br />  Exceeds Expectations</b><br /> All 7 criteria are met | <b>6 pts<br />  Excellent</b><br /> 6 of the 7 criteria are met | <b>5 pts<br />  Satisfactory</b><br />  5 of the 7 criteria are met    | <b>4 pts<br />  Fair</b><br /> 4 of the 7 criteria are met       | <b>3 pts<br />  Unsatisfactory</b><br />  3 of the 7 criteria are met | <b>2 pts<br />  Below Expectations</b><br /> 2 of the 7 criteria are met | <b>1 pt<br />  Unacceptable</b><br /> 1 of the 7 criteria is met                          | <b>0 pts<br />  Absent</b><br /> None of the criteria are met | 7 pts   |
-| <b>Results</b> <br />- Easy to follow along <br />- Clearly articulated and interpreted <br />- Significance of these results on the field of student and/or academics in general are explained                                                                                                                                                                                                                                                                                        | <b>3 pts<br />  Excellent</b><br /> All 3 criteria are met            |                                              | <b>2 pts<br />  Fair</b><br /> 2 of the 3 criteria are met             |                                               | <b>1 pt<br />  Poor</b><br /> Only 1 of the criteria are met          |                                                       | <b>0 pts<br />  Unacceptable</b><br /> None of the criteria are met                       |                                            | 3 pts   |
-| <b>References & In-Text Citation</b> <br />- APA format is used appropriately and consistently <br />- All in-text citations are provided when needed <br />- References provided                                                                                                                                                                                                                                                                                                      | <b>3 pts<br />  Satisfactory<br /></b> All 3 criteria are met         |                                              | <b>2 pts<br />  Fair 2</b><br /> of the 3 criteria are met             |                                               | <b>1 pt<br />  Poor</b><br /> Only 1 of the criteria are met          |                                                       | <b>0 pts<br />  Unacceptable</b><br />  None of the criteria are met                      |                                            | 3 pts   |
-| <b>Plagiarism</b> <br />- Quotations are not present <br />- No form of any plagiarism present                                                                                                                                                                                                                                                                                                                                                                                   | <b>2 pts<br />  Satisfactory<b/><br /> All criteria are met           |                                              | <b>1 pt<br />  Satisfactory</b><br /> Only 1 of the 2 criteria are met |                                               |                                                    | <b>0 pts<br />  Absent</b><br /> The criterion is not met                |                                                                        |                                            | 2 pts   |
-| <b>Presentation</b> <br />- Students are organized and are equally participating in the presentation <br />- Students show a clear understanding of the information they are presenting <br />- All participants speak clearly and loud enough to be heard <br />- Students engage the audience and display a clear passion/interest in their project                                                                                                                                        | <b>4 pts<br /> Excellent</b><br /> All 4 criteria are met             |                                              | <b>3 pts<br />  Proficient</b><br /> 3 of the 4 criteria are met       |                                               | <b>2 pts<br />  Fair</b><br /> 2 of the 4 criteria are met            |                                                       | <b>1 pt<br />  Unsatisfactory</b><br />  1 of the 4 criteria are met                      | <b>0 pts<br />  Absent</b><br />  No criteria are met         | 4 pts   |
-| <b>Poster</b> <br />- Poster is approximately 24" X 36" in size  <br />- Is attractively presented  <br />- Language is simple and descriptive <br />- Information is visible from 6 feet away <br />- The main points of the poster are easy to determine within 30 seconds <br />- Layout is clean and organized <br />- Word count is between 300-800 <br />- Acknowledgments are clearly identified                                                                                                              | <b>5 pts<br />  Full Marks</b><br /> All 5 criteria are met           |                                              | <b>4 pts<br />  Proficient</b><br /> 4 of the 5 criteria are met       |                                               | <b>3 pts<br />  Satisfactory</b><br />  3 of the 5 criteria are met   | <b>2 pts<br />  Poor</b><br /> 2 of the 5 criteria are met               | <b>1 pt<br />  Unsatisfactory</b><br />  Only 1 criteria is met                           | <b>0 pts<br />  No Marks</b><br /> No criteria are met        | 5 pts   |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                            Total Points: 41.5 |                                                    |                                              |                                                     |                                               |                                                    |                                                       |                                                                        |                                            |         |
+
+### Title {-}
+
+**\ /1.5**
+
+**Criteria**
+
+- Title is clear
+- Title is concise
+- Title informs the listener as to what the experiment is about
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Excellent<br />1.5 pts | All 3 criteria are met |
+| Satisfactory<br />1 pts | 2 of the 3 criteria are met |
+| Poor<br />0.5 pts | Only 1 of the criteria is met |
+| Absent<br />0 pts | None of the criteria are met and/or no title was provided |
+
+### Introduction/Background Information {-}
+
+**\ /6**
+
+**Criteria**
+
+- Relevant biological background provided
+- Student has clearly articulated how this background information is relevant
+- the information included is accurately reported
+- Student has clearly explained the significance of this information with respect to their experiment
+- There is no ambiguity within the information provided
+- Information provided is coherent, has a sensible flow and is easy to follow
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Exceeds Expectations<br />6 pts | All 6 criteria are met |
+| Excellent<br />5 pts | 5 of the 6 criteria are met |
+| Proficient<br />4 pts | 4 of the 6 criteria are met |
+| Satisfactory<br />3 pts | 3 of the 6 criteria are met |
+| Poor<br />2 pts | 2 of the 6 criteria are met |
+| Unsatisfactory<br />1 pts | 1 of the 6 criteria are met |
+| Absent<br />0 pts | None of the criteria are met |
+
+### Hypothesis {-}
+
+**\ /3**
+
+**Criteria**
+
+- Is clearly stated in one sentence
+- Is supported by previous knowledge or research described within the background information
+- Is correctly stated based on the experimentation that was conducted
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Excellent<br />3 pts | All 3 criteria are met |
+| Satisfactory<br />2 pts | 2 of the 3 criteria are met |
+| Unsatisfactory<br />1 pts | Only 1 of the criteria is met |
+| Absent<br />0 pts | None of the criteria are met |
+
+### Experimental Design {-}
+
+**\ /7**
+
+**Criteria**
+
+- Procedure outlined is clearly explained
+- No bullet points are used here
+- Experimental design properly addresses the hypothesis provided earlier
+- Clearly defines the type of data that was collected
+- Clearly identifies and describes the appropriate controls and variable(s)
+- Identifies which are the dependent and independent variable(s)
+- Statistical analysis used in this research is clearly explained
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Exceeds Expectations<br />7 pts | All 7 criteria are met |
+| Excellent<br />6 pts | 6 of the 7 criteria are met |
+| Satisfactory<br />5 pts | 5 of the 7 criteria are met |
+| Fair<br />4 pts | 4 of the 7 criteria are met |
+| Unsatisfactory<br />3 pts | 3 of the 7 criteria are met |
+| Below Expectations<br />2 pts | 2 of the 7 criteria are met |
+| Unacceptable<br />1 pts | 1 of the 7 criteria are met |
+| Absent<br />0 pts | None of the criteria are met |
+
+### Figures {-}
+
+**\ /7**
+
+**Criteria**
+
+- Appropriate figures are included
+- Key findings are clearly indicated within the figures
+- All axes are properly labeled and include units
+- Legend is provided
+- The explanation of the figure(s) is clear and includes a description of axes, legend, means, n value, p-value, and variance information when required
+- Figure is clear and easy to interpret on its own
+- Figure and/or table caption is clear and provides a clear description
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Exceeds Expectations<br />7 pts | All 7 criteria are met |
+| Excellent<br />6 pts | 6 of the 7 criteria are met |
+| Satisfactory<br />5 pts | 5 of the 7 criteria are met |
+| Fair<br />4 pts | 4 of the 7 criteria are met |
+| Unsatisfactory<br />3 pts | 3 of the 7 criteria are met |
+| Below Expectations<br />2 pts | 2 of the 7 criteria are met |
+| Unacceptable<br />1 pts | 1 of the 7 criteria are met |
+| Absent<br />0 pts | None of the criteria are met |
+
+### Results {-}
+
+**\ /3**
+
+**Criteria**
+
+- Easy to follow along
+- Clearly articulated and interpreted
+- Significance of these results on the field of student and/or academics in general are explained
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Excellent<br />3 pts | All 3 criteria are met |
+| Fair<br />2 pts | 2 of the 3 criteria are met |
+| Poor<br />1 pts | Only 1 of the criteria is met |
+| Unacceptable<br />0 pts | None of the criteria are met |
+
+### References & In-Text Citation {-}
+
+**\ /3**
+
+**Criteria**
+
+- APA format is used appropriately and consistently
+- All in-text citations are provided when needed
+- References provided
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Satisfactory<br />3 pts | All 3 criteria are met |
+| Fair<br />2 pts | 2 of the 3 criteria are met |
+| Poor<br />1 pts | Only 1 of the criteria is met |
+| Unacceptable<br />0 pts | None of the criteria are met |
+
+### Plagiarism {-}
+
+**\ /3**
+
+**Criteria**
+
+- Quotations are not present
+- No form of any plagiarism present
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Satisfactory<br />2 pts | All 2 criteria are met |
+| Satisfactory<br />1 pts | 1 of the 2 criteria are met |
+| Absent<br />0 pts | None of the criteria are met |
+
+### Presentation {-}
+
+**\ /4**
+
+**Criteria**
+
+- Students are organized and are equally participating in the presentation
+- Students show a clear understanding of the information they are presenting
+- All participants speak clearly and loud enough to be heard
+- Students engage the audience and display a clear passion/interest in their project
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Excellent<br />4 pts | All 4 criteria are met |
+| Proficient<br />3 pts | 3 of the 4 criteria are met |
+| Fair<br />2 pts | 2 of the 4 criteria are met |
+| Unsatisfactory<br />1 pts | Only 1 of the criteria is met |
+| Absent<br />0 pts | None of the criteria are met |
+
+### Poster {-}
+
+**\ /5**
+
+**Criteria**
+
+- Poster is approximately 24" X 36" in size 
+- Is attractively presented 
+- Language is simple and descriptive
+- Information is visible from 6 feet away
+- The main points of the poster are easy to determine within 30 seconds
+- Layout is clean and organized
+- Word count is between 300-800-Acknowledgments are clearly identified
+
+| Points | <span style="display: inline-block; width:550px">Criteria</span> |
+| :--- | :--- |
+| Full Marks<br />5 pts | All 5 criteria are met |
+| Proficient<br />4 pts | 4 of the 5 criteria are met |
+| Satisfactory<br />3 pts | 3 of the 5 criteria are met |
+| Poor<br />2 pts | 2 of the 5 criteria are met |
+| Unsatisfactory<br />1 pts | Only 1 of the criteria is met |
+| No Marks<br />0 pts | None of the criteria are met |
