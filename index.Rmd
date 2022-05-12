@@ -19,6 +19,26 @@ The rest of the labs will continue alternating between online and on campus. For
 
 There\'s much more information about what to expect from labs, the grading policies, and the weekly schedule in the [Canvas Module for Lab 1](https://canvas.ubc.ca). For now, we will say that we\'re looking forward to the start of term, and to meeting you (both virtually and in-person). Science is amazing and exciting and cool, and we can\'t wait to share our love of science and biology with you!
 
+## Learning Objectives {-}
+
+In BIOL116, we use lecture primarily to teach course content, and lab to teach fundamental skills. The learning goals below highlight some of the skills we are expecting you to develop throughout BIOL116. All of them will be addressed in lab, and some will also show up in how we approach content in lecture as well.
+
+**Learning Goals about the Process of Science**
+
+- Explain how scientists use inference and evidence-based reasoning to generate knowledge
+- Describe the iterative nature of science and how new evidence can lead to the revision of knowledge 
+- Compare the strengths and weaknesses of different types of experimental design.
+- Explain the importance of understanding science, and the relevance of science in everyday experiences.
+- Design a controlled experiment, including plans for analyzing the data and interpretation of the results.
+- Find and evaluate the credibility of a variety of sources, of scientific information, including popular science, media and scientific journals.
+- Make evidence-based arguments using your own results, and the scientific literature.
+- Identify the basic principles of Open Science, and apply them to your own research.
+
+**Learning Goals about Communication & Collaboration**
+
+- Use appropriate language and style to communicate science effectively to a targeted audience (e.g., general public versus biology experts).
+- Work effectively with teammates to design experiments, analyze results & communicate findings.
+
 ## Copyright {-}
 
 This work is licenced under the Creative Commons [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
