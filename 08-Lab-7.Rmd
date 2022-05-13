@@ -125,7 +125,7 @@ This orange box shows the script used by R to generate the output. If there are 
 
 The following is a brief screencast introduction to using the Shiny App with the included datasets.
 
-<a href="https://www.youtube.com/watch?v=8WBR-0rjTv8" target="_blank">![](figures_images/Lab7-Fig1.png)</a>
+<a href="https://www.youtube.com/watch?v=FtEx5S7vENo" target="_blank">![](figures_images/Lab7-Fig1.png)</a>
 
 # Lab 7 Activity {-}
 
