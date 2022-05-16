@@ -17,7 +17,7 @@ The material in this manual is designed to be used as part of the BIOL116 labs. 
 
 The rest of the labs will continue alternating between online and on campus. For all labs you must attend during your regular scheduled lab times regardless of whether its online or on campus. **For in-person labs it is vital that you attend the lab in which you are registered** (Check your registration online to be sure of where you are supposed to be!).
 
-There\'s much more information about what to expect from labs, the grading policies, and the weekly schedule in the [Canvas Module for Lab 1](https://canvas.ubc.ca). For now, we will say that we\'re looking forward to the start of term, and to meeting you (both virtually and in-person). Science is amazing and exciting and cool, and we can\'t wait to share our love of science and biology with you!
+There\'s much more information about what to expect from labs, the grading policies, and the weekly schedule in the [Canvas shell for BIOL 116 labs](https://canvas.ubc.ca). For now, we will say that we\'re looking forward to the start of term, and to meeting you (both virtually and in-person). Science is amazing and exciting and cool, and we can\'t wait to share our love of science and biology with you!
 
 ## Learning Objectives {-}
 
