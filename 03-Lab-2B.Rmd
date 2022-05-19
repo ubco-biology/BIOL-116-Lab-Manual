@@ -28,13 +28,13 @@ Science is also a highly collaborative endeavor, where each scientist builds on 
 
 The way that we *do* science is that we follow a set of guidelines called \"The Scientific Method\". This method helps us make sure that we test our ideas in such a way that we\'ve done our best to remove our own opinions and personal biases from the process. Removing personal opinions and biases, and focusing on what the evidence is telling us is absolutely vital to science. It is the heart of everything that we, as scientists, try to do every day. 
 
-## Deductive Logic {-}
-
-Some scientists are interested in measuring and recording observations in nature. This is sometimes called \"descriptive science\". Scientific sampling and collection methods allow researchers to describe nature accurately. We can then use these observations to make generalizations about the world using \"deductive logic\". 
-
 ## Inductive Logic {-}
 
-Other scientists wonder why things are the way they are. They form ideas, or hypotheses using \"inductive logic\" about how things must work and then test these ideas in experiments that they design.
+Some scientists are interested in measuring and recording observations in nature. This is sometimes called \"descriptive science\". Scientific sampling and collection methods allow researchers to describe nature accurately. We can then use these observations to make generalizations about the world using \"inductive logic\". 
+
+## Deductive Logic {-}
+
+Other scientists wonder why things are the way they are. They form ideas, or hypotheses using \"deductive logic\" about how things must work and then test these ideas in experiments that they design.
 
 Whether a scientist is conducting descriptive (observational) science or experimental science, they will be using evidence to support the claims that they make, and they will be using the framework of the scientific method to help them do this in a way that avoids bias and focuses on the evidence they have.
 
