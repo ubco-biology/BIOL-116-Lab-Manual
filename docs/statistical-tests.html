@@ -6,10 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Statistical Tests | Biology 116 Lab Manual</title>
   <meta name="description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
-  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Statistical Tests | Biology 116 Lab Manual" />
   <meta property="og:type" content="book" />
+  
   
   <meta property="og:description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
   
@@ -23,7 +24,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2022-05-19" />
+<meta name="date" content="2022-05-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,6 +33,7 @@
   
 <link rel="prev" href="visualizing-data.html"/>
 <link rel="next" href="test-statistics.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,9 +51,8 @@
 
 
 
-<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
-<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYSMQZW871"></script>
 <script>
@@ -276,19 +277,19 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="statistical-tests" class="section level2 unnumbered hasAnchor">
-<h2>Statistical Tests<a href="statistical-tests.html#statistical-tests" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="statistical-tests" class="section level2 unnumbered">
+<h2>Statistical Tests</h2>
 <p>Now that you have decided what graph will be most appropriate for visualizing and presenting your data once they're collected, and have planned how to describe and summarize your data, it is time to make the key decision on how to best analyse your data to test your hypothesis. This decision is based on the experimental design and the type of data involved. You'll learn in BIOL202 the formal statistical tests that are most appropriate for your study. For now, we'll use less formal but generally effective approaches.</p>
 <p>First, we need to cover some foundational statistical concepts. We'll do our best to keep things simple, but the reality is that there's a lot to know to make these decisions appropriately, so at the end of the day there's a limit to how simple this can be, and still be correct. Try not to worry if it doesn't all make sense at first. Take it slow, read it more than once, work with your group, and ask lots of questions of your classmates and your TA… after all, collaboration and teamwork is what science is all about!</p>
-<div id="inferential-statistics" class="section level3 unnumbered hasAnchor">
-<h3>Inferential Statistics<a href="statistical-tests.html#inferential-statistics" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="inferential-statistics" class="section level3 unnumbered">
+<h3>Inferential Statistics</h3>
 <p>In the previous section about planning to describe our data, we learned that the average (mean) was a useful descriptor of a "typical value" for a continuous, numeric variable, and that a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Proportion">proportion</a> was the best descriptor for categorical variables. We were planning our "descriptive statistics". Now our goal is to plan for drawing <em>inferences</em> from our data about the world at large. We are embarking on <em>inferential statistics</em>.</p>
 <p>We now need to cast the descriptors we calculate, like the mean, into a different light: no longer is it a simple, calculated, fixed value; now we consider it an <em>estimate</em> of some true mean in a population at large, and we need to recognize that this calculated value has uncertainty associated with it.</p>
 <p>For instance, for our plant experiment, we planned to describe our data, including calculating the mean plant height for each of the three treatment groups. But when it comes time to analyse our experiment data, we switch modes and consider each of those means as <em>estimates</em> of their respective, true population means, specific to each treatment group. But wait, we don't have populations in our experiment! We certainly don't, and experiments never do. However, so long as we <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Random-assignment">randomly assigned</a> our plants to our treatment groups, then we can safely assume that the average response we observe among the individuals in a given treatment group is <em>representative</em> of what we would observe if we were to subject a different random sample of plants from the same population to the exact same experimental conditions.</p>
 <p>We need to remember, however, that individuals within every population vary in many ways, and therefore if someone else were to conduct the experiment using the exact same conditions, but a new set of randomly chosen subjects (plants), randomly assigned to each treatment group, they will most certainly not get the exact same calculated values for the treatment means. This reflects something called "sampling error", and sampling error is entirely expected! This sampling error is what introduces uncertainty to our estimates. We must recognize that, even though we might have imposed strongly different treatments in an experiment, we can't simply interpret any resulting differences between treatment means at face value; we need to take account of the possibility that those differences could have arisen solely due to sampling error.</p>
 </div>
-<div id="null-and-alternative-hypotheses" class="section level3 unnumbered hasAnchor">
-<h3>Null and Alternative Hypotheses<a href="statistical-tests.html#null-and-alternative-hypotheses" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="null-and-alternative-hypotheses" class="section level3 unnumbered">
+<h3>Null and Alternative Hypotheses</h3>
 <p>As scientists, we should approach new ideas and hypotheses with skepticism (even if we're actually excited about them!). We therefore undertake studies like our plant experiment with the working assumption that our research hypothesis is wrong, and we need to be convinced otherwise with good evidence. We recognize that sampling error is ever present, and that it could easily cause us to draw incorrect conclusions about our data.</p>
 <p>To formally account for the potential influence of sampling error, and help guard against drawing incorrect conclusions about our study results, we need to formulate two statistical versions of our <em>a priori</em> research hypothesis: a null <strong>hypothesis (H<sub>0</sub>)</strong> and an <strong>alternative hypothesis (H<sub>A</sub>)</strong>. These provide clear and <em>testable</em> statements about what study outcomes would look like if the hypothesis was NOT supported (H<sub>0</sub>), and what would be observed if the hypothesis was supported (H<sub>A</sub>). In other words, the null hypothesis is what we expect to observe if only sampling error were at play. The alternative hypothesis is what we expect to see if there was a biological effect at play that was strong enough to overcome the influences of sampling error.</p>
 <p>Continuing with our plant experiment example, and recognizing that for this study design the suitable analysis is to compare average values of the dependent variable across treatment groups (see next section), we could write our null and alternative hypotheses as follows:</p>
@@ -297,8 +298,8 @@
 <p>Correspondingly, the null hypothesis represents the status quo, i.e. nothing going on, and it is this hypothesis that we objectively and directly test through experimentation and statistical analyses; only if the evidence is strong enough to reject the null hypothesis would we conclude that the data are consistent with the alternative hypothesis, which itself reflects what we expect to see if our research hypothesis were correct.</p>
 <p>It is important to emphasize that a failure to reject the null hypothesis <strong>does not mean that the null hypothesis is true; it simply means that there is insufficient evidence to reject it at this stage</strong>. Likewise, evidence consistent with the alternative hypothesis is just that: evidence that is <em>consistent</em> with there being an effect of temperature on plant height. Only after sufficient and independent replication of the experiment should we conclude that our research hypothesis is true. After all, there are many factors that influence how robust your experiment is, and how likely it is to reflect the "truth". We call this the <strong>power</strong> of your study. Your methods, sample size, and the true effect size all influence the power of your study.</p>
 </div>
-<div id="significance-confidence" class="section level3 unnumbered hasAnchor">
-<h3>Significance &amp; Confidence<a href="statistical-tests.html#significance-confidence" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="significance-confidence" class="section level3 unnumbered">
+<h3>Significance &amp; Confidence</h3>
 <p>The null and alternative hypotheses are typically formulated at the same time you decide which test is best suited for your study (see the next section). Also, at the same time you need to decide a clear criterion upon which to base your decision about whether the evidence is strong enough to reject the null hypothesis in favour of the alternative. This decision should be guided by a number of factors, but for the present purposes we'll go with the traditional approach, which is to guard strongly against making a mistake of a "false positive", i.e. rejecting the null hypothesis when in fact nothing was going on (it should not be rejected). Specifically, we set what's called a "significance level" (denoted with the Greek letter alpha) at 0.05, or 5%. This means that we're willing to make that "false positive" mistake at most 5% of the time, on average. In practice, this means that the evidence needs to be pretty strong to reject the null hypothesis. The corollary of the 5% significance level is something called the "level of confidence". That is, using a 5% significance level is the same as having a 95% level of confidence in something. We'll see how the significance level and level of confidence are used below.</p>
 <p>You might reasonably ask: "Hold on a minute: how come we use such an arbitrary and hard criterion for deciding when something becomes "statistically significant" (i.e. evidence strong enough to reject the null hypothesis)?" That's a fantastic question! It turns out that the practice of statistics is slowly moving away from this overly rigid approach. That, however, is an idea to be explored later in your degree in BIOL202. For now, however, we'll stick with tradition.</p>
 </div>
