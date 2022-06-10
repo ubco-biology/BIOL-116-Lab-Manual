@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Which Statistical Test to Use | Biology 116 Lab Manual</title>
   <meta name="description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Which Statistical Test to Use | Biology 116 Lab Manual" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
   
@@ -24,7 +23,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2022-05-26" />
+<meta name="date" content="2022-06-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,6 @@
   
 <link rel="prev" href="test-statistics.html"/>
 <link rel="next" href="reporting-conclusions.html"/>
-<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -51,8 +49,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYSMQZW871"></script>
 <script>
@@ -277,8 +276,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="which-statistical-test-to-use" class="section level2 unnumbered">
-<h2>Which Statistical Test to Use</h2>
+<div id="which-statistical-test-to-use" class="section level2 unnumbered hasAnchor">
+<h2>Which Statistical Test to Use<a href="which-statistical-test-to-use.html#which-statistical-test-to-use" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this section we will cover the following inferential statistical tests</p>
 <ul>
 <li>Student's <em>t</em>-test</li>
@@ -286,10 +285,10 @@
 <li>Chi squared (<span class="math inline">\(\chi{^2}\)</span>) goodness-of-fit</li>
 <li>Chi squared (<span class="math inline">\(\chi{^2}\)</span>) contingency test</li>
 </ul>
-<div id="comparing-means-among-treatment-groups" class="section level3 unnumbered">
-<h3>Comparing Means Among Treatment Groups</h3>
-<div id="scenario-1-continuous-numeric-dependent-variable-and-categorical-independent-variable" class="section level4 unnumbered">
-<h4>Scenario 1: Continuous numeric Dependent Variable and Categorical Independent Variable</h4>
+<div id="comparing-means-among-treatment-groups" class="section level3 unnumbered hasAnchor">
+<h3>Comparing Means Among Treatment Groups<a href="which-statistical-test-to-use.html#comparing-means-among-treatment-groups" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="scenario-1-continuous-numeric-dependent-variable-and-categorical-independent-variable" class="section level4 unnumbered hasAnchor">
+<h4>Scenario 1: Continuous numeric Dependent Variable and Categorical Independent Variable<a href="which-statistical-test-to-use.html#scenario-1-continuous-numeric-dependent-variable-and-categorical-independent-variable" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>This scenario is typical of <strong>measured response experiments</strong> like our plant experiment.</p>
 <p>In this scenario the typical approach is to compare the average value (the mean) of your dependent variable among the categories of the categorical independent variable (that is, the treatment groups).</p>
 <p>Our approach aims to determine whether any of the treatment groups' means differ "significantly" from any of the other group means. At first glance, that seems straightforward: If the mean height of plants subjected to 30 degrees was 22.2cm, and the mean height of plants subjected to 20 degrees was 18.2cm, then clearly the warmer temperature treatment yielded a significantly greater average height, right?</p>
@@ -306,10 +305,10 @@
 The same procedure would be used for the ANOVA test, but in this case you evaluate the "F" statistic.</p>
 </div>
 </div>
-<div id="comparing-frequencies-to-a-baseline-expectation" class="section level3 unnumbered">
-<h3>Comparing Frequencies to a Baseline Expectation</h3>
-<div id="scenario-2-categorical-dependent-variable-without-an-independent-variable" class="section level4 unnumbered">
-<h4>Scenario 2: Categorical Dependent Variable Without an Independent Variable</h4>
+<div id="comparing-frequencies-to-a-baseline-expectation" class="section level3 unnumbered hasAnchor">
+<h3>Comparing Frequencies to a Baseline Expectation<a href="which-statistical-test-to-use.html#comparing-frequencies-to-a-baseline-expectation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="scenario-2-categorical-dependent-variable-without-an-independent-variable" class="section level4 unnumbered hasAnchor">
+<h4>Scenario 2: Categorical Dependent Variable Without an Independent Variable<a href="which-statistical-test-to-use.html#scenario-2-categorical-dependent-variable-without-an-independent-variable" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>This scenario is typical of <strong>choice experiments,</strong> like the one described above with mice choosing among food types. The single categorical response variable is "food type". You can imagine that if there was a strong preference for one of the three food types, then that food type would be chosen more frequently by the mice than the others. Alternatively, if there was no preference, then one would expect all three food types to be selected with similar frequency.</p>
 <p>As skeptical scientists, this latter "status quo" scenario should be our working hypothesis, and evidence would need to be strong and clear to convince us otherwise. We need a way to quantitatively test this.</p>
 <p>For this scenario in which we have a single categorical dependent variable, we use something called a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Chi-squared-goodness-of-fit-test"><span class="math inline">\(\chi{^2}\)</span> goodness-of-fit test</a> (when we say it, we often call it the chi-squared test, and pronounce the Greek letter, <span class="math inline">\(\chi\)</span>, as Kai), which quantifies the "fit" of observed frequencies to those expected if nothing were going on. This test uses the <span class="math inline">\(\chi{^2}\)</span> test statistic.</p>

@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Left Pane | Biology 116 Lab Manual</title>
   <meta name="description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Left Pane | Biology 116 Lab Manual" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
   
@@ -24,7 +23,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2022-05-26" />
+<meta name="date" content="2022-06-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,6 @@
   
 <link rel="prev" href="shiny-app-overview.html"/>
 <link rel="next" href="right-pane.html"/>
-<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -51,8 +49,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QYSMQZW871"></script>
 <script>
@@ -277,19 +276,19 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="left-pane" class="section level2 unnumbered">
-<h2>Left Pane</h2>
+<div id="left-pane" class="section level2 unnumbered hasAnchor">
+<h2>Left Pane<a href="left-pane.html#left-pane" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>On the left navigation you have four menu options: Welcome; Upload Data; Plot; Descriptive Stats; Analysis.</p>
-<div id="welcome-1" class="section level3 unnumbered">
-<h3>Welcome</h3>
+<div id="welcome-1" class="section level3 unnumbered hasAnchor">
+<h3>Welcome<a href="left-pane.html#welcome-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>This is an overview of the app itself.</p>
 </div>
-<div id="upload-data" class="section level3 unnumbered">
-<h3>Upload Data</h3>
+<div id="upload-data" class="section level3 unnumbered hasAnchor">
+<h3>Upload Data<a href="left-pane.html#upload-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>For now, ignore the option to upload your own data. Instead, use either the <code>palmerpenguins</code> data or the <code>mtcars</code> data, selected from the drop down menu in the Plot menu. In <strong>Lab 9</strong>, you'll upload your own data set from your experimental research project to build visualizations for your report.</p>
 </div>
-<div id="plot" class="section level3 unnumbered">
-<h3>Plot</h3>
+<div id="plot" class="section level3 unnumbered hasAnchor">
+<h3>Plot<a href="left-pane.html#plot" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Here we select the variables we'd like to visualize.</p>
 <div class="note">
 <p>The shiny app currently does not include the option to visualize a single variable on its own. Rather, the app focuses on visualizing associations between two variables. If you’re curious about how to visualize a single variable (either categorical or quantitative), consult the relevant <a href="https://ubco-biology.github.io/BIOL202/vis-variable.html">BIOL202 tutorial</a>.</p>
@@ -307,8 +306,8 @@
 </ul>
 <p>Once you've selected your data sources and identified the data types you're working with, you'll be presented with a series of plotting options. You may also be presented with the option to group one of your variables. You will also be presented with the option to save a copy of your plot.</p>
 </div>
-<div id="descriptive-stats-1" class="section level3 unnumbered">
-<h3>Descriptive Stats</h3>
+<div id="descriptive-stats-1" class="section level3 unnumbered hasAnchor">
+<h3>Descriptive Stats<a href="left-pane.html#descriptive-stats-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Here you can run basic descriptive stats on the data that you've plotted.</p>
 <p>Similar to the instructions under the Plot tab, here, you must first select a dataset, <code>penguins</code> or <code>mtcars</code>, and then select two variables from the drop down menus, <code>Variable 1</code> and <code>Variable 2</code>. Again, you'll need to tell the Shiny App whether each of these variables are <code>quantitative</code> or <code>categorical</code>.</p>
 <p>Once you've made your selections, the Shiny App will automatically calculate the preferred descriptive statistics for the type of variables you have selected. For example, if you choose</p>
@@ -318,8 +317,8 @@
 <li><strong>Two categorical variables</strong>, then a “contingency table” will be displayed, showing you how many observations fall into each combination of categories.</li>
 </ul>
 </div>
-<div id="analysis" class="section level3 unnumbered">
-<h3>Analysis</h3>
+<div id="analysis" class="section level3 unnumbered hasAnchor">
+<h3>Analysis<a href="left-pane.html#analysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Here is where you will perform statistical tests using your selected data. The type of test performed by the Shiny App depends on the type of variables you select.</p>
 <ul>
 <li><p><strong><span class="math inline">\(t\)</span>-test</strong>: This analysis is used when examining a single quantitative (numeric) response variable in relation to a single categorical variable that has only 2 groups or categories. Specifically, as described in a previous <a href="https://ubco-biology.github.io/BIOL-116-Lab-Manual/which-statistical-test-to-use.html#comparing-means-among-treatment-groups">tutorial</a>, it tests the null hypothesis that the mean of the numeric response variable does not differ between the two groups or categories of the explanatory variable.</p>

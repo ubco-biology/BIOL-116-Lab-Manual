@@ -25,7 +25,9 @@ Missing data
 
 If your data contain any missing values, make sure your have a standard way of filling those cells. Blank cells are not very useful - a blank cell tells us very little about why it\'s blank - Was this a mistake? Is it supposed to be empty? Who knows?
 
-Instead, be purposeful. A standard filler or stand in for a missing piece of data is `NA`, standing for \"not available\". Your `_README` file or `_DATA-DICTIONARY` should indicate that missing data points are noted with `NA`.
+Instead, be purposeful. A standard filler or stand in for a missing piece of data is `NA`, standing for \"not available\". Your `_README` file or `_DATA-DICTIONARY` should indicate that missing data points are noted with `NA`. It's important to note that `NA` isn't simply the characters N and A. Rather, `NA` is a specific designation that indicates to your computer when there is no value available for that cell of your data. Different programs (R, SPSS, Excel) have different ways of representing or storing NA values. While at this stage you are not expected to know all of the different ways of specifying `NA` values in different programs, you will need to use a standardized method for indicating missing values in your data before uploading it to R. 
+
+To keep it simple for this course, simply type the characters `NA` into the cell of your spreadsheet to indicate missing data. 
 </div>
 
 Once you\'ve got your data organized in Excel - or whichever program your are using - according to the principles of Tidy Data and you\'ve ensured that any missing data points are filled with `NA`, you\'re ready to save your file in a format for import into the Shiny App.
@@ -69,6 +71,20 @@ Conversely, your prof probably has a mountain of early spreadsheet data stored i
 </div>
 
 So, we want to ensure that our data is saved as `csv`. If you are currently working in Excel or another a similar spreadsheet program like LibreOffice Calc, `csv` should be a `save as...` option.
+
+As you go to save your data as a `csv` you'll notice there are a few different CSV formats available through Excel such as:
+
+* CSV UTF-8 (Comma delimited)
+* CSV (Comma delimited)
+* CSV (Macintosh)
+* CSV (MS-DOS)
+
+Each CSV format encodes characters from your data in a slightly different way. You don't need to worry about the details of how these CSV formats encode characters. For our purposes we will be using the CSV UTF-8 (Comma delimited) format.
+
+
+![Screenshot of Saving Data in CSV UTF-8 Format ](figures_images/csv-UTF8.png)
+
+Now that your data is tidy and saved in the CSV UTF-8 format, you're ready to upload to the Shiny App!
 
 # Lab 9 Activity {-}
 
