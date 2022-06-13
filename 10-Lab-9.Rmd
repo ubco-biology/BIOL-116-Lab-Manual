@@ -50,7 +50,7 @@ Familiarizing yourself with your data is critically important, which is why `_RE
 
 Most of the data that you\'ll encounter or produce will be rectangular in nature; that is, it will be organized into columns and rows. Rectangular data can be stored in many file formats with `xlsx` perhaps being the one you\'ll be most familiar with, which is an Excel file. To be fair, we could store this data within a Word document in a table. But if we want to be able to work programmatically with the data - if we want to be able to use a computer program to help interpret the data, perform calculations, make inferences, and build visualizations - the data needs to be in a file format that will allow for this. A Word document does not allow for this. An Excel file allows for this within Excel. But we can do better.
 
-A common file format for storing rectangular data is a `csv` file, or comma separated value file. Each row in a `csv` file contains data for a single observation, and each piece of data - or each potential variable value - is separated by a comma. If we were to look at the `palmerpenguin` data from Lab 7 saved as a `csv`, it would look something like this
+A common file format for storing rectangular data is a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Comma-separated-values-(CSV)-file">`csv`</a> file, or comma separated value file. Each row in a `csv` file contains data for a single observation, and each piece of data - or each potential variable value - is separated by a comma. If we were to look at the `palmerpenguin` data from Lab 7 saved as a `csv`, it would look something like this
 
 ```
 "species","island","bill_length_mm","bill_depth_mm","flipper_length_mm","body_mass_g","sex","year"
@@ -65,7 +65,7 @@ A common file format for storing rectangular data is a `csv` file, or comma sepa
 <div class="note">
 `csv` & Open Science
 
-`csv` files are particularly important when we think about transparency, reproducibility, and accessibility. `csv` files are plain text files, which means they can be read by virtually any operating system and any text editor. A `csv` file produced in 1975 can still be opened on the computer you\'re using right now.
+`csv` files are particularly important when we think about transparency, reproducibility, and accessibility. `csv` files are <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Plain-text">plain text</a> files, which means they can be read by virtually any operating system and any text editor. A `csv` file produced in 1975 can still be opened on the computer you\'re using right now.
 
 Conversely, your prof probably has a mountain of early spreadsheet data stored in proprietary file formats that predate Excel somewhere on a floppy disk from about 15 years ago that they can no longer read because the file format is no longer supported.
 </div>

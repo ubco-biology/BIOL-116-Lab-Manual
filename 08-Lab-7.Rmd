@@ -16,7 +16,7 @@ Before continuing through this lab, please take some time individually or with y
 
 # Intro to R {-}
 
-Visualizing data is a key part of science communication. Until now, it is likely that you\'ve used or interacted with visualizations built using tools like Excel. In Biology, it is increasingly common to not use Excel, but instead to use an application, or programming language, called R.
+Visualizing data is a key part of science communication. Until now, it is likely that you\'ve used or interacted with visualizations built using tools like Excel. In Biology, it is increasingly common to not use Excel, but instead to use an application, or programming language, called <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#R">R</a>.
 
 R offers several advantages when it comes to building visualizations. R is what we call a scripted progamming language. When we use scripts to manage our data and create visualizations, we\'re engaging in reproducible workflows, specifically computationally reproducible workflows.
 
@@ -66,19 +66,19 @@ You\'ll want to first select a dataset, `penguins` or `mtcars`, and then select 
 
 **Quantitative**, or numeric, data may be either discrete or continuous.
 
-* Discrete quantitative data are whole integers - population numbers are a good example of this, as we can\'t have half a person! 
-* Continuous quantitative data on the other hand are data that lies on a continuum - an example is temperature, where there are infinite potential temperatures between 25 and 26 degrees Celsius, but our data collection tool or convention determines to what decimal point we\'ll record a given temperature. 
+* <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Discrete-quantitative-data">Discrete quantitative data</a> are whole integers - population numbers are a good example of this, as we can\'t have half a person! 
+* <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Continuous-quantitative-data">Continuous quantitative data</a> on the other hand are data that lies on a continuum - an example is temperature, where there are infinite potential temperatures between 25 and 26 degrees Celsius, but our data collection tool or convention determines to what decimal point we\'ll record a given temperature. 
 
 **Categorical** data, per its name, deals with categories of things and may be either nominal or ordinal. 
 
-* Ordinal categorical data has an intrinsic order where one thing is more or less than another - storm severity is often classified by stages - Stage 1, Stage 2 … Stage 5 - where Stage 1 is less severe than stage 5. We don\'t know how much more severe one stage is than the next - that is we can\'t quantify the difference - but we know there is an intrinsic order.
-* Nominal categorical data has no natural order - the ordering of the colours blue, pink, or white makes no difference to the data or analysis.
+* <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Ordinal-categorical-data"> Ordinal categorical data</a> has an intrinsic order where one thing is more or less than another - storm severity is often classified by stages - Stage 1, Stage 2 … Stage 5 - where Stage 1 is less severe than stage 5. We don\'t know how much more severe one stage is than the next - that is we can\'t quantify the difference - but we know there is an intrinsic order.
+* <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Nominal-categorical-data">Nominal categorical data</a> has no natural order - the ordering of the colours blue, pink, or white makes no difference to the data or analysis.
 
 Once you\'ve selected your data sources and identified the data types you\'re working with, you\'ll be presented with a series of plotting options. You may also be presented with the option to group one of your variables. You will also be presented with the option to save a copy of your plot.
 
 ### Descriptive Stats {-}
 
-Here you can run basic descriptive stats on the data that you\'ve plotted.
+Here you can run basic <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Descriptive-statistics">descriptive stats</a> on the data that you\'ve plotted.
 
 Similar to the instructions under the Plot tab, here, you must first select a dataset, `penguins` or `mtcars`, and then select two variables from the drop down menus, `Variable 1` and `Variable 2`. Again, you\'ll need to tell the Shiny App whether each of these variables are `quantitative` or `categorical`. 
 
@@ -97,11 +97,11 @@ Here is where you will perform statistical tests using your selected data. The t
   + Type in the significance level ($\alpha$) you would like to use for the $t$-test. For example, if you\'d like a 5% significance level, type in 0.05.
   + One assumption of the $t$-test is that the variance for each sample is approximately equal. However, the $t$-test used by this app (Welch\'s $t$-test) is somewhat robust to deviations in this assumption. For now, we will assume that both of your samples have equal variance. As such, please select \'Yes\' when prompted for this option. 
   
-* **ANOVA**: This analysis is used when examining a single quantitative (numeric) response variable in relation to a single categorical variable that has more than 2 groups or categories. Specifically, as described in a previous [tutorial](https://ubco-biology.github.io/BIOL-116-Lab-Manual/which-statistical-test-to-use.html#scenario-1-continuous-numeric-dependent-variable-and-categorical-independent-variable), it tests the null hypothesis that the mean of the numeric response variable does not differ between the groups or categories of the explanatory variable.  
+* <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Analysis-of-variance">**ANOVA**</a>: This analysis is used when examining a single quantitative (numeric) response variable in relation to a single categorical variable that has more than 2 groups or categories. Specifically, as described in a previous [tutorial](https://ubco-biology.github.io/BIOL-116-Lab-Manual/which-statistical-test-to-use.html#scenario-1-continuous-numeric-dependent-variable-and-categorical-independent-variable), it tests the null hypothesis that the mean of the numeric response variable does not differ between the groups or categories of the explanatory variable.  
 
-* **Fisher\'s Exact Test**: This analysis is used when testing for an association between two categorical variables. It is only used when both categorical variables have exactly 2 groups or categories. For example, if one variable is sex (male/female) and the other is survival (yes/no). It tests the null hypothesis that there is no association between the two categorical variables.  
+* <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Fisher's-exact-test">**Fisher\'s Exact Test**</a>: This analysis is used when testing for an association between two categorical variables. It is only used when both categorical variables have exactly 2 groups or categories. For example, if one variable is sex (male/female) and the other is survival (yes/no). It tests the null hypothesis that there is no association between the two categorical variables.  
 
-* **$\chi^2$ Contingency Analysis**: This analysis is used when testing for an association between two categorical variables. It is only used when at least one of the categorical variables has more than 2 groups or categories. For example, if one variable is flower colour (red/white) and the other is season (spring/summer/fall). As explained in the ["deeper dive" section of this tutorial](https://ubco-biology.github.io/BIOL-116-Lab-Manual/which-statistical-test-to-use.html#comparing-frequencies-to-a-baseline-expectation),  tests the null hypothesis that there is no association between the two categorical variables.
+* <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Chi-square-($\chi$^2^)-contingency-test">**$\chi^2$ Contingency Analysis**</a>: This analysis is used when testing for an association between two categorical variables. It is only used when at least one of the categorical variables has more than 2 groups or categories. For example, if one variable is flower colour (red/white) and the other is season (spring/summer/fall). As explained in the ["deeper dive" section of this tutorial](https://ubco-biology.github.io/BIOL-116-Lab-Manual/which-statistical-test-to-use.html#comparing-frequencies-to-a-baseline-expectation),  tests the null hypothesis that there is no association between the two categorical variables.
 
 Once you\'ve conducted a statistical test, the Shiny App will provide you with instructions for \'Interpreting the Output\'. For this course, the main output of interest is the **_P_-value**. Recall from Lab 2 that if the *P*-value is less than our pre-defined significance level ($\alpha$), then we reject the null hypothesis in favour of the alternative. However, if the *P*-value is greater than the significance level, then we don't reject the null hypothesis.  
 

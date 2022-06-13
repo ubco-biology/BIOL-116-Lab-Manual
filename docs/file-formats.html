@@ -23,7 +23,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2022-06-10" />
+<meta name="date" content="2022-06-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -279,7 +279,7 @@
 <div id="file-formats" class="section level2 unnumbered hasAnchor">
 <h2>File Formats<a href="file-formats.html#file-formats" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Most of the data that you'll encounter or produce will be rectangular in nature; that is, it will be organized into columns and rows. Rectangular data can be stored in many file formats with <code>xlsx</code> perhaps being the one you'll be most familiar with, which is an Excel file. To be fair, we could store this data within a Word document in a table. But if we want to be able to work programmatically with the data - if we want to be able to use a computer program to help interpret the data, perform calculations, make inferences, and build visualizations - the data needs to be in a file format that will allow for this. A Word document does not allow for this. An Excel file allows for this within Excel. But we can do better.</p>
-<p>A common file format for storing rectangular data is a <code>csv</code> file, or comma separated value file. Each row in a <code>csv</code> file contains data for a single observation, and each piece of data - or each potential variable value - is separated by a comma. If we were to look at the <code>palmerpenguin</code> data from Lab 7 saved as a <code>csv</code>, it would look something like this</p>
+<p>A common file format for storing rectangular data is a <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Comma-separated-values-(CSV)-file"><code>csv</code></a> file, or comma separated value file. Each row in a <code>csv</code> file contains data for a single observation, and each piece of data - or each potential variable value - is separated by a comma. If we were to look at the <code>palmerpenguin</code> data from Lab 7 saved as a <code>csv</code>, it would look something like this</p>
 <pre><code>&quot;species&quot;,&quot;island&quot;,&quot;bill_length_mm&quot;,&quot;bill_depth_mm&quot;,&quot;flipper_length_mm&quot;,&quot;body_mass_g&quot;,&quot;sex&quot;,&quot;year&quot;
 &quot;Adelie&quot;,&quot;Torgersen&quot;,39.1,18.7,181,3750,&quot;male&quot;,2007
 &quot;Adelie&quot;,&quot;Torgersen&quot;,39.5,17.4,186,3800,&quot;female&quot;,2007
@@ -289,7 +289,7 @@
 &quot;Adelie&quot;,&quot;Torgersen&quot;,39.3,20.6,190,3650,&quot;male&quot;,2007</code></pre>
 <div class="note">
 <p><code>csv</code> &amp; Open Science</p>
-<p><code>csv</code> files are particularly important when we think about transparency, reproducibility, and accessibility. <code>csv</code> files are plain text files, which means they can be read by virtually any operating system and any text editor. A <code>csv</code> file produced in 1975 can still be opened on the computer you're using right now.</p>
+<p><code>csv</code> files are particularly important when we think about transparency, reproducibility, and accessibility. <code>csv</code> files are <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Plain-text">plain text</a> files, which means they can be read by virtually any operating system and any text editor. A <code>csv</code> file produced in 1975 can still be opened on the computer you're using right now.</p>
 <p>Conversely, your prof probably has a mountain of early spreadsheet data stored in proprietary file formats that predate Excel somewhere on a floppy disk from about 15 years ago that they can no longer read because the file format is no longer supported.</p>
 </div>
 <p>So, we want to ensure that our data is saved as <code>csv</code>. If you are currently working in Excel or another a similar spreadsheet program like LibreOffice Calc, <code>csv</code> should be a <code>save as...</code> option.</p>

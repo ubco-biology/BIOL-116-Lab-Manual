@@ -26,7 +26,7 @@ At the end of this lab students should be able to:
   - Science involves curiosity and creativity 
   - Scientists work together to share their ideas 
   - Scientists aim for their studies to be replicable 
-  - Over time, scientific ideas or hypotheses that are supported by multiple methods and replicated in various studies become established theories that are widely accepted by the scientific community 
+  - Over time, scientific ideas or <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Hypothesis">hypotheses</a> that are supported by multiple methods and replicated in various studies become established theories that are widely accepted by the scientific community 
 
 ## Discussion Questions {-}
 
@@ -68,7 +68,7 @@ Your instructor will then help your group to discuss findings with other groups.
 
 ## Phase 3 – Submit for marks {-}
 
-Once you feel confident with your predictions, you will need to submit them to Canvas for marks. There is a separate file posted with the assignment instructions.
+Once you feel confident with your <a href="https://ubco-biology.github.io/Procedures-and-Guidelines/glossary#Prediction">predictions</a>, you will need to submit them to Canvas for marks. There is a separate file posted with the assignment instructions.
 
 ## Discussion Question {-}
 
