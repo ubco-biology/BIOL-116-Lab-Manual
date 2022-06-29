@@ -90,10 +90,8 @@ Now that your data is tidy and saved in the CSV UTF-8 format, you're ready to up
 
 Similar to Lab 7, take a bit of time to upload your data into the Shiny App and explore it - run some descriptive and inferential statistics and attempt some visualizations. Make sure that you understand the type of data that you\'ve collected and ensure that the analyses that you\'re performing are suitable to the data types you\'re selecting.
 
-The Shiny App is available in two locations:
+The Shiny App is available [here](https://openscience.ok.ubc.ca/shiny/BIOL-116/)
 
-* [UBC hosted](https://openscience.ok.ubc.ca/shiny/BIOL-116/)
-* [Shinyapp.io hosted](https://ubco-biology.shinyapps.io/biol-116/)
 
 # Lab 9 Assignment {-}
 
