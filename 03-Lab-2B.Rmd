@@ -432,9 +432,9 @@ Considering how you are going to keep track of everything is one of the **first*
 * Once your data are recorded, how will you explore them to check for mistakes, such as typos? And how exactly will you deal with such mistakes to make the data \"clean\"? 
 * With the \"clean\" data in hand, were you able to implement the statistical analysis as originally planned? Or did you need to modify your analysis in any way? 
 * In [Lab 5](https://ubco-biology.github.io/BIOL-116-Lab-Manual/naming-conventions.html) (online, asynchronous lab) you will be exploring best practices for file management and naming conventions. For now, here is an example of naming a data file for an experiment investigating how mealworm movement is affected by the presence of light.
- * 20200626_MealwormProject_Light-movement-data.csv 
+    - 20200626_MealwormProject_Light-movement-data.csv 
 * Here is an example of naming a written proposal for the same experiment: 
- * 20200724_Mealworm-project_Proposal_V01.docx 
+    - 20200724_Mealworm-project_Proposal_V01.docx 
 
 As you design your experiment, and develop (and troubleshoot!) the method you expect to use, it can be very helpful to draw out your proposed methodology into a flow chart. This can help you better visualize what you want to do, and may help you realize where you need to think a little more critically about your proposed plan and how it will work.
 
