@@ -42,6 +42,17 @@ The second is about cars, called `mtcars`. From the authors: \"The data was extr
 
 The Shiny App that we\'ll be using [can be found at this link](https://openscience.ok.ubc.ca/shiny/BIOL-116/)
 
+**OPTIONAL**
+
+If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, here are RMarkdown scripts you can use. These scripts align with the figures, stats, and analyses the RShiny App does but you can edit the code to customize outputs. There is a separate script for each type of variable combinations.
+
+* Both response and explanatory variables are categorical 
+    * [BIOL116_Shiny-App-Script_Categorical-Categorical.Rmd](files/BIOL116_Shiny-App-Script_Categorical-Categorical.Rmd)
+* Both response and explanatory variables are quantitative 
+    * [BIOL116_Shiny-App-Script_Quantitative-Quantitative.Rmd](files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.Rmd)
+* Categorical explanatory variable and quantitative response variable 
+    * [BIOL116_Shiny-App-Script_Quantitative-Categorical.Rmd](files/BIOL116_Shiny-App-Script_Quantitative-Categorical.Rmd)
+
 ## Left Pane {-}
 
 On the left navigation you have four menu options: Welcome; Upload Data; Plot; Descriptive Stats; Analysis.

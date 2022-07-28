@@ -33,14 +33,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={Biology 116 Lab Manual},
-  pdfauthor={Dr.~Tristyn Hay and Dr.~Robin Young},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -73,10 +65,18 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Biology 116 Lab Manual},
+  pdfauthor={Dr.~Tristyn Hay and Dr.~Robin Young},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{Biology 116 Lab Manual}
 \author{Dr.~Tristyn Hay and Dr.~Robin Young}
-\date{2022-07-15}
+\date{2022-07-28}
 
 \begin{document}
 \maketitle
@@ -175,7 +175,7 @@ Optional material that dives deeper into a presented concept.
 \chapter*{Introduction}\label{introduction}}
 \addcontentsline{toc}{chapter}{Introduction}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 Content for the first lab will all be on Canvas, the learning management system used at UBC. Enrolled students can access this content at \url{https://canvas.ubc.ca}
 
@@ -187,7 +187,7 @@ Content for the first lab will all be on Canvas, the learning management system 
 \chapter*{The Process of Science}\label{the-process-of-science}}
 \addcontentsline{toc}{chapter}{The Process of Science}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 \textbf{Note on Copyright}
 
@@ -447,7 +447,7 @@ Total points: 10
 \chapter*{Research Project}\label{research-project}}
 \addcontentsline{toc}{chapter}{Research Project}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 Over the term, you and your partner will be designing and conducting an experiment, analyzing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab.
 
@@ -1086,7 +1086,7 @@ See \href{https://canvas.ubc.ca}{Canvas} for assignment due date.
 \chapter*{Open Science}\label{open-science-1}}
 \addcontentsline{toc}{chapter}{Open Science}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/OS-Introduction/}{here}. You are asked to cover Part 1, Principles of Open Science.
 
@@ -1100,7 +1100,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca}{Canvas}.
 \chapter*{Experimental Research Pilot}\label{experimental-research-pilot}}
 \addcontentsline{toc}{chapter}{Experimental Research Pilot}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 This week you will be trying out your experimental design.
 
@@ -1148,7 +1148,7 @@ Yes, this may be a challenging week for you but we expect that it will also be a
 \chapter*{Naming Conventions}\label{naming-conventions}}
 \addcontentsline{toc}{chapter}{Naming Conventions}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/Procedures-and-Guidelines/file-and-data-management.html}{here}. You are asked to read
 
@@ -1170,7 +1170,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca}{Canvas}.
 \chapter*{Data Collection}\label{data-collection}}
 \addcontentsline{toc}{chapter}{Data Collection}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 Now that you have conducted your pilot experiment and saw how it went, you are ready to collect some data.
 
@@ -1190,7 +1190,7 @@ Make sure you have worked through any major changes to your experimental methodo
 \chapter*{Intro to R \& Shiny Apps}\label{intro-to-r-shiny-apps}}
 \addcontentsline{toc}{chapter}{Intro to R \& Shiny Apps}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 This lab will have you putting into practice through visualizations and data tables much of what was covered in Lab 2B.
 
@@ -1239,6 +1239,38 @@ The second is about cars, called \texttt{mtcars}. From the authors: "The data wa
 \addcontentsline{toc}{chapter}{Shiny App Overview}
 
 The Shiny App that we'll be using \href{https://openscience.ok.ubc.ca/shiny/BIOL-116/}{can be found at this link}
+
+\textbf{OPTIONAL}
+
+If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, here are RMarkdown scripts you can use. These scripts align with the figures, stats, and analyses the RShiny App does but you can edit the code to customize outputs. There is a separate script for each type of variable combinations.
+
+\begin{itemize}
+\tightlist
+\item
+  Both response and explanatory variables are categorical
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{files/BIOL116_Shiny-App-Script_Categorical-Categorical.Rmd}{BIOL116\_Shiny-App-Script\_Categorical-Categorical.Rmd}
+  \end{itemize}
+\item
+  Both response and explanatory variables are quantitative
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.Rmd}{BIOL116\_Shiny-App-Script\_Quantitative-Quantitative.Rmd}
+  \end{itemize}
+\item
+  Categorical explanatory variable and quantitative response variable
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{files/BIOL116_Shiny-App-Script_Quantitative-Categorical.Rmd}{BIOL116\_Shiny-App-Script\_Quantitative-Categorical.Rmd}
+  \end{itemize}
+\end{itemize}
 
 \hypertarget{left-pane}{%
 \section*{Left Pane}\label{left-pane}}
@@ -1493,7 +1525,7 @@ Please use the following template for this assignment:
 \chapter*{Data Collection Continued}\label{data-collection-continued}}
 \addcontentsline{toc}{chapter}{Data Collection Continued}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 By now you should have already successfully run your entire experiment once, and collected some data.This is great!Take your time in your lab to attain as many trials as you can.The more trials you conduct the more assured you can be in the trends you are seeing.This is your last opportunity to collect your data so make the most of it.
 
@@ -1527,7 +1559,7 @@ Scientists often use each other to discuss their findings and / or issues in ord
 \chapter*{Data Analysis \& Shiny Apps}\label{data-analysis-shiny-apps}}
 \addcontentsline{toc}{chapter}{Data Analysis \& Shiny Apps}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 In Lab 7 you had a short introduction to data visualization and using R through a Shiny App to explore some core descriptive and inferential statistics for a couple of pre-loaded data sets.
 
@@ -1649,7 +1681,7 @@ Please use the following template for this assignment:
 \chapter*{Poster Presentation}\label{poster-presentation}}
 \addcontentsline{toc}{chapter}{Poster Presentation}
 
-\emph{Last updated 2022-07-15}
+\emph{Last updated 2022-07-28}
 
 \hypertarget{what-is-a-research-poster}{%
 \section*{What is a Research Poster?}\label{what-is-a-research-poster}}
@@ -1844,19 +1876,19 @@ This is YOUR research, and no one knows it better than you! You have worked hard
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Excellent1.5 pts & All 3 criteria are met \\
 Satisfactory1 pts & 2 of the 3 criteria are met \\
 Poor0.5 pts & Only 1 of the criteria is met \\
 Absent0 pts & None of the criteria are met and/or no title was provided \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{introductionbackground-information}{%
@@ -1886,13 +1918,13 @@ Absent0 pts & None of the criteria are met and/or no title was provided \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Exceeds Expectations6 pts & All 6 criteria are met \\
 Excellent5 pts & 5 of the 6 criteria are met \\
@@ -1901,7 +1933,7 @@ Satisfactory3 pts & 3 of the 6 criteria are met \\
 Poor2 pts & 2 of the 6 criteria are met \\
 Unsatisfactory1 pts & 1 of the 6 criteria are met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{hypothesis}{%
@@ -1925,19 +1957,19 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Excellent3 pts & All 3 criteria are met \\
 Satisfactory2 pts & 2 of the 3 criteria are met \\
 Unsatisfactory1 pts & Only 1 of the criteria is met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{experimental-design}{%
@@ -1969,13 +2001,13 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Exceeds Expectations7 pts & All 7 criteria are met \\
 Excellent6 pts & 6 of the 7 criteria are met \\
@@ -1985,7 +2017,7 @@ Unsatisfactory3 pts & 3 of the 7 criteria are met \\
 Below Expectations2 pts & 2 of the 7 criteria are met \\
 Unacceptable1 pts & 1 of the 7 criteria are met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{figures}{%
@@ -2017,13 +2049,13 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Exceeds Expectations7 pts & All 7 criteria are met \\
 Excellent6 pts & 6 of the 7 criteria are met \\
@@ -2033,7 +2065,7 @@ Unsatisfactory3 pts & 3 of the 7 criteria are met \\
 Below Expectations2 pts & 2 of the 7 criteria are met \\
 Unacceptable1 pts & 1 of the 7 criteria are met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{results}{%
@@ -2057,19 +2089,19 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Excellent3 pts & All 3 criteria are met \\
 Fair2 pts & 2 of the 3 criteria are met \\
 Poor1 pts & Only 1 of the criteria is met \\
 Unacceptable0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{references-in-text-citation}{%
@@ -2093,19 +2125,19 @@ Unacceptable0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Satisfactory3 pts & All 3 criteria are met \\
 Fair2 pts & 2 of the 3 criteria are met \\
 Poor1 pts & Only 1 of the criteria is met \\
 Unacceptable0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{plagiarism}{%
@@ -2127,18 +2159,18 @@ Unacceptable0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Satisfactory2 pts & All 2 criteria are met \\
 Satisfactory1 pts & 1 of the 2 criteria are met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{presentation}{%
@@ -2164,20 +2196,20 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Excellent4 pts & All 4 criteria are met \\
 Proficient3 pts & 3 of the 4 criteria are met \\
 Fair2 pts & 2 of the 4 criteria are met \\
 Unsatisfactory1 pts & Only 1 of the criteria is met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{poster}{%
@@ -2209,13 +2241,13 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Full Marks5 pts & All 5 criteria are met \\
 Proficient4 pts & 4 of the 5 criteria are met \\
@@ -2223,7 +2255,7 @@ Satisfactory3 pts & 3 of the 5 criteria are met \\
 Poor2 pts & 2 of the 5 criteria are met \\
 Unsatisfactory1 pts & Only 1 of the criteria is met \\
 No Marks0 pts & None of the criteria are met \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \end{document}
