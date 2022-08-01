@@ -12,7 +12,7 @@ Before we tackle data visualization and analysis, we should talk about data pres
 
 The UBCO Biology faculty has a [Procedures and Guidelines document](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html) outlining conventions for data presentation based on current \"best practices\" in Biology. Keep in mind that you may encounter small differences when working with data or reading the results of research from other disciplines. That being said, the aim of these conventions is to achieve consistency among faculty, instructors, and students in how data are summarized and presented within lab reports and research papers.
 
-Before continuing through this lab, please take some time individually or with your groups to read sections [5.1](https://ubco-biology.github.io/Procedures-and-Guidelines/tables.html), [5.2](https://ubco-biology.github.io/Procedures-and-Guidelines/descriptive-summary-statistics.html), and [5.4](https://ubco-biology.github.io/Procedures-and-Guidelines/figures.html) of the [UBCO Biology Procedures and Guidelines document](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html). For this lab\'s assignment and all future assignments in this course, you wil be expected to follow these guidelines!
+Before continuing through this lab, please take some time individually or with your groups to read sections [6.1](https://ubco-biology.github.io/Procedures-and-Guidelines/tables.html), [6.2](https://ubco-biology.github.io/Procedures-and-Guidelines/descriptive-summary-statistics.html), and [6.4](https://ubco-biology.github.io/Procedures-and-Guidelines/figures.html) of the [UBCO Biology Procedures and Guidelines document](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html). For this lab\'s assignment and all future assignments in this course, you wil be expected to follow these guidelines!
 
 # Intro to R {-}
 
@@ -41,17 +41,6 @@ The second is about cars, called `mtcars`. From the authors: \"The data was extr
 # Shiny App Overview {-}
 
 The Shiny App that we\'ll be using [can be found at this link](https://openscience.ok.ubc.ca/shiny/BIOL-116/)
-
-**OPTIONAL**
-
-If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, here are RMarkdown scripts you can use. These scripts align with the figures, stats, and analyses the RShiny App does but you can edit the code to customize outputs. There is a separate script for each type of variable combinations.
-
-* Both response and explanatory variables are categorical 
-    * [BIOL116_Shiny-App-Script_Categorical-Categorical.Rmd](files/BIOL116_Shiny-App-Script_Categorical-Categorical.Rmd)
-* Both response and explanatory variables are quantitative 
-    * [BIOL116_Shiny-App-Script_Quantitative-Quantitative.Rmd](files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.Rmd)
-* Categorical explanatory variable and quantitative response variable 
-    * [BIOL116_Shiny-App-Script_Quantitative-Categorical.Rmd](files/BIOL116_Shiny-App-Script_Quantitative-Categorical.Rmd)
 
 ## Left Pane {-}
 
@@ -176,8 +165,22 @@ The following is a brief screencast introduction to using the Shiny App with the
 
 This is your opportunity to play around with several different data types, visualizations and descriptive statistical summaries. The assignment will ask that you submit a couple of examples of both data visualizations and tables, all properly formatted according to [Section 5 of the UBCO Biology Procedures and Guidelines document](https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html).
 
+<div class="advanced">
+
+If you are feeling ambitious and would like to try making plots, calculating descriptive statistics, and performing analyses using R instead of the RShiny App, here are RMarkdown scripts you can use. These scripts align with the figures, stats, and analyses the RShiny App does but you can edit the code to customize outputs. There is a separate script for each type of variable combinations. Keep in mind that there will be no additional support through TA's or instructors should you choose to use these scripts. 
+
+Before using these scripts, you'll need to have both R and RStudio installed on your computer. See [here](https://ubco-biology.github.io/BIOL-125-Lab-Manual/rmarkdown-and-rstudio.html) in the BIOL 125 Lab Manual for instructions on how to install both of these programs. 
+
+* Both response and explanatory variables are categorical 
+    * [BIOL116_Shiny-App-Script_Categorical-Categorical.R](files/BIOL116_Shiny-App-Script_Categorical-Categorical.R)
+* Both response and explanatory variables are quantitative 
+    * [BIOL116_Shiny-App-Script_Quantitative-Quantitative.R](files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.R)
+* Categorical explanatory variable and quantitative response variable 
+    * [BIOL116_Shiny-App-Script_Quantitative-Categorical.R](files/BIOL116_Shiny-App-Script_Quantitative-Categorical.R)
+</div>
 
 # Lab 7 Assignment {-}
+
 
 Please use the following template for this assignment:
 
