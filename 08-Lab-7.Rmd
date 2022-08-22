@@ -180,11 +180,11 @@ Before using these scripts, you'll need to have both R and RStudio installed on 
 There is a separate script for each type of variable combination. 
 
 * Both response and explanatory variables are categorical 
-    * [BIOL116_Shiny-App-Script_Categorical-Categorical.R](files/BIOL116_Shiny-App-Script_Categorical-Categorical.R)
+    * [BIOL116_Shiny-App-Script_Categorical-Categorical.R](https://osf.io/download/pqjvx)
 * Both response and explanatory variables are quantitative 
-    * [BIOL116_Shiny-App-Script_Quantitative-Quantitative.R](files/BIOL116_Shiny-App-Script_Quantitative-Quantitative.R)
+    * [BIOL116_Shiny-App-Script_Quantitative-Quantitative.R](https://osf.io/download/c285q)
 * Categorical explanatory variable and quantitative response variable 
-    * [BIOL116_Shiny-App-Script_Quantitative-Categorical.R](files/BIOL116_Shiny-App-Script_Quantitative-Categorical.R)
+    * [BIOL116_Shiny-App-Script_Quantitative-Categorical.R](https://osf.io/download/2npj5)
 
 In each script there are step-by-step instructions for use. Alongside each line of code is a comment proceeded with a hashtag (#). The comments are either descriptions of what the code is doing or instructions describing things you need to do. Be sure to read **everything!**
 Some specific things you'll need to do are:
@@ -205,7 +205,7 @@ The rest of the code should run smoothly once these tasks are completed. To run 
 
 Please use the following template for this assignment:
 
-[20210810_Lab7_Shiny-App-Visualization_Assignment_V1.docx](files/20210810_Lab7_Shiny-App-Visualization_Assignment_V1.docx) (22 KB)
+[20210810_Lab7_Shiny-App-Visualization_Assignment_V1.docx](https://osf.io/download/sf2h7) (22 KB)
 
 # Lab 7 Rubric {-}
 
