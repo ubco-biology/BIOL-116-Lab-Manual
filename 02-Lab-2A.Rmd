@@ -119,7 +119,11 @@ You have two options for submission of this part of your work:
 1. You can submit a 1-page written prediction, with rationale. It should be no more than one page (double-spaced, Arial 12pt font, 1cm margins)
 2. You can submit a video (no more than 2 min)
 
-You will upload your mystery cylinder assignment on [Canvas](https://canvas.ubc.ca) via the dedicated assignment entitled \"Mystery Cylinder Submission\". This assignment is **due before 11:59 pm on 20th May**. 
+You will upload your mystery cylinder assignment on [Canvas](https://canvas.ubc.ca) via the dedicated assignment entitled \"Mystery Cylinder Submission\". 
+
+<div class="note">
+See [Canvas](https://canvas.ubc.ca) for assignment due date.
+</div>
 
 While it is encouraged that you work together prior to submission, your lab submission must be entirely your own work.
 
