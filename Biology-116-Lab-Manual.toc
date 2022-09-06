@@ -3,9 +3,9 @@
 \contentsline {section}{Copyright}{10}{section*.4}%
 \contentsline {section}{UBCO Biology open materials}{10}{section*.5}%
 \contentsline {section}{Conventions}{11}{section*.6}%
-\contentsline {part}{Lab 1}{15}{part*.7}%
+\contentsline {part}{Lab 1 - BIOL 116}{15}{part*.7}%
 \contentsline {chapter}{Introduction}{15}{chapter*.8}%
-\contentsline {part}{Lab 2A}{19}{part*.9}%
+\contentsline {part}{Lab 2A - BIOL 116}{19}{part*.9}%
 \contentsline {chapter}{The Process of Science}{19}{chapter*.10}%
 \contentsline {section}{Objectives}{19}{section*.11}%
 \contentsline {section}{Discussion Questions}{20}{section*.12}%
@@ -20,7 +20,7 @@
 \contentsline {section}{Class Discussion}{23}{section*.21}%
 \contentsline {section}{Mystery Cylinder Assignment}{23}{section*.22}%
 \contentsline {section}{Mystery Cylinder Assignment Grading Rubric}{26}{section*.23}%
-\contentsline {part}{Lab 2B}{31}{part*.24}%
+\contentsline {part}{Lab 2B - BIOL 116}{31}{part*.24}%
 \contentsline {chapter}{Research Project}{31}{chapter*.25}%
 \contentsline {chapter}{Science \& The Scientific Method}{33}{chapter*.26}%
 \contentsline {section}{The Scientific Method}{33}{section*.27}%
@@ -68,19 +68,19 @@
 \contentsline {section}{Academic Integrity \& Copyright}{67}{section*.69}%
 \contentsline {chapter}{Closing Remarks\ldots {}}{69}{chapter*.70}%
 \contentsline {chapter}{Lab 2 Assignment}{71}{chapter*.71}%
-\contentsline {part}{Lab 3}{75}{part*.72}%
+\contentsline {part}{Lab 3 - BIOL 116}{75}{part*.72}%
 \contentsline {chapter}{Open Science}{75}{chapter*.73}%
-\contentsline {part}{Lab 4}{79}{part*.74}%
+\contentsline {part}{Lab 4 - BIOL 116}{79}{part*.74}%
 \contentsline {chapter}{Experimental Research Pilot}{79}{chapter*.75}%
 \contentsline {section}{Questions}{79}{section*.76}%
 \contentsline {section}{Materials \& Safety}{80}{section*.77}%
 \contentsline {section}{Tidy Up}{80}{section*.78}%
 \contentsline {section}{Have Fun}{80}{section*.79}%
-\contentsline {part}{5}{83}{part*.80}%
+\contentsline {part}{5 - BIOL 116}{83}{part*.80}%
 \contentsline {chapter}{Naming Conventions}{83}{chapter*.81}%
-\contentsline {part}{Lab 6}{87}{part*.82}%
+\contentsline {part}{Lab 6 - BIOL 116}{87}{part*.82}%
 \contentsline {chapter}{Data Collection}{87}{chapter*.83}%
-\contentsline {part}{Lab 7}{91}{part*.84}%
+\contentsline {part}{Lab 7 - BIOL 116}{91}{part*.84}%
 \contentsline {chapter}{Intro to R \& Shiny Apps}{91}{chapter*.85}%
 \contentsline {chapter}{Data Tables \& Figures}{93}{chapter*.86}%
 \contentsline {chapter}{Intro to R}{95}{chapter*.87}%
@@ -102,16 +102,16 @@
 \contentsline {chapter}{Lab 7 Activity}{111}{chapter*.103}%
 \contentsline {chapter}{Lab 7 Assignment}{113}{chapter*.104}%
 \contentsline {chapter}{Lab 7 Rubric}{115}{chapter*.105}%
-\contentsline {part}{Lab 8}{119}{part*.106}%
+\contentsline {part}{Lab 8 - BIOL 116}{119}{part*.106}%
 \contentsline {chapter}{Data Collection Continued}{119}{chapter*.107}%
-\contentsline {part}{Lab 9}{123}{part*.108}%
+\contentsline {part}{Lab 9 - BIOL 116}{123}{part*.108}%
 \contentsline {chapter}{Data Analysis \& Shiny Apps}{123}{chapter*.109}%
 \contentsline {chapter}{Preparing Your Data}{125}{chapter*.110}%
 \contentsline {section}{Data Organization}{125}{section*.111}%
 \contentsline {section}{File Formats}{126}{section*.112}%
 \contentsline {chapter}{Lab 9 Activity}{129}{chapter*.113}%
 \contentsline {chapter}{Lab 9 Assignment}{131}{chapter*.114}%
-\contentsline {part}{Lab 10}{135}{part*.115}%
+\contentsline {part}{Lab 10 - BIOL 116}{135}{part*.115}%
 \contentsline {chapter}{Poster Presentation}{135}{chapter*.116}%
 \contentsline {section}{What is a Research Poster?}{135}{section*.117}%
 \contentsline {section}{So, what makes a good poster?}{135}{section*.118}%
