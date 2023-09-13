@@ -5,16 +5,19 @@
 \documentclass[
 ]{book}
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -67,7 +70,7 @@
 \bibliographystyle{plainnat}
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={Biology 116 Lab Manual},
   pdfauthor={Dr.~Tristyn Hay and Dr.~Robin Young},
@@ -76,7 +79,7 @@
 
 \title{Biology 116 Lab Manual}
 \author{Dr.~Tristyn Hay and Dr.~Robin Young}
-\date{2022-09-06}
+\date{2023-09-13}
 
 \begin{document}
 \maketitle
@@ -91,13 +94,13 @@
 
 Welcome to the BIOL116 lab manual!
 
-The material in this manual is designed to be used as part of the BIOL116 labs. It integrates heavily with additional material that can be accessed only through the \href{https://canvas.ubc.ca/courses/94572}{BIOL116 Canvas page}, including assignments, quizzes, and other material that is specific to this year's offering of the course. As such you will be expected to access BOTH this website and Canvas regularly.
+The material in this manual is designed to be used as part of the BIOL116 labs. It integrates heavily with additional material that can be accessed only through the \href{https://canvas.ubc.ca/courses/94572}{BIOL116 Canvas page}, including assignments, quizzes, and other material that is specific to this year\textquotesingle s offering of the course. As such you will be expected to access BOTH this website and Canvas regularly.
 
 \textbf{Your first lab}, Lab 1, is online and requires you to be in your zoom rooms during your regular scheduled times. \textbf{Your second lab}, Lab 2, will be your first chance to physically enter the lab, and meet your TA and your fellow lab mates. The material for Lab 2 can be found in this text, under the \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/the-process-of-science.html}{Lab 2A} and \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/research-project.html}{Lab2B} headings (with links to this content also on Canvas).
 
 The rest of the labs will continue alternating between online and on campus. For all labs you must attend during your regular scheduled lab times regardless of whether its online or on campus. \textbf{For in-person labs it is vital that you attend the lab in which you are registered} (Check your registration online to be sure of where you are supposed to be!).
 
-There's much more information about what to expect from labs, the grading policies, and the weekly schedule in the \href{https://canvas.ubc.ca}{Canvas shell for BIOL 116 labs}. For now, we will say that we're looking forward to the start of term, and to meeting you (both virtually and in-person). Science is amazing and exciting and cool, and we can't wait to share our love of science and biology with you!
+There\textquotesingle s much more information about what to expect from labs, the grading policies, and the weekly schedule in the \href{https://canvas.ubc.ca}{Canvas shell for BIOL 116 labs}. For now, we will say that we\textquotesingle re looking forward to the start of term, and to meeting you (both virtually and in-person). Science is amazing and exciting and cool, and we can\textquotesingle t wait to share our love of science and biology with you!
 
 \hypertarget{learning-objectives}{%
 \section*{Learning Objectives}\label{learning-objectives}}
@@ -175,7 +178,7 @@ Optional material that dives deeper into a presented concept.
 \chapter*{Introduction}\label{introduction}}
 \addcontentsline{toc}{chapter}{Introduction}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 Content for the first lab will all be on Canvas, the learning management system used at UBC. Enrolled students can access this content at \url{https://canvas.ubc.ca}
 
@@ -187,7 +190,7 @@ Content for the first lab will all be on Canvas, the learning management system 
 \chapter*{The Process of Science}\label{the-process-of-science}}
 \addcontentsline{toc}{chapter}{The Process of Science}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 \textbf{Note on Copyright}
 
@@ -281,7 +284,7 @@ This activity is broken down into 3 steps:
 
 Outside of opening the container, you have the option to hold it, shake it etc. What types of observations would you like to make? During this activity, you and your group will be able to interact with the cylinder. Think about the question you are addressing and how you would go about answering it.
 
-Work in groups to come up with three suggestions of ways you can manipulate your cylinders to try and determine what is inside. Remember that not all of your initial ideas will be plausible - you don't always have all the ideal tools available to you. You do not have an X-ray machine in the lab 😊. Offer three possible tests that could likely be done in lab.
+Work in groups to come up with three suggestions of ways you can manipulate your cylinders to try and determine what is inside. Remember that not all of your initial ideas will be plausible - you don\textquotesingle t always have all the ideal tools available to you. You do not have an X-ray machine in the lab 😊. Offer three possible tests that could likely be done in lab.
 
 Designate one person in your group to write down all observations and information you attain during your experiment. Following this, you and your group now must try to reach a consensus about what is inside the interior of each cylinder.
 
@@ -340,7 +343,7 @@ Study the simple science flowchart with your instructor:
 \section*{A Complex Flowchart}\label{a-complex-flowchart}}
 \addcontentsline{toc}{section}{A Complex Flowchart}
 
-Now let's view the complex science flowchart:
+Now let\textquotesingle s view the complex science flowchart:
 
 \begin{figure}
 \centering
@@ -352,11 +355,11 @@ Now let's view the complex science flowchart:
 \section*{Class Discussion}\label{class-discussion}}
 \addcontentsline{toc}{section}{Class Discussion}
 
-Follow your instructor's directions as a class to place examples of the types of things you did in the mystery box activity into each circle. See the list generated for the previous discussion question.
+Follow your instructor\textquotesingle s directions as a class to place examples of the types of things you did in the mystery box activity into each circle. See the list generated for the previous discussion question.
 
 This discussion marks the end of the first part of this lab (Lab 2). If you have not already done so, make sure you have the information you need to complete your submission of the Mystery cylinder assignment before the end of the day. Once you leave your lab you will not have the opportunity to come back if there is something you forgot or missed.
 
-When you're ready, you can proceed to Part 2 of Lab 2, where the research project is discussed.
+When you\textquotesingle re ready, you can proceed to Part 2 of Lab 2, where the research project is discussed.
 
 \hypertarget{mystery-cylinder-assignment}{%
 \section*{Mystery Cylinder Assignment}\label{mystery-cylinder-assignment}}
@@ -364,7 +367,7 @@ When you're ready, you can proceed to Part 2 of Lab 2, where the research projec
 
 \textbf{Purpose} To help you learn how to keep good lab notes and make predictions.
 
-\textbf{Rationale} A key piece of science is to record the work you do so that you can learn from what worked and what didn't. Keeping accurate records of the work that you do can make all of the difference. Patents and other scientific discoveries can be worth a lot of money to those that can prove that the work they did was theirs. This requires accurate and honest note keeping.
+\textbf{Rationale} A key piece of science is to record the work you do so that you can learn from what worked and what didn\textquotesingle t. Keeping accurate records of the work that you do can make all of the difference. Patents and other scientific discoveries can be worth a lot of money to those that can prove that the work they did was theirs. This requires accurate and honest note keeping.
 
 \textbf{Instructions} For this assignment, you will be working with your teaching assistants to determine the contents of a "mystery cylinder".\, You will have the opportunity to see, touch, and manipulate each cylinder in the lab and you are expected to work within your lab group to come up with 3 experiments that your group will conduct. Once you have completed the experiments, you will be expected to make a prediction regarding the contents of your "mystery cylinder".
 
@@ -394,7 +397,7 @@ This means:
 \begin{itemize}
 \tightlist
 \item
-  No copying and pasting from other sources - even if you plan to 'tweak'. This is not your own words.
+  No copying and pasting from other sources - even if you plan to \textquotesingle tweak\textquotesingle. This is not your own words.
 \item
   Do not work it out together, and then alter the final draft to make it look less similar. Figure it out together, and then go away and write your final submission yourself.
 \end{itemize}
@@ -449,7 +452,7 @@ Total points: 10
 \chapter*{Research Project}\label{research-project}}
 \addcontentsline{toc}{chapter}{Research Project}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 Over the term, you and your partner will be designing and conducting an experiment, analyzing the data you generate and then presenting your results. In order to prepare you for this task, you will need to have read through the material below in advance of lab.
 
@@ -479,13 +482,13 @@ In addition, you will begin to explore the principles and practices of Open Scie
 
 Science is just one of many different lenses through which we, as humans, attempt to better understand the world around us. Science as a discipline is built on the foundation of observable, measurable evidence that allows us to make testable predictions about the world. There are other ways of learning about our world (faith, intuition, memory, imagination, etc.). Each of these "ways of knowing" uses different kinds of evidence to help us make sense of our world.
 
-Science is also a highly collaborative endeavor, where each scientist builds on the work of their colleagues and mentors, to collectively construct scientific knowledge. This collaborative aspect is central to the ideas of Open Science, which is a key part of what you'll be learning about throughout your UBCO degree.
+Science is also a highly collaborative endeavor, where each scientist builds on the work of their colleagues and mentors, to collectively construct scientific knowledge. This collaborative aspect is central to the ideas of Open Science, which is a key part of what you\textquotesingle ll be learning about throughout your UBCO degree.
 
 \hypertarget{the-scientific-method}{%
 \section*{The Scientific Method}\label{the-scientific-method}}
 \addcontentsline{toc}{section}{The Scientific Method}
 
-The way that we \emph{do} science is that we follow a set of guidelines called "The Scientific Method". This method helps us make sure that we test our ideas in such a way that we've done our best to remove our own opinions and personal biases from the process. Removing personal opinions and biases, and focusing on what the evidence is telling us is absolutely vital to science. It is the heart of everything that we, as scientists, try to do every day.
+The way that we \emph{do} science is that we follow a set of guidelines called "The Scientific Method". This method helps us make sure that we test our ideas in such a way that we\textquotesingle ve done our best to remove our own opinions and personal biases from the process. Removing personal opinions and biases, and focusing on what the evidence is telling us is absolutely vital to science. It is the heart of everything that we, as scientists, try to do every day.
 
 \hypertarget{inductive-logic}{%
 \section*{Inductive Logic}\label{inductive-logic}}
@@ -501,7 +504,7 @@ Other scientists wonder why things are the way they are. They form ideas, or hyp
 
 Whether a scientist is conducting descriptive (observational) science or experimental science, they will be using evidence to support the claims that they make, and they will be using the framework of the scientific method to help them do this in a way that avoids bias and focuses on the evidence they have.
 
-In this term's research project we will be focusing on experimental research, rather than descriptive science.
+In this term\textquotesingle s research project we will be focusing on experimental research, rather than descriptive science.
 
 \hypertarget{reproducibility}{%
 \section*{Reproducibility}\label{reproducibility}}
@@ -509,7 +512,7 @@ In this term's research project we will be focusing on experimental research, ra
 
 One of the most important concepts in science is the idea of reproducibility. This means that if our methods are carefully recorded, and shared with others, they will be able to reproduce the work that we did, and, ideally, get similar results that yield identical conclusions about the hypothesis. It also means that scientists never base their conclusions on only one experiment. We always attempt to \textbf{replicate} our results, by running the same experiment, following our proposed method, at least 2-3 more times (and maybe more?) to ensure that the results we are getting are consistent, and not some kind of random fluke. Shortly, we will give you information about how to build a workflow, based on Open Science practices and principles, that sets you up to best be able to replicate your results, troubleshoot what went wrong if necessary, and also to help others understand and reproduce your work.
 
-Understand that scientists do these things because they do not accept anything on faith. Because science is not a belief system; scientists are convinced only by evidence and data. Any idea is up for debate and everything can be criticized. It takes many years and many experiments to convince scientists that something is true or not true. For example, the idea that the continental plates are moving slowly over the surface of the Earth took decades to take root. It was debated and tested and tested again by many people before it was fully accepted as fact. This is as it should be\ldots{} scientists don't much like to be wrong about the big stuff. We don't accept any explanation as "true" before every other possible explanation has been tested and rejected. It is only when we have done our best to disprove an idea, and it has stood up to everything that we've thrown at it, that we then begin to accept that maybe\ldots{} just maybe\ldots{} it might be true\ldots{} at least for now, until new evidence is found that throws everything into doubt again.
+Understand that scientists do these things because they do not accept anything on faith. Because science is not a belief system; scientists are convinced only by evidence and data. Any idea is up for debate and everything can be criticized. It takes many years and many experiments to convince scientists that something is true or not true. For example, the idea that the continental plates are moving slowly over the surface of the Earth took decades to take root. It was debated and tested and tested again by many people before it was fully accepted as fact. This is as it should be\ldots{} scientists don\textquotesingle t much like to be wrong about the big stuff. We don\textquotesingle t accept any explanation as "true" before every other possible explanation has been tested and rejected. It is only when we have done our best to disprove an idea, and it has stood up to everything that we\textquotesingle ve thrown at it, that we then begin to accept that maybe\ldots{} just maybe\ldots{} it might be true\ldots{} at least for now, until new evidence is found that throws everything into doubt again.
 
 \hypertarget{open-science}{%
 \chapter*{Open Science}\label{open-science}}
@@ -526,18 +529,18 @@ Open Science is a movement to make scientific research transparent and accessibl
 \item
   Submitting a written proposal with an established \emph{a priori} hypothesis, experimental design, and plan for presenting and analyzing your data. This will be marked before the experiment implementation phase and TA feedback incorporated into the project as needed. Creating a detailed, thorough plan for your research often takes as much time as running the experiment and collecting and analyzing your data. The more you plan, including anticipating potential problems, the easier the implementation!
 \item
-  Implementing the study according to your plan, and noting any deviations from that plan (Note: deviations often happen, and that's OK! The key is to document them). These reflections will be submitted for marks.
+  Implementing the study according to your plan, and noting any deviations from that plan (Note: deviations often happen, and that\textquotesingle s OK! The key is to document them). These reflections will be submitted for marks.
 \item
   Submitting and presenting a poster that details your experiences implementing the research plan (including any changes recorded, justification for changes, analysis of the data, and your interpretation and conclusion).
 \item
-  Conducting a peer review of other students' poster presentations using the poster presentation rubric as a guideline.
+  Conducting a peer review of other students\textquotesingle{} poster presentations using the poster presentation rubric as a guideline.
 \end{itemize}
 
 \hypertarget{the-research-workflow}{%
 \chapter*{The Research Workflow}\label{the-research-workflow}}
 \addcontentsline{toc}{chapter}{The Research Workflow}
 
-Now that we've briefly introduced you to Open Science, and what it means in the context of this project, let's talk more about what you're going to be doing. In a nutshell, you are going to use the scientific method to learn something about an organism, in the controlled setting of a lab experiment.
+Now that we\textquotesingle ve briefly introduced you to Open Science, and what it means in the context of this project, let\textquotesingle s talk more about what you\textquotesingle re going to be doing. In a nutshell, you are going to use the scientific method to learn something about an organism, in the controlled setting of a lab experiment.
 
 We expect that you have been exposed to the principles of the Scientific Method before this, while you were still in high school. As such, we are assuming that you have a little bit of prior knowledge to draw from. However, we need to update traditional representations of the scientific method by including the steps of a \href{https://www.cos.io/initiatives/registered-reports?_ga=2.246781956.1490314874.1630517054-739975224.1630517054}{registered report}. The diagram below shows the steps in a nutshell.
 
@@ -553,7 +556,7 @@ The key update to the traditional representation of the scientific method is the
 \chapter*{Research Question}\label{research-question}}
 \addcontentsline{toc}{chapter}{Research Question}
 
-The first step in any research is to decide on a \emph{problem} or focus for the investigation. This often happens naturally when you observe something that interests you, but that you can't entirely explain. In your head, a question forms, such as "why did it do that?"
+The first step in any research is to decide on a \emph{problem} or focus for the investigation. This often happens naturally when you observe something that interests you, but that you can\textquotesingle t entirely explain. In your head, a question forms, such as "why did it do that?"
 
 \textbf{Deciding on a problem to explore and formulating a question is your very first task.}
 
@@ -565,19 +568,19 @@ For this research project you will be using mealworms to conduct your study. You
 \chapter*{Statement of Hypothesis}\label{statement-of-hypothesis}}
 \addcontentsline{toc}{chapter}{Statement of Hypothesis}
 
-A \textbf{hypothesis} is an unproven explanation for the observed phenomena. In its simplest form, a hypothesis is an "educated guess" or intuitive hunch that is proposed as a possible answer to the question you're interested in answering. There's a couple of things to know about hypothesis building before you get started:
+A \textbf{hypothesis} is an unproven explanation for the observed phenomena. In its simplest form, a hypothesis is an "educated guess" or intuitive hunch that is proposed as a possible answer to the question you\textquotesingle re interested in answering. There\textquotesingle s a couple of things to know about hypothesis building before you get started:
 
 \textbf{A hypothesis is not a question, it is a statement}
 
-For example, "over a given time period, plants will grow taller at higher temperatures" is a hypothesis, whereas "over a given time period, will plants grow taller at a higher temperature?" is a question. They're generally related, but they're not the same.
+For example, "over a given time period, plants will grow taller at higher temperatures" is a hypothesis, whereas "over a given time period, will plants grow taller at a higher temperature?" is a question. They\textquotesingle re generally related, but they\textquotesingle re not the same.
 
 \textbf{A hypothesis must be testable}
 
-The hypothesis does not need to be "correct" (after all, there's really no way to know that at this point) but you do have to be able to test whether it is correct or not. In our example from above, we can test the hypothesis by growing the plants at different temperatures, and measuring their heights after a set amount of time. Thus, we have a way to measure the effect of interest and test our hypothesis.
+The hypothesis does not need to be "correct" (after all, there\textquotesingle s really no way to know that at this point) but you do have to be able to test whether it is correct or not. In our example from above, we can test the hypothesis by growing the plants at different temperatures, and measuring their heights after a set amount of time. Thus, we have a way to measure the effect of interest and test our hypothesis.
 
 \textbf{A hypothesis comes before the experiment, not the other way around}
 
-We call this an \emph{a priori} hypothesis, meaning that we made the hypothesis before we ran the experiment and learned the answer. Sometimes, because we want to show that we knew what we were doing, we feel the need to change the hypothesis we started with, so that it better reflects the results we got. This is known as HARKing (Hypothesizing After Results are Known), and is not considered to be good science. It's important to present your hypothesis as you originally developed it, and then discuss what you have learned about the topic based on your testing of that hypothesis.
+We call this an \emph{a priori} hypothesis, meaning that we made the hypothesis before we ran the experiment and learned the answer. Sometimes, because we want to show that we knew what we were doing, we feel the need to change the hypothesis we started with, so that it better reflects the results we got. This is known as HARKing (Hypothesizing After Results are Known), and is not considered to be good science. It\textquotesingle s important to present your hypothesis as you originally developed it, and then discuss what you have learned about the topic based on your testing of that hypothesis.
 
 \hypertarget{design-experiment-plan-analysis}{%
 \chapter*{Design Experiment \& Plan Analysis}\label{design-experiment-plan-analysis}}
@@ -599,7 +602,7 @@ Ideally, experiments should be conducted in such a way that the experimenter has
 
 For example, if the goal is to determine the effects of temperature on plant height after 14 days, then height is the dependent variable because it "depends" on the temperature to which the plant is exposed. All other variables must be controlled or held constant, to the extent possible. Temperature is the independent variable because that is the variable which is manipulated by the experimenter.
 
-The ideal way to perform such an experiment is to arrange a set of tests that are identical in all ways (light, soil moisture, etc.) except for the one specific factor that is being tested (in this case, temperature). Thus, for our plant experiment, a greenhouse with multiple temperature-control chambers would be ideal; each chamber would host a different temperature "treatment group". It's worth noting here that we don't always have the option to do what's ideal, but that doesn't mean we shouldn't work to control as much as possible. We should also consider carefully how the things we didn't or couldn't control might be affecting the results of our experiment.
+The ideal way to perform such an experiment is to arrange a set of tests that are identical in all ways (light, soil moisture, etc.) except for the one specific factor that is being tested (in this case, temperature). Thus, for our plant experiment, a greenhouse with multiple temperature-control chambers would be ideal; each chamber would host a different temperature "treatment group". It\textquotesingle s worth noting here that we don\textquotesingle t always have the option to do what\textquotesingle s ideal, but that doesn\textquotesingle t mean we shouldn\textquotesingle t work to control as much as possible. We should also consider carefully how the things we didn\textquotesingle t or couldn\textquotesingle t control might be affecting the results of our experiment.
 
 \hypertarget{control}{%
 \subsection*{Control}\label{control}}
@@ -607,7 +610,7 @@ The ideal way to perform such an experiment is to arrange a set of tests that ar
 
 Crucially, one of the treatment groups must serve as a \textbf{control} group against which all other treatment groups are compared. \textbf{The importance of the control group cannot be over emphasized}. It is essential to know how the system you are investigating works under normal circumstances (i.e., before you started messing with it), before you can be sure the results obtained from the experimentation are actually due to the manipulation of the independent variable(s).
 
-To continue our example above, if you wanted to investigate the effects of temperature (the independent variable) on the height of plants after 14 days (the dependent variable), you would measure the heights of plants grown at their normal, expected temperature (most likely room temperature) as the control group, and then compare the data collected from this group to the heights of plants exposed to higher and / or lower temperatures, depending on what you're hoping to learn. The control group would provide the "normal standard" against which the other treatment groups would be compared.
+To continue our example above, if you wanted to investigate the effects of temperature (the independent variable) on the height of plants after 14 days (the dependent variable), you would measure the heights of plants grown at their normal, expected temperature (most likely room temperature) as the control group, and then compare the data collected from this group to the heights of plants exposed to higher and / or lower temperatures, depending on what you\textquotesingle re hoping to learn. The control group would provide the "normal standard" against which the other treatment groups would be compared.
 
 \hypertarget{sample-size}{%
 \subsection*{Sample Size}\label{sample-size}}
@@ -639,9 +642,9 @@ How do you plan to save a copy of your raw data?
 \subsection*{Checking for Errors}\label{checking-for-errors}}
 \addcontentsline{toc}{subsection}{Checking for Errors}
 
-The next step is to plan how to check for any mistakes that might have been made when recording your observations, and how to deal with them. For instance, if one of your data points is an order of magnitude larger than all others (e.g.~a "100" instead of a "10"), this is likely a typo. If so, then simply state this and make the correction. But sometimes you'll see an observation that appears unusual compared to the other data points, and it's not a mistake. These are sometimes considered "outliers", and you need a plan in place to deal with these outliers. For instance, an honest and transparent approach is to conduct any analyses you do both with and without the outliers included, presenting both sets of results. If the exclusion of the outlier(s) doesn't change your conclusions, then great! But if it does, then you'll need to discuss this. The key is to have a clear plan in place, and to document what you did, and be honest and transparent about it!
+The next step is to plan how to check for any mistakes that might have been made when recording your observations, and how to deal with them. For instance, if one of your data points is an order of magnitude larger than all others (e.g.~a "100" instead of a "10"), this is likely a typo. If so, then simply state this and make the correction. But sometimes you\textquotesingle ll see an observation that appears unusual compared to the other data points, and it\textquotesingle s not a mistake. These are sometimes considered "outliers", and you need a plan in place to deal with these outliers. For instance, an honest and transparent approach is to conduct any analyses you do both with and without the outliers included, presenting both sets of results. If the exclusion of the outlier(s) doesn\textquotesingle t change your conclusions, then great! But if it does, then you\textquotesingle ll need to discuss this. The key is to have a clear plan in place, and to document what you did, and be honest and transparent about it!
 
-Typos and outliers are often best revealed using graphs; they'll show up as observations that are far from the other observations in your graph. Thus, visualizing your raw data with effective graphs should be the next step in your plan.
+Typos and outliers are often best revealed using graphs; they\textquotesingle ll show up as observations that are far from the other observations in your graph. Thus, visualizing your raw data with effective graphs should be the next step in your plan.
 
 \hypertarget{visualizing-describing}{%
 \subsection*{Visualizing \& Describing}\label{visualizing-describing}}
@@ -649,7 +652,7 @@ Typos and outliers are often best revealed using graphs; they'll show up as obse
 
 Your experimental design determines what type of data you will collect, which then determines the appropriate method for describing, visualizing and analyzing the data.
 
-For your experiment, the data you collect will depend on the question you're exploring, and the hypothesis that you're testing. As such, the way that you will need to describe, present, and analyze the data will likely be different than your classmates', since their hypotheses will be different from yours.
+For your experiment, the data you collect will depend on the question you\textquotesingle re exploring, and the hypothesis that you\textquotesingle re testing. As such, the way that you will need to describe, present, and analyze the data will likely be different than your classmates\textquotesingle, since their hypotheses will be different from yours.
 
 \hypertarget{types-of-data}{%
 \section*{Types of Data}\label{types-of-data}}
@@ -659,13 +662,13 @@ In our example experiment, our response (dependent) variable "plant height after
 
 Perhaps the species of plant we opted to use in our experiment can produce different colours of flower on different plants. If this is something we planned to measure, then the "flower colour" (red, pink, white) produced by each plant would be an example of a nominal categorical variable. Another example of a nominal categorical variable would be "birth country", or "hair colour". Lastly, if we had planned to judge the "odour strength" of the flowers, we might have scored odours as "weak", "moderate", and "strong", which constitutes an ordinal categorical variable, because the categories have a logical order to them.
 
-But what about our independent variable? In our example experiment, temperature is the independent variable, and let's say we subjected the plants to three different temperatures: 10, 20 (control), and 30 degrees Celsius. Strictly speaking, temperature is another example of a continuous numeric variable. However, in our experiment we are manipulating the temperature to be exactly 10, 20, or 30 degrees Celsius. Thus, our independent variable can be considered a discrete numeric variable, or in practice, it could also be treated as an ordinal categorical variable (either approach would be ok). In human health research, experimental studies often test the effects of different drugs on some health outcome, in which case "drug type" would be an example of a nominal categorical independent variable.
+But what about our independent variable? In our example experiment, temperature is the independent variable, and let\textquotesingle s say we subjected the plants to three different temperatures: 10, 20 (control), and 30 degrees Celsius. Strictly speaking, temperature is another example of a continuous numeric variable. However, in our experiment we are manipulating the temperature to be exactly 10, 20, or 30 degrees Celsius. Thus, our independent variable can be considered a discrete numeric variable, or in practice, it could also be treated as an ordinal categorical variable (either approach would be ok). In human health research, experimental studies often test the effects of different drugs on some health outcome, in which case "drug type" would be an example of a nominal categorical independent variable.
 
 \hypertarget{types-of-experiments}{%
 \section*{Types of Experiments}\label{types-of-experiments}}
 \addcontentsline{toc}{section}{Types of Experiments}
 
-The example experiment we've been describing is a type of measured-response experiment, in which a numeric response variable (plant height) is measured in relation to a manipulated, independent treatment variable (temperature) that, in our case, is handled as a discrete numeric variable or ordinal categorical variable.
+The example experiment we\textquotesingle ve been describing is a type of measured-response experiment, in which a numeric response variable (plant height) is measured in relation to a manipulated, independent treatment variable (temperature) that, in our case, is handled as a discrete numeric variable or ordinal categorical variable.
 
 An example of an experiment in which the response variable is a categorical variable is a choice experiment. Here, organisms such as insects or mice are presented with two or more categories of, say, food, to choose from. With categorical variables, what is measured and analyzed is the \emph{frequency} of the different categories. For example, consider the \emph{a priori} hypothesis that mice prefer high-protein food over low protein and high fibre foods. One could implement a single choice experiment in which 20 individual female mice (of similar age and health) were each independently provided 2 minutes within an experimental "arena" (the apparatus) to make a choice between the 3 food types. Across these 20 independent "trials", the researcher tallies the \emph{frequency} with which each category of food is chosen. In this example, the dependent variable is "food type", and there is no independent variable.
 
@@ -677,7 +680,7 @@ If our \emph{a priori} hypothesis had been that female mice show a preference fo
 
 Although it is best practice to make all your data available (e.g.~as a table in an appendix), it is also important to summarize and describe your data for the reader, and to present your summaries in a table. The focus here is describing and summarizing the data from the dependent variable. As with graphs, the best approach for describing data depends on the data types.
 
-Note that if you have an independent variable, and if it varied at all during the experiment despite being under your control (most instruments will vary a bit), it is important to plan to describe this also, though often this information is placed in an appendix. Since you'll be presenting your work as a poster, you should be prepared to answer questions about this, in case someone asks you.
+Note that if you have an independent variable, and if it varied at all during the experiment despite being under your control (most instruments will vary a bit), it is important to plan to describe this also, though often this information is placed in an appendix. Since you\textquotesingle ll be presenting your work as a poster, you should be prepared to answer questions about this, in case someone asks you.
 
 \hypertarget{descriptive-stats}{%
 \section*{Descriptive Stats}\label{descriptive-stats}}
@@ -711,9 +714,9 @@ In this scenario you describe your dependent variable with a pair of descriptors
 
 Measures of centre include the arithmetic mean (a.k.a. the average), the median, and the mode. Most of the time we use the average, and it is meant to give an idea of a "typical" value in your dataset.
 
-On its own, a measure of centre is not particularly useful, because one doesn't know if all data points are close to the "typical" (average) value, or if most of them are quite different from the average (in which case your average value isn't particularly "typical"!). This is why we need to describe the spread of your data too. Measures of spread include the variance (\emph{s}2), the standard deviation ("\emph{s}"), and the inter-quartile range (IQR). The IQR is the difference between the values in the dataset that lie at the 25th and 75th percentiles (or first and third quartiles). We do not discuss the IQR further here.
+On its own, a measure of centre is not particularly useful, because one doesn\textquotesingle t know if all data points are close to the "typical" (average) value, or if most of them are quite different from the average (in which case your average value isn\textquotesingle t particularly "typical"!). This is why we need to describe the spread of your data too. Measures of spread include the variance (\emph{s}2), the standard deviation ("\emph{s}"), and the inter-quartile range (IQR). The IQR is the difference between the values in the dataset that lie at the 25th and 75th percentiles (or first and third quartiles). We do not discuss the IQR further here.
 
-You'll learn in BIOL202 that characteristics of your data dictate which pair of descriptors are best suited for describing your data. For now, you should know that the average should be paired with the standard deviation, and this pair is typically the preferred pair to use. The median should be paired with the IQR. The mode is less commonly used in biology.
+You\textquotesingle ll learn in BIOL202 that characteristics of your data dictate which pair of descriptors are best suited for describing your data. For now, you should know that the average should be paired with the standard deviation, and this pair is typically the preferred pair to use. The median should be paired with the IQR. The mode is less commonly used in biology.
 
 \textbf{Variance \(s{^2}\)} is a measure of how far, on average, data values deviate from the mean. A small variance indicates the data are tightly clustered around the mean. The larger the variance, the more spread out the data. Variance is calculated by summing all the squared deviations from the mean (a deviation is the difference between an individual measurement and the mean) and dividing this sum by the number of data entries minus one.
 
@@ -727,11 +730,11 @@ You'll learn in BIOL202 that characteristics of your data dictate which pair of 
 
 PRO TIP: Most scientific calculators have a "DATA" mode that includes a set of functions for calculating descriptive statistics such as the average and standard deviation. But it is still important that you understand how to do calculations by hand, and what the descriptors represent.
 
-For detailed instructions on how to calculate the mean and standard deviation by hand, consult \href{https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-population/a/calculating-standard-deviation-step-by-step}{this web resource}. If you're keen, you can consult these instructions on how to use the "R" software to do the calculations.
+For detailed instructions on how to calculate the mean and standard deviation by hand, consult \href{https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data/variance-standard-deviation-population/a/calculating-standard-deviation-step-by-step}{this web resource}. If you\textquotesingle re keen, you can consult these instructions on how to use the "R" software to do the calculations.
 
 Based on the \href{https://ubco-biology.github.io/Procedures-and-Guidelines/descriptive-summary-statistics.html}{UBCO Biology Guidelines for data presentation}, measures of spread should be reported to one more decimal place than the number of decimal places that the data entries contain.
 
-If your experiment included a treatment variable that is categorical, like in our plant experiment where the three temperature treatments are handled as ordered categories (10, 20, and 30 degrees), then you should plan to calculate your descriptive statistics on the dependent variable (plant height) using the data from each of the treatment groups separately. So in our example you'd calculate the average and standard deviation of plant height for each of the three groups of height measurements, and report these in a table as described in the \href{https://ubco-biology.github.io/Procedures-and-Guidelines/tables.html}{Procedures and Guidelines document}.
+If your experiment included a treatment variable that is categorical, like in our plant experiment where the three temperature treatments are handled as ordered categories (10, 20, and 30 degrees), then you should plan to calculate your descriptive statistics on the dependent variable (plant height) using the data from each of the treatment groups separately. So in our example you\textquotesingle d calculate the average and standard deviation of plant height for each of the three groups of height measurements, and report these in a table as described in the \href{https://ubco-biology.github.io/Procedures-and-Guidelines/tables.html}{Procedures and Guidelines document}.
 
 \hypertarget{scenario-2-dependent-variable-is-categorical}{%
 \subsection*{Scenario 2: Dependent Variable is Categorical}\label{scenario-2-dependent-variable-is-categorical}}
@@ -765,9 +768,9 @@ Regardless of the type of graph used, the independent variable (i.e., temperatur
 \section*{Statistical Tests}\label{statistical-tests}}
 \addcontentsline{toc}{section}{Statistical Tests}
 
-Now that you have decided what graph will be most appropriate for visualizing and presenting your data once they're collected, and have planned how to describe and summarize your data, it is time to make the key decision on how to best analyse your data to test your hypothesis. This decision is based on the experimental design and the type of data involved. You'll learn in BIOL202 the formal statistical tests that are most appropriate for your study. For now, we'll use less formal but generally effective approaches.
+Now that you have decided what graph will be most appropriate for visualizing and presenting your data once they\textquotesingle re collected, and have planned how to describe and summarize your data, it is time to make the key decision on how to best analyse your data to test your hypothesis. This decision is based on the experimental design and the type of data involved. You\textquotesingle ll learn in BIOL202 the formal statistical tests that are most appropriate for your study. For now, we\textquotesingle ll use less formal but generally effective approaches.
 
-First, we need to cover some foundational statistical concepts. We'll do our best to keep things simple, but the reality is that there's a lot to know to make these decisions appropriately, so at the end of the day there's a limit to how simple this can be, and still be correct. Try not to worry if it doesn't all make sense at first. Take it slow, read it more than once, work with your group, and ask lots of questions of your classmates and your TA\ldots{} after all, collaboration and teamwork is what science is all about!
+First, we need to cover some foundational statistical concepts. We\textquotesingle ll do our best to keep things simple, but the reality is that there\textquotesingle s a lot to know to make these decisions appropriately, so at the end of the day there\textquotesingle s a limit to how simple this can be, and still be correct. Try not to worry if it doesn\textquotesingle t all make sense at first. Take it slow, read it more than once, work with your group, and ask lots of questions of your classmates and your TA\ldots{} after all, collaboration and teamwork is what science is all about!
 
 \hypertarget{inferential-statistics}{%
 \subsection*{Inferential Statistics}\label{inferential-statistics}}
@@ -777,15 +780,15 @@ In the previous section about planning to describe our data, we learned that the
 
 We now need to cast the descriptors we calculate, like the mean, into a different light: no longer is it a simple, calculated, fixed value; now we consider it an \emph{estimate} of some true mean in a population at large, and we need to recognize that this calculated value has uncertainty associated with it.
 
-For instance, for our plant experiment, we planned to describe our data, including calculating the mean plant height for each of the three treatment groups. But when it comes time to analyse our experiment data, we switch modes and consider each of those means as \emph{estimates} of their respective, true population means, specific to each treatment group. But wait, we don't have populations in our experiment! We certainly don't, and experiments never do. However, so long as we randomly assigned our plants to our treatment groups, then we can safely assume that the average response we observe among the individuals in a given treatment group is \emph{representative} of what we would observe if we were to subject a different random sample of plants from the same population to the exact same experimental conditions.
+For instance, for our plant experiment, we planned to describe our data, including calculating the mean plant height for each of the three treatment groups. But when it comes time to analyse our experiment data, we switch modes and consider each of those means as \emph{estimates} of their respective, true population means, specific to each treatment group. But wait, we don\textquotesingle t have populations in our experiment! We certainly don\textquotesingle t, and experiments never do. However, so long as we randomly assigned our plants to our treatment groups, then we can safely assume that the average response we observe among the individuals in a given treatment group is \emph{representative} of what we would observe if we were to subject a different random sample of plants from the same population to the exact same experimental conditions.
 
-We need to remember, however, that individuals within every population vary in many ways, and therefore if someone else were to conduct the experiment using the exact same conditions, but a new set of randomly chosen subjects (plants), randomly assigned to each treatment group, they will most certainly not get the exact same calculated values for the treatment means. This reflects something called "sampling error", and sampling error is entirely expected! This sampling error is what introduces uncertainty to our estimates. We must recognize that, even though we might have imposed strongly different treatments in an experiment, we can't simply interpret any resulting differences between treatment means at face value; we need to take account of the possibility that those differences could have arisen solely due to sampling error.
+We need to remember, however, that individuals within every population vary in many ways, and therefore if someone else were to conduct the experiment using the exact same conditions, but a new set of randomly chosen subjects (plants), randomly assigned to each treatment group, they will most certainly not get the exact same calculated values for the treatment means. This reflects something called "sampling error", and sampling error is entirely expected! This sampling error is what introduces uncertainty to our estimates. We must recognize that, even though we might have imposed strongly different treatments in an experiment, we can\textquotesingle t simply interpret any resulting differences between treatment means at face value; we need to take account of the possibility that those differences could have arisen solely due to sampling error.
 
 \hypertarget{null-and-alternative-hypotheses}{%
 \subsection*{Null and Alternative Hypotheses}\label{null-and-alternative-hypotheses}}
 \addcontentsline{toc}{subsection}{Null and Alternative Hypotheses}
 
-As scientists, we should approach new ideas and hypotheses with skepticism (even if we're actually excited about them!). We therefore undertake studies like our plant experiment with the working assumption that our research hypothesis is wrong, and we need to be convinced otherwise with good evidence. We recognize that sampling error is ever present, and that it could easily cause us to draw incorrect conclusions about our data.
+As scientists, we should approach new ideas and hypotheses with skepticism (even if we\textquotesingle re actually excited about them!). We therefore undertake studies like our plant experiment with the working assumption that our research hypothesis is wrong, and we need to be convinced otherwise with good evidence. We recognize that sampling error is ever present, and that it could easily cause us to draw incorrect conclusions about our data.
 
 To formally account for the potential influence of sampling error, and help guard against drawing incorrect conclusions about our study results, we need to formulate two statistical versions of our \emph{a priori} research hypothesis: a \textbf{null hypothesis (H0)} and an \textbf{alternative hypothesis (HA)}. These provide clear and \emph{testable} statements about what study outcomes would look like if the hypothesis was NOT supported (H0), and what would be observed if the hypothesis was supported (HA). In other words, the null hypothesis is what we expect to observe if only sampling error were at play. The alternative hypothesis is what we expect to see if there was a biological effect at play that was strong enough to overcome the influences of sampling error.
 
@@ -803,19 +806,19 @@ It is important to emphasize that a failure to reject the null hypothesis \textb
 \subsection*{Significance \& Confidence}\label{significance-confidence}}
 \addcontentsline{toc}{subsection}{Significance \& Confidence}
 
-The null and alternative hypotheses are typically formulated at the same time you decide which test is best suited for your study (see the next section). Also, at the same time you need to decide a clear criterion upon which to base your decision about whether the evidence is strong enough to reject the null hypothesis in favour of the alternative. This decision should be guided by a number of factors, but for the present purposes we'll go with the traditional approach, which is to guard strongly against making a mistake of a "false positive", i.e.~rejecting the null hypothesis when in fact nothing was going on (it should not be rejected). Specifically, we set what's called a "significance level" (denoted with the Greek letter alpha) at 0.05, or 5\%. This means that we're willing to make that "false positive" mistake at most 5\% of the time, on average. In practice, this means that the evidence needs to be pretty strong to reject the null hypothesis. The corollary of the 5\% significance level is something called the "level of confidence". That is, using a 5\% significance level is the same as having a 95\% level of confidence in something. We'll see how the significance level and level of confidence are used below.
+The null and alternative hypotheses are typically formulated at the same time you decide which test is best suited for your study (see the next section). Also, at the same time you need to decide a clear criterion upon which to base your decision about whether the evidence is strong enough to reject the null hypothesis in favour of the alternative. This decision should be guided by a number of factors, but for the present purposes we\textquotesingle ll go with the traditional approach, which is to guard strongly against making a mistake of a "false positive", i.e.~rejecting the null hypothesis when in fact nothing was going on (it should not be rejected). Specifically, we set what\textquotesingle s called a "significance level" (denoted with the Greek letter alpha) at 0.05, or 5\%. This means that we\textquotesingle re willing to make that "false positive" mistake at most 5\% of the time, on average. In practice, this means that the evidence needs to be pretty strong to reject the null hypothesis. The corollary of the 5\% significance level is something called the "level of confidence". That is, using a 5\% significance level is the same as having a 95\% level of confidence in something. We\textquotesingle ll see how the significance level and level of confidence are used below.
 
-You might reasonably ask: "Hold on a minute: how come we use such an arbitrary and hard criterion for deciding when something becomes "statistically significant" (i.e.~evidence strong enough to reject the null hypothesis)?" That's a fantastic question! It turns out that the practice of statistics is slowly moving away from this overly rigid approach. That, however, is an idea to be explored later in your degree in BIOL202. For now, however, we'll stick with tradition.
+You might reasonably ask: "Hold on a minute: how come we use such an arbitrary and hard criterion for deciding when something becomes "statistically significant" (i.e.~evidence strong enough to reject the null hypothesis)?" That\textquotesingle s a fantastic question! It turns out that the practice of statistics is slowly moving away from this overly rigid approach. That, however, is an idea to be explored later in your degree in BIOL202. For now, however, we\textquotesingle ll stick with tradition.
 
 \hypertarget{test-statistics}{%
 \section*{Test Statistics}\label{test-statistics}}
 \addcontentsline{toc}{section}{Test Statistics}
 
-Lastly, with your testable hypotheses and significance level stated, you'll need to figure out which statistical test is best suited to your study design (next section). All statistical tests calculate something called a "test statistic", and it is ultimately this quantity that is used to evaluate whether your criterion for significance is met. Specifically, based on the significance level you chose, and your sample size \(n\), you are provided - in "statistical tables" - a "critical value" of the test statistic that, if met or exceeded, leads to the rejection of the null hypothesis in favour of the alternative.
+Lastly, with your testable hypotheses and significance level stated, you\textquotesingle ll need to figure out which statistical test is best suited to your study design (next section). All statistical tests calculate something called a "test statistic", and it is ultimately this quantity that is used to evaluate whether your criterion for significance is met. Specifically, based on the significance level you chose, and your sample size \(n\), you are provided - in "statistical tables" - a "critical value" of the test statistic that, if met or exceeded, leads to the rejection of the null hypothesis in favour of the alternative.
 
 The critical value demarcates an outcome that is sufficiently convincing - based on your significance level chosen - that it is unlikely to have arisen solely from sampling error. After stating your significance level, and deciding which test is appropriate (see below), it is good practice to write down what the critical value of the corresponding test statistic is. Using your experiment data, you will then calculate (or the computer will provide) an observed value of the test statistic, and assess this against the critical value.
 
-In BIOL116 you'll be using a Shiny app to conduct your analyses, and it will tell you whether you've exceeded the critical value or not. Thus, there is no need to write down the critical value in the planning stage.
+In BIOL116 you\textquotesingle ll be using a Shiny app to conduct your analyses, and it will tell you whether you\textquotesingle ve exceeded the critical value or not. Thus, there is no need to write down the critical value in the planning stage.
 
 \textbf{P-value}
 
@@ -830,7 +833,7 @@ In this section we will cover the following inferential statistical tests
 \begin{itemize}
 \tightlist
 \item
-  Student's \emph{t}-test
+  Student\textquotesingle s \emph{t}-test
 \item
   Analysis of Variance
 \item
@@ -851,9 +854,9 @@ This scenario is typical of \textbf{measured response experiments} like our plan
 
 In this scenario the typical approach is to compare the average value (the mean) of your dependent variable among the categories of the categorical independent variable (that is, the treatment groups).
 
-Our approach aims to determine whether any of the treatment groups' means differ "significantly" from any of the other group means. At first glance, that seems straightforward: If the mean height of plants subjected to 30 degrees was 22.2cm, and the mean height of plants subjected to 20 degrees was 18.2cm, then clearly the warmer temperature treatment yielded a significantly greater average height, right?
+Our approach aims to determine whether any of the treatment groups\textquotesingle{} means differ "significantly" from any of the other group means. At first glance, that seems straightforward: If the mean height of plants subjected to 30 degrees was 22.2cm, and the mean height of plants subjected to 20 degrees was 18.2cm, then clearly the warmer temperature treatment yielded a significantly greater average height, right?
 
-We must remember: we're now conducting inferential statistics, so each of the treatment group means has \emph{uncertainty} associated with it owing to sampling error, and that uncertainty should cause us some pause. We need to be convinced, with some level of confidence, that the difference we observe between the group means could not simply have arisen due to sampling error, but rather was most likely due to our experimental treatments.
+We must remember: we\textquotesingle re now conducting inferential statistics, so each of the treatment group means has \emph{uncertainty} associated with it owing to sampling error, and that uncertainty should cause us some pause. We need to be convinced, with some level of confidence, that the difference we observe between the group means could not simply have arisen due to sampling error, but rather was most likely due to our experimental treatments.
 
 We start by writing down our statistical null and alternative hypotheses:
 
@@ -861,17 +864,17 @@ H0: The average height of plants grown under different temperatures does not dif
 
 HA: The average height of plants grown under different temperatures does differ after 14 days
 
-Next, as instructed in the previous section, we need to decide what "significance level" we wish to use. You'll learn in BIOL202 that there are many factors that influence this decision. For now, we'll follow the standard and use a 5\% significance level. In short, this means that we're willing to make a false positive mistake in our conclusion at most about 5\% of the time, on average.
+Next, as instructed in the previous section, we need to decide what "significance level" we wish to use. You\textquotesingle ll learn in BIOL202 that there are many factors that influence this decision. For now, we\textquotesingle ll follow the standard and use a 5\% significance level. In short, this means that we\textquotesingle re willing to make a false positive mistake in our conclusion at most about 5\% of the time, on average.
 
 Next we need to ask: how many categories (treatment groups) do we have in our categorical independent variable?
 
-If there are only 2 categories (one of which should be a control group), then we perform something called a \textbf{"Student's t-test"}.
+If there are only 2 categories (one of which should be a control group), then we perform something called a \textbf{"Student\textquotesingle s t-test"}.
 
 If there are more than 2 categories then we conduct an \textbf{"Analysis of Variance"} (ANOVA). Yes -- a strange name for a test that analyzes means!
 
-These tests, like all statistical tests, have some assumptions associated with them, and you'll learn more about those in BIOL202. For now, you will practice implementing these tests using a Shiny App.
+These tests, like all statistical tests, have some assumptions associated with them, and you\textquotesingle ll learn more about those in BIOL202. For now, you will practice implementing these tests using a Shiny App.
 
-As you'll see when you practice in the Shiny app, the test statistic provided by the Student's t-test is, you guessed it, a "t" statistic. If the value of "t" that is calculated using your experiment data exceeds or is equal to the "critical value" of "t", then the P-value provided by the computer will be less than or equal to 0.05 (assuming this was the significance level you chose), and you would reject the null hypothesis in favour of the alternative, and conclude that the average height of plants grown under different temperatures does differ after 14 days. If, on the other hand, your calculated value of "t" is less than the critical value, and correspondingly the P-value is greater than 0.05, then you fail to reject the null hypothesis and conclude that, at present, the data are consistent with the conclusion of no difference among average heights of plants grown under different temperatures. \textbf{Remember}, this doesn't necessarily mean the null hypothesis is true! We simply don't have any evidence to suggest it's false.
+As you\textquotesingle ll see when you practice in the Shiny app, the test statistic provided by the Student\textquotesingle s t-test is, you guessed it, a "t" statistic. If the value of "t" that is calculated using your experiment data exceeds or is equal to the "critical value" of "t", then the P-value provided by the computer will be less than or equal to 0.05 (assuming this was the significance level you chose), and you would reject the null hypothesis in favour of the alternative, and conclude that the average height of plants grown under different temperatures does differ after 14 days. If, on the other hand, your calculated value of "t" is less than the critical value, and correspondingly the P-value is greater than 0.05, then you fail to reject the null hypothesis and conclude that, at present, the data are consistent with the conclusion of no difference among average heights of plants grown under different temperatures. \textbf{Remember}, this doesn\textquotesingle t necessarily mean the null hypothesis is true! We simply don't have any evidence to suggest it\textquotesingle s false.
 The same procedure would be used for the ANOVA test, but in this case you evaluate the "F" statistic.
 
 \hypertarget{comparing-frequencies-to-a-baseline-expectation}{%
@@ -916,7 +919,7 @@ HA: There is an association between food preference and sex.
 
 The latter statements are more ambiguous with respect to quantitative predictions. Nevertheless, they are acceptable.
 
-Again, we plan what significance level to use: 5\% or 0.05. Based on this significance level, and on the number of categories in our dependent and independent variables, we would figure out what the critical value of \(\chi{^2}\) is for our test. But in our case, we'll again use an online app for the test.
+Again, we plan what significance level to use: 5\% or 0.05. Based on this significance level, and on the number of categories in our dependent and independent variables, we would figure out what the critical value of \(\chi{^2}\) is for our test. But in our case, we\textquotesingle ll again use an online app for the test.
 
 If our calculated value of \(\chi{^2}\) is greater than the critical value of \(\chi{^2}\), then we reject the null hypothesis in favour of the alternative, and conclude that "Food preference is contingent on the sex of the mouse, because males and females chose the food types with different frequencies."
 
@@ -962,9 +965,9 @@ Plant height varied substantially within each treatment group, and showed no con
 
 The key biological interpretation is whether or not the experiment yielded outcomes that were consistent with your research hypothesis and associated predictions, and what biological processes underlie your findings. Were all your expectations met? None? If you conducted multiple runs of your experiment, were their results all consistent, or did some runs yield different outcomes? If they differed, suggest why this might have been.
 
-It is important to remember that scientific investigations often don't yield the anticipated results. If there are discrepancies between your results and those of others, or what you expected to find based on your reading of the scientific literature, this is the place to try and explain those discrepancies. As a general rule, this means looking at the published results of other scientists, and critically comparing the work they did to yours, to see if similarities make sense, and discrepancies can be explained. Doing scientific experiments well is extremely challenging, so don't be discouraged if mistakes are made along the way! The key thing is to document those mistakes and discuss how / if they may have influenced the outcomes.
+It is important to remember that scientific investigations often don\textquotesingle t yield the anticipated results. If there are discrepancies between your results and those of others, or what you expected to find based on your reading of the scientific literature, this is the place to try and explain those discrepancies. As a general rule, this means looking at the published results of other scientists, and critically comparing the work they did to yours, to see if similarities make sense, and discrepancies can be explained. Doing scientific experiments well is extremely challenging, so don\textquotesingle t be discouraged if mistakes are made along the way! The key thing is to document those mistakes and discuss how / if they may have influenced the outcomes.
 
-When possible, you should not only repeat your experiment as many times as is reasonable (only if planned in advance), but also compare your results to those of other investigators working on the same problem. This helps you to determine how reproducible you would expect your result to be, which also helps provide evidence for how likely your results reflect the "truth". All information obtained from other sources, or any ideas that are not your own, must be properly cited in the body of your poster presentation and included in a "Literature Cited" or "References" list at the end. This is an essential part of science, and academic endeavours. No scientist ever works in a vacuum, and comparing to others is expected, so it's perfectly normal and expected that you will learn from the work of others, and cite them.
+When possible, you should not only repeat your experiment as many times as is reasonable (only if planned in advance), but also compare your results to those of other investigators working on the same problem. This helps you to determine how reproducible you would expect your result to be, which also helps provide evidence for how likely your results reflect the "truth". All information obtained from other sources, or any ideas that are not your own, must be properly cited in the body of your poster presentation and included in a "Literature Cited" or "References" list at the end. This is an essential part of science, and academic endeavours. No scientist ever works in a vacuum, and comparing to others is expected, so it\textquotesingle s perfectly normal and expected that you will learn from the work of others, and cite them.
 
 \hypertarget{maximizing-reproducibility}{%
 \chapter*{Maximizing Reproducibility}\label{maximizing-reproducibility}}
@@ -978,9 +981,9 @@ For this project you will submit your initial experimental design and plans for 
 \chapter*{Workflow \& Information Management}\label{workflow-information-management}}
 \addcontentsline{toc}{chapter}{Workflow \& Information Management}
 
-As mentioned earlier, when we introduced the concept of Open Science, your group is expected to follow proper file and data management practices. Having your files and data organized appropriately will save you time. The best rule of thumb for lab experiments is to NEVER assume that you will remember exactly what you did days, weeks or months prior\ldots{} you won't, and your science (as well as your lab grade) will suffer. So being organized and meticulous is absolutely vital to the success of your project.
+As mentioned earlier, when we introduced the concept of Open Science, your group is expected to follow proper file and data management practices. Having your files and data organized appropriately will save you time. The best rule of thumb for lab experiments is to NEVER assume that you will remember exactly what you did days, weeks or months prior\ldots{} you won\textquotesingle t, and your science (as well as your lab grade) will suffer. So being organized and meticulous is absolutely vital to the success of your project.
 
-Considering how you are going to keep track of everything is one of the \textbf{first} decisions that you need to make as a group. If you don't write things down right from the moment you start developing your experimental plan, how will you be able to run the experiment the exact same way twice? For example,
+Considering how you are going to keep track of everything is one of the \textbf{first} decisions that you need to make as a group. If you don\textquotesingle t write things down right from the moment you start developing your experimental plan, how will you be able to run the experiment the exact same way twice? For example,
 
 \begin{itemize}
 \tightlist
@@ -1020,7 +1023,7 @@ Considering how you are going to keep track of everything is one of the \textbf{
 
 As you design your experiment, and develop (and troubleshoot!) the method you expect to use, it can be very helpful to draw out your proposed methodology into a flow chart. This can help you better visualize what you want to do, and may help you realize where you need to think a little more critically about your proposed plan and how it will work.
 
-visual representations of your methods work really well on posters! So, if you start working on it right from the start, it should be awesome by the time you're ready to build your poster!
+visual representations of your methods work really well on posters! So, if you start working on it right from the start, it should be awesome by the time you\textquotesingle re ready to build your poster!
 
 As stated earlier, all your decisions about experimental design, analyses, and data management and cleaning should be made and documented (see below) \emph{before} you collect any data, otherwise you may subconsciously (or consciously) let the data influence your actions, which will \emph{bias} your conclusions.
 
@@ -1030,7 +1033,7 @@ Following these steps should ensure the experiment is \textbf{repeatable} by any
 \chapter*{Conducting the Research}\label{conducting-the-research}}
 \addcontentsline{toc}{chapter}{Conducting the Research}
 
-At long last, you've submitted your experimental design and analysis plans for feedback, made some adjustments that were "ok'd", and now you can finally undertake your research!
+At long last, you\textquotesingle ve submitted your experimental design and analysis plans for feedback, made some adjustments that were "ok\textquotesingle d", and now you can finally undertake your research!
 
 Keep lots of notes, especially with respect to any deviations from your original plans. We all know that stuff happens, so even the best laid plans can unravel. The key point is to document what you do.
 
@@ -1046,7 +1049,7 @@ If your analyses were meticulously planned, including the null and alternative h
 
 Science is, at its heart, a collaborative endeavour. No scientist ever works alone, especially in the modern times we live in. As such, all scientists share ideas and information in one way or another. Information is our currency: we trade it, share it, and make it grow. This also means that giving credit to others for their ideas and information is a vitally important part of science, not to mention academic life and the Open Science movement. Again, you will learn more about Open Science and how it works next week, in the asynchronous material of Lab 3.
 
-For your written work, every time you mention an item of information or any idea that is not your own, the source must be credited in the text. This refers not only to published material but can also include personal communications from colleagues and professors. In scientific writing, we avoid using direct quotations and footnotes wherever possible. We do not copy \emph{verbatim} from our sources - i.e.~copy \& paste. Instead, put the source away when you write, so that you naturally rephrase the material into your own words. Finally, acknowledge the source using the appropriate style and format for the work you're trying to cite.
+For your written work, every time you mention an item of information or any idea that is not your own, the source must be credited in the text. This refers not only to published material but can also include personal communications from colleagues and professors. In scientific writing, we avoid using direct quotations and footnotes wherever possible. We do not copy \emph{verbatim} from our sources - i.e.~copy \& paste. Instead, put the source away when you write, so that you naturally rephrase the material into your own words. Finally, acknowledge the source using the appropriate style and format for the work you\textquotesingle re trying to cite.
 
 While many different formats exist for citing your sources, for the purposes of this project the APA 7th edition reference and citation style is to be followed. The \href{https://ubco-biology.github.io/Procedures-and-Guidelines/apa-citations.html}{Procedures and Guidelines: APA Citations} has a quick reference guide and other resources that you can follow up with.
 
@@ -1064,9 +1067,9 @@ Citing falls under two broader categories, academic integrity and copyright. Aca
 
 You will conduct your research project over the course of the term, alternating between in person sessions, when you will work with your group to plan and / or implement your research plan, and asynchronous online sessions, when you will work through Canvas modules to help you gain the skills and information you need to be successful in this project.
 
-The weekly plan is written in your course syllabus, along with which weeks are in person - called synchronous in the syllabus - and which ones are online - called asynchronous in the syllabus. Most weeks you will have something to submit that is related to this project in one way or another (except for the weeks you're actually running your experiments and collecting the data!. You will get more information about this in you first in-person lab this week.
+The weekly plan is written in your course syllabus, along with which weeks are in person - called synchronous in the syllabus - and which ones are online - called asynchronous in the syllabus. Most weeks you will have something to submit that is related to this project in one way or another (except for the weeks you\textquotesingle re actually running your experiments and collecting the data!. You will get more information about this in you first in-person lab this week.
 
-One final thought\ldots{} while science is serious and noble and logical and all of the rest\ldots{} it's is also exciting and fun! We can be rigorous and careful in the work we do, and also be really excited by the cool questions we're exploring. So even while you are doing your best to learn the principles of science, it is our sincere hope that you also find the joy in research and discovery!
+One final thought\ldots{} while science is serious and noble and logical and all of the rest\ldots{} it\textquotesingle s is also exciting and fun! We can be rigorous and careful in the work we do, and also be really excited by the cool questions we\textquotesingle re exploring. So even while you are doing your best to learn the principles of science, it is our sincere hope that you also find the joy in research and discovery!
 
 Happy Sciencing!
 
@@ -1088,9 +1091,9 @@ See \href{https://canvas.ubc.ca}{Canvas} for assignment due date.
 \chapter*{Open Science}\label{open-science-1}}
 \addcontentsline{toc}{chapter}{Open Science}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
-This week's lab content can be found \href{https://ubco-biology.github.io/OS-Introduction/}{here}. You are asked to cover Part 1, Principles of Open Science.
+This week\textquotesingle s lab content can be found \href{https://ubco-biology.github.io/OS-Introduction/}{here}. You are asked to cover Part 1, Principles of Open Science.
 
 The accompanying quiz can be found in \href{https://canvas.ubc.ca}{Canvas}.
 
@@ -1102,11 +1105,11 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca}{Canvas}.
 \chapter*{Experimental Research Pilot}\label{experimental-research-pilot}}
 \addcontentsline{toc}{chapter}{Experimental Research Pilot}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 This week you will be trying out your experimental design.
 
-This week is all about learning! Be prepared that things may not go as expected and that is okay. This week is about taking the time to figure out what works, what doesn't work and what we need to change.
+This week is all about learning! Be prepared that things may not go as expected and that is okay. This week is about taking the time to figure out what works, what doesn\textquotesingle t work and what we need to change.
 
 This is all part of research but will help better prepare you for your next few weeks of data collection.
 
@@ -1122,7 +1125,7 @@ This is all part of research but will help better prepare you for your next few 
 
 Remember, there are 20 of you and only one teaching assistant in your lab. You may be feeling anxious and frustrated at times as you may not be able to get the help you need immediately but please be patient.
 
-Your teaching assistant will come around to provide whatever support they can, however there may be a bit of a wait. While you are waiting on your teaching assistant see if you and your partner aren't able to figure things out together. You may find you do not need your teaching assistant when you put both heads together.
+Your teaching assistant will come around to provide whatever support they can, however there may be a bit of a wait. While you are waiting on your teaching assistant see if you and your partner aren\textquotesingle t able to figure things out together. You may find you do not need your teaching assistant when you put both heads together.
 
 \hypertarget{materials-safety}{%
 \section*{Materials \& Safety}\label{materials-safety}}
@@ -1150,7 +1153,7 @@ Yes, this may be a challenging week for you but we expect that it will also be a
 \chapter*{Naming Conventions}\label{naming-conventions}}
 \addcontentsline{toc}{chapter}{Naming Conventions}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 This week's lab content can be found \href{https://ubco-biology.github.io/Procedures-and-Guidelines/file-and-data-management.html}{here}. You are asked to read
 
@@ -1172,7 +1175,7 @@ The accompanying quiz can be found in \href{https://canvas.ubc.ca}{Canvas}.
 \chapter*{Data Collection}\label{data-collection}}
 \addcontentsline{toc}{chapter}{Data Collection}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 Now that you have conducted your pilot experiment and saw how it went, you are ready to collect some data.
 
@@ -1192,7 +1195,7 @@ Make sure you have worked through any major changes to your experimental methodo
 \chapter*{Intro to R \& Shiny Apps}\label{intro-to-r-shiny-apps}}
 \addcontentsline{toc}{chapter}{Intro to R \& Shiny Apps}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 This lab will have you putting into practice through visualizations and data tables much of what was covered in Lab 2B.
 
@@ -1204,15 +1207,15 @@ Before we tackle data visualization and analysis, we should talk about data pres
 
 The UBCO Biology faculty has a \href{https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html}{Procedures and Guidelines document} outlining conventions for data presentation based on current "best practices" in Biology. Keep in mind that you may encounter small differences when working with data or reading the results of research from other disciplines. That being said, the aim of these conventions is to achieve consistency among faculty, instructors, and students in how data are summarized and presented within lab reports and research papers.
 
-Before continuing through this lab, please take some time individually or with your groups to read sections \href{https://ubco-biology.github.io/Procedures-and-Guidelines/tables.html}{6.1}, \href{https://ubco-biology.github.io/Procedures-and-Guidelines/descriptive-summary-statistics.html}{6.2}, and \href{https://ubco-biology.github.io/Procedures-and-Guidelines/figures.html}{6.4} of the \href{https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html}{UBCO Biology Procedures and Guidelines document}. For this lab's assignment and all future assignments in this course, you wil be expected to follow these guidelines!
+Before continuing through this lab, please take some time individually or with your groups to read sections \href{https://ubco-biology.github.io/Procedures-and-Guidelines/tables.html}{6.1}, \href{https://ubco-biology.github.io/Procedures-and-Guidelines/descriptive-summary-statistics.html}{6.2}, and \href{https://ubco-biology.github.io/Procedures-and-Guidelines/figures.html}{6.4} of the \href{https://ubco-biology.github.io/Procedures-and-Guidelines/figures-tables.html}{UBCO Biology Procedures and Guidelines document}. For this lab\textquotesingle s assignment and all future assignments in this course, you wil be expected to follow these guidelines!
 
 \hypertarget{intro-to-r}{%
 \chapter*{Intro to R}\label{intro-to-r}}
 \addcontentsline{toc}{chapter}{Intro to R}
 
-Visualizing data is a key part of science communication. Until now, it is likely that you've used or interacted with visualizations built using tools like Excel. In Biology, it is increasingly common to not use Excel, but instead to use an application, or programming language, called R.
+Visualizing data is a key part of science communication. Until now, it is likely that you\textquotesingle ve used or interacted with visualizations built using tools like Excel. In Biology, it is increasingly common to not use Excel, but instead to use an application, or programming language, called R.
 
-R offers several advantages when it comes to building visualizations. R is what we call a scripted progamming language. When we use scripts to manage our data and create visualizations, we're engaging in reproducible workflows, specifically computationally reproducible workflows.
+R offers several advantages when it comes to building visualizations. R is what we call a scripted progamming language. When we use scripts to manage our data and create visualizations, we\textquotesingle re engaging in reproducible workflows, specifically computationally reproducible workflows.
 
 \hypertarget{computational-reproducibility}{%
 \chapter*{Computational reproducibility}\label{computational-reproducibility}}
@@ -1220,27 +1223,27 @@ R offers several advantages when it comes to building visualizations. R is what 
 
 What is computational reproducibility?
 
-When you load data into an application like Excel, you click through a series of options to clean up or organize and then visualize your data. If you wanted to repeat this process, you would have to manually go through the same series of steps over and over again, which is a lot of mouse clicking. It's also very difficult to communicate your workflow from raw data to visualization as you would have to write down every step and do so in a way that was clear enough for someone else to reproduce exactly.
+When you load data into an application like Excel, you click through a series of options to clean up or organize and then visualize your data. If you wanted to repeat this process, you would have to manually go through the same series of steps over and over again, which is a lot of mouse clicking. It\textquotesingle s also very difficult to communicate your workflow from raw data to visualization as you would have to write down every step and do so in a way that was clear enough for someone else to reproduce exactly.
 
-Working in a scripted programming language like R, instead of clicking buttons, we write code that tells the program how to clean, organize, and then visualize our data. When we want to repeat the process, we just run our script - or mini program - and it exactly, computationally, reproduces our workflow. It's less work for us and it's reproducible. And, since anyone we share our script with can read our script to see the steps taken to go from raw data to visualization, it's transparent. We just don't get this level of reproducibility and transparency with Excel.
+Working in a scripted programming language like R, instead of clicking buttons, we write code that tells the program how to clean, organize, and then visualize our data. When we want to repeat the process, we just run our script - or mini program - and it exactly, computationally, reproduces our workflow. It\textquotesingle s less work for us and it\textquotesingle s reproducible. And, since anyone we share our script with can read our script to see the steps taken to go from raw data to visualization, it\textquotesingle s transparent. We just don\textquotesingle t get this level of reproducibility and transparency with Excel.
 
 \hypertarget{shiny-apps}{%
 \chapter*{Shiny Apps}\label{shiny-apps}}
 \addcontentsline{toc}{chapter}{Shiny Apps}
 
-In BIOL 116 we're not going to learn how to write R, we'll save that for later. What we are going to do is start working with learning to visualize data in an application built in R called Shiny Apps. Shiny Apps allow a user to interactively visualize a data set. It will also show you the R code that is running in the background to build the visualization. This will be your first window into R.
+In BIOL 116 we\textquotesingle re not going to learn how to write R, we\textquotesingle ll save that for later. What we are going to do is start working with learning to visualize data in an application built in R called Shiny Apps. Shiny Apps allow a user to interactively visualize a data set. It will also show you the R code that is running in the background to build the visualization. This will be your first window into R.
 
-In this lab, we'll work with a couple data sets that are preloaded into the Shiny App, so you can explore mapping different variables to a visual space.
+In this lab, we\textquotesingle ll work with a couple data sets that are preloaded into the Shiny App, so you can explore mapping different variables to a visual space.
 
-The first is a data set about penguins, called \texttt{palmerpenguins}. From the authors: "The \texttt{palmerpenguins} data contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica." \href{https://www.rdocumentation.org/packages/palmerpenguins/versions/0.1.0}{Read more about the \texttt{palmerpenguins} data set} here if you'd like.
+The first is a data set about penguins, called \texttt{palmerpenguins}. From the authors: "The \texttt{palmerpenguins} data contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica." \href{https://www.rdocumentation.org/packages/palmerpenguins/versions/0.1.0}{Read more about the \texttt{palmerpenguins} data set} here if you\textquotesingle d like.
 
-The second is about cars, called \texttt{mtcars}. From the authors: "The data was extracted from the 1974 \emph{Motor Trend} US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models)." \href{https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html}{Read more about the \texttt{mtcars} data set} here if you'd like.
+The second is about cars, called \texttt{mtcars}. From the authors: "The data was extracted from the 1974 \emph{Motor Trend} US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973--74 models)." \href{https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html}{Read more about the \texttt{mtcars} data set} here if you\textquotesingle d like.
 
 \hypertarget{shiny-app-overview}{%
 \chapter*{Shiny App Overview}\label{shiny-app-overview}}
 \addcontentsline{toc}{chapter}{Shiny App Overview}
 
-The Shiny App that we'll be using \href{https://openscience.ok.ubc.ca/shiny/BIOL-116/}{can be found at this link}
+The Shiny App that we\textquotesingle ll be using \href{https://openscience.ok.ubc.ca/shiny/BIOL-116/}{can be found at this link}
 
 \hypertarget{left-pane}{%
 \section*{Left Pane}\label{left-pane}}
@@ -1258,26 +1261,26 @@ This is an overview of the app itself.
 \subsection*{Upload Data}\label{upload-data}}
 \addcontentsline{toc}{subsection}{Upload Data}
 
-For now, ignore the option to upload your own data. Instead, use either the \texttt{palmerpenguins} data or the \texttt{mtcars} data, selected from the drop down menu in the Plot menu. In \textbf{Lab 9}, you'll upload your own data set from your experimental research project to build visualizations for your report.
+For now, ignore the option to upload your own data. Instead, use either the \texttt{palmerpenguins} data or the \texttt{mtcars} data, selected from the drop down menu in the Plot menu. In \textbf{Lab 9}, you\textquotesingle ll upload your own data set from your experimental research project to build visualizations for your report.
 
 \hypertarget{plot}{%
 \subsection*{Plot}\label{plot}}
 \addcontentsline{toc}{subsection}{Plot}
 
-Here we select the variables we'd like to visualize.
+Here we select the variables we\textquotesingle d like to visualize.
 
 The shiny app currently does not include the option to visualize a single variable on its own. Rather, the app focuses on visualizing associations between two variables. If you're curious about how to visualize a single variable (either categorical or quantitative), consult the relevant \href{https://ubco-biology.github.io/BIOL202/vis-variable.html}{BIOL202 tutorial}.
 
-You'll want to first select a dataset, \texttt{penguins} or \texttt{mtcars}, and then select an \texttt{x} and a \texttt{y} variable from the drop down menus. Lastly, tell the Shiny App if your variable is \texttt{quantitative} or \texttt{categorical}. In Lab 2 we learned about each of these variable types, but here is a brief refresher:
+You\textquotesingle ll want to first select a dataset, \texttt{penguins} or \texttt{mtcars}, and then select an \texttt{x} and a \texttt{y} variable from the drop down menus. Lastly, tell the Shiny App if your variable is \texttt{quantitative} or \texttt{categorical}. In Lab 2 we learned about each of these variable types, but here is a brief refresher:
 
 \textbf{Quantitative}, or numeric, data may be either discrete or continuous.
 
 \begin{itemize}
 \tightlist
 \item
-  Discrete quantitative data are whole integers - population numbers are a good example of this, as we can't have half a person!
+  Discrete quantitative data are whole integers - population numbers are a good example of this, as we can\textquotesingle t have half a person!
 \item
-  Continuous quantitative data on the other hand are data that lies on a continuum - an example is temperature, where there are infinite potential temperatures between 25 and 26 degrees Celsius, but our data collection tool or convention determines to what decimal point we'll record a given temperature.
+  Continuous quantitative data on the other hand are data that lies on a continuum - an example is temperature, where there are infinite potential temperatures between 25 and 26 degrees Celsius, but our data collection tool or convention determines to what decimal point we\textquotesingle ll record a given temperature.
 \end{itemize}
 
 \textbf{Categorical} data, per its name, deals with categories of things and may be either nominal or ordinal.
@@ -1285,12 +1288,12 @@ You'll want to first select a dataset, \texttt{penguins} or \texttt{mtcars}, and
 \begin{itemize}
 \tightlist
 \item
-  Ordinal categorical data has an intrinsic order where one thing is more or less than another - storm severity is often classified by stages - Stage 1, Stage 2 \ldots{} Stage 5 - where Stage 1 is less severe than stage 5. We don't know how much more severe one stage is than the next - that is we can't quantify the difference - but we know there is an intrinsic order.
+  Ordinal categorical data has an intrinsic order where one thing is more or less than another - storm severity is often classified by stages - Stage 1, Stage 2 \ldots{} Stage 5 - where Stage 1 is less severe than stage 5. We don\textquotesingle t know how much more severe one stage is than the next - that is we can\textquotesingle t quantify the difference - but we know there is an intrinsic order.
 \item
   Nominal categorical data has no natural order - the ordering of the colours blue, pink, or white makes no difference to the data or analysis.
 \end{itemize}
 
-Once you've selected your data sources and identified the data types you're working with, you'll be presented with a series of plotting options. You may also be presented with the option to group one of your variables. You will also be presented with the option to save a copy of your plot.
+Once you\textquotesingle ve selected your data sources and identified the data types you\textquotesingle re working with, you\textquotesingle ll be presented with a series of plotting options. You may also be presented with the option to group one of your variables. You will also be presented with the option to save a copy of your plot.
 
 \hypertarget{plot-options}{%
 \subsubsection*{Plot Options}\label{plot-options}}
@@ -1348,11 +1351,11 @@ In a mosaic plot, the height of the bars describes the relative frequency for ea
 \subsection*{Descriptive Stats}\label{descriptive-stats-1}}
 \addcontentsline{toc}{subsection}{Descriptive Stats}
 
-Here you can run basic descriptive stats on the data that you've plotted.
+Here you can run basic descriptive stats on the data that you\textquotesingle ve plotted.
 
-Similar to the instructions under the Plot tab, here, you must first select a dataset, \texttt{penguins} or \texttt{mtcars}, and then select two variables from the drop down menus, \texttt{Variable\ 1} and \texttt{Variable\ 2}. Again, you'll need to tell the Shiny App whether each of these variables are \texttt{quantitative} or \texttt{categorical}.
+Similar to the instructions under the Plot tab, here, you must first select a dataset, \texttt{penguins} or \texttt{mtcars}, and then select two variables from the drop down menus, \texttt{Variable\ 1} and \texttt{Variable\ 2}. Again, you\textquotesingle ll need to tell the Shiny App whether each of these variables are \texttt{quantitative} or \texttt{categorical}.
 
-Once you've made your selections, the Shiny App will automatically calculate the preferred descriptive statistics for the type of variables you have selected. For example, if you choose
+Once you\textquotesingle ve made your selections, the Shiny App will automatically calculate the preferred descriptive statistics for the type of variables you have selected. For example, if you choose
 
 \begin{itemize}
 \tightlist
@@ -1379,19 +1382,19 @@ Here is where you will perform statistical tests using your selected data. The t
   \item
     When performing a \(t\)-test in this app, you will be asked for a few additional parameters.
   \item
-    Type in the significance level (\(\alpha\)) you would like to use for the \(t\)-test. For example, if you'd like a 5\% significance level, type in 0.05.
+    Type in the significance level (\(\alpha\)) you would like to use for the \(t\)-test. For example, if you\textquotesingle d like a 5\% significance level, type in 0.05.
   \item
-    One assumption of the \(t\)-test is that the variance for each sample is approximately equal. However, the \(t\)-test used by this app (Welch's \(t\)-test) is somewhat robust to deviations in this assumption. For now, we will assume that both of your samples have equal variance. As such, please select 'Yes' when prompted for this option.
+    One assumption of the \(t\)-test is that the variance for each sample is approximately equal. However, the \(t\)-test used by this app (Welch\textquotesingle s \(t\)-test) is somewhat robust to deviations in this assumption. For now, we will assume that both of your samples have equal variance. As such, please select \textquotesingle Yes\textquotesingle{} when prompted for this option.
   \end{itemize}
 \item
   \textbf{ANOVA}: This analysis is used when examining a single quantitative (numeric) response variable in relation to a single categorical variable that has more than 2 groups or categories. Specifically, as described in a previous \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/which-statistical-test-to-use.html\#scenario-1-continuous-numeric-dependent-variable-and-categorical-independent-variable}{tutorial}, it tests the null hypothesis that the mean of the numeric response variable does not differ between the groups or categories of the explanatory variable.
 \item
-  \textbf{Fisher's Exact Test}: This analysis is used when testing for an association between two categorical variables. It is only used when both categorical variables have exactly 2 groups or categories. For example, if one variable is sex (male/female) and the other is survival (yes/no). It tests the null hypothesis that there is no association between the two categorical variables.
+  \textbf{Fisher\textquotesingle s Exact Test}: This analysis is used when testing for an association between two categorical variables. It is only used when both categorical variables have exactly 2 groups or categories. For example, if one variable is sex (male/female) and the other is survival (yes/no). It tests the null hypothesis that there is no association between the two categorical variables.
 \item
   \textbf{\(\chi^2\) Contingency Analysis}: This analysis is used when testing for an association between two categorical variables. It is only used when at least one of the categorical variables has more than 2 groups or categories. For example, if one variable is flower colour (red/white) and the other is season (spring/summer/fall). As explained in the \href{https://ubco-biology.github.io/BIOL-116-Lab-Manual/which-statistical-test-to-use.html\#comparing-frequencies-to-a-baseline-expectation}{``deeper dive'' section of this tutorial}, tests the null hypothesis that there is no association between the two categorical variables.
 \end{itemize}
 
-Once you've conducted a statistical test, the Shiny App will provide you with instructions for 'Interpreting the Output'. For this course, the main output of interest is the \textbf{\emph{P}-value}. Recall from Lab 2 that if the \emph{P}-value is less than our pre-defined significance level (\(\alpha\)), then we reject the null hypothesis in favour of the alternative. However, if the \emph{P}-value is greater than the significance level, then we don't reject the null hypothesis.
+Once you\textquotesingle ve conducted a statistical test, the Shiny App will provide you with instructions for \textquotesingle Interpreting the Output\textquotesingle. For this course, the main output of interest is the \textbf{\emph{P}-value}. Recall from Lab 2 that if the \emph{P}-value is less than our pre-defined significance level (\(\alpha\)), then we reject the null hypothesis in favour of the alternative. However, if the \emph{P}-value is greater than the significance level, then we don't reject the null hypothesis.
 
 \hypertarget{right-pane}{%
 \section*{Right Pane}\label{right-pane}}
@@ -1415,7 +1418,7 @@ This blue box shows the output that the Shiny App creates based on your selectio
 \subsection*{Source Code}\label{source-code}}
 \addcontentsline{toc}{subsection}{Source Code}
 
-This orange box shows the script used by R to generate the output. If there are any packages that need to be loaded in order to run the script, they are shown within the \texttt{library()} function at the beginning of the script. You don't need to worry about doing anything with this part for now. Rather, the script is included to enhance the transparency and computational reproducibility of your analysis. For example, since you know the script used to create your plots, calculate descriptive statistics, and perform statistical analysis; if you or someone else wanted to reproduce your methods, they could load your data, copy this script into R, and re-run everything exactly as shown in the Shiny App. You'll learn R coding in the \href{https://ubco-biology.github.io/BIOL202/}{tutorials for BIOL202}.
+This orange box shows the script used by R to generate the output. If there are any packages that need to be loaded in order to run the script, they are shown within the \texttt{library()} function at the beginning of the script. You don\textquotesingle t need to worry about doing anything with this part for now. Rather, the script is included to enhance the transparency and computational reproducibility of your analysis. For example, since you know the script used to create your plots, calculate descriptive statistics, and perform statistical analysis; if you or someone else wanted to reproduce your methods, they could load your data, copy this script into R, and re-run everything exactly as shown in the Shiny App. You'll learn R coding in the \href{https://ubco-biology.github.io/BIOL202/}{tutorials for BIOL202}.
 
 \hypertarget{screencast-demo}{%
 \chapter*{Screencast Demo}\label{screencast-demo}}
@@ -1556,11 +1559,11 @@ Please use the following template for this assignment:
 \chapter*{Data Collection Continued}\label{data-collection-continued}}
 \addcontentsline{toc}{chapter}{Data Collection Continued}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 By now you should have already successfully run your entire experiment once, and collected some data.This is great!Take your time in your lab to attain as many trials as you can.The more trials you conduct the more assured you can be in the trends you are seeing.This is your last opportunity to collect your data so make the most of it.
 
-Remember that you should be working to minimize the differences between today's trials and the trial(s) you ran in the last data collection period. Your methods should be as similar as possible - assuming, of course, your experiment worked last time.
+Remember that you should be working to minimize the differences between today\textquotesingle s trials and the trial(s) you ran in the last data collection period. Your methods should be as similar as possible - assuming, of course, your experiment worked last time.
 
 Making changes adds a new variable to your experiment, which will have an unknown impact on your results. If you must make changes for some reason, make sure that you carefully document everything once again.
 
@@ -1590,13 +1593,13 @@ Scientists often use each other to discuss their findings and / or issues in ord
 \chapter*{Data Analysis \& Shiny Apps}\label{data-analysis-shiny-apps}}
 \addcontentsline{toc}{chapter}{Data Analysis \& Shiny Apps}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 In Lab 7 you had a short introduction to data visualization and using R through a Shiny App to explore some core descriptive and inferential statistics for a couple of pre-loaded data sets.
 
 You may wish to re-familiarize yourself with the content of Lab 7, in particular the best practices for presenting tables and figures and how to navigate the Shiny App interface.
 
-This lab, we'll be undertaking a similar exercise to what we did last week, but instead of working with a supplied data set, you'll be working with the data that you've collected conducting your research.
+This lab, we\textquotesingle ll be undertaking a similar exercise to what we did last week, but instead of working with a supplied data set, you\textquotesingle ll be working with the data that you\textquotesingle ve collected conducting your research.
 
 \hypertarget{preparing-your-data}{%
 \chapter*{Preparing Your Data}\label{preparing-your-data}}
@@ -1614,13 +1617,13 @@ Refer to the chapter \href{https://ubco-biology.github.io/Procedures-and-Guideli
 
 Missing data
 
-If your data contain any missing values, make sure your have a standard way of filling those cells. Blank cells are not very useful - a blank cell tells us very little about why it's blank - Was this a mistake? Is it supposed to be empty? Who knows?
+If your data contain any missing values, make sure your have a standard way of filling those cells. Blank cells are not very useful - a blank cell tells us very little about why it\textquotesingle s blank - Was this a mistake? Is it supposed to be empty? Who knows?
 
 Instead, be purposeful. A standard filler or stand in for a missing piece of data is \texttt{NA}, standing for "not available". Your \texttt{\_README} file or \texttt{\_DATA-DICTIONARY} should indicate that missing data points are noted with \texttt{NA}. It's important to note that \texttt{NA} isn't simply the characters N and A. Rather, \texttt{NA} is a specific designation that indicates to your computer when there is no value available for that cell of your data. Different programs (R, SPSS, Excel) have different ways of representing or storing NA values. While at this stage you are not expected to know all of the different ways of specifying \texttt{NA} values in different programs, you will need to use a standardized method for indicating missing values in your data before uploading it to R.
 
 To keep it simple for this course, simply type the characters \texttt{NA} into the cell of your spreadsheet to indicate missing data.
 
-Once you've got your data organized in Excel - or whichever program your are using - according to the principles of Tidy Data and you've ensured that any missing data points are filled with \texttt{NA}, you're ready to save your file in a format for import into the Shiny App.
+Once you\textquotesingle ve got your data organized in Excel - or whichever program your are using - according to the principles of Tidy Data and you\textquotesingle ve ensured that any missing data points are filled with \texttt{NA}, you\textquotesingle re ready to save your file in a format for import into the Shiny App.
 
 If we were to use the \texttt{palmerpenguin} data from Lab 7 as an example, following is what our data in Excel might look like:
 
@@ -1630,19 +1633,19 @@ If we were to use the \texttt{palmerpenguin} data from Lab 7 as an example, foll
 \caption{Screenshot of \texttt{Penguins} data}
 \end{figure}
 
-Note that we have a header row with values for each of the variables, including the species, island and various measurements taken. Since we have a header, when we import our data into the Shiny App, we'll want to make sure we're indicating that there's a header. We also have one row for each observation of an individual penguin.
+Note that we have a header row with values for each of the variables, including the species, island and various measurements taken. Since we have a header, when we import our data into the Shiny App, we\textquotesingle ll want to make sure we\textquotesingle re indicating that there\textquotesingle s a header. We also have one row for each observation of an individual penguin.
 
 Getting to Know Your Data
 
 Not all data that you come across will include a header in the file. Sometimes the variables are described exclusively in the \texttt{\_Data-Dictionary} that accompanies the data set. Nor will all data that you come across use the convention of \texttt{NA}, especially if that data has already been opened in - or saved from - another piece of statistical software.
 
-Familiarizing yourself with your data is critically important, which is why \texttt{\_README} and \texttt{\_Data-Dictionary} files are so important. It's also important that we examine the data file itself - opening the \texttt{csv} or Excel file and having a look through. Doing so can help to avoid common errors such as misinterpreting empty cells, including variable values stored in a header as data itself and the like.
+Familiarizing yourself with your data is critically important, which is why \texttt{\_README} and \texttt{\_Data-Dictionary} files are so important. It\textquotesingle s also important that we examine the data file itself - opening the \texttt{csv} or Excel file and having a look through. Doing so can help to avoid common errors such as misinterpreting empty cells, including variable values stored in a header as data itself and the like.
 
 \hypertarget{file-formats}{%
 \section*{File Formats}\label{file-formats}}
 \addcontentsline{toc}{section}{File Formats}
 
-Most of the data that you'll encounter or produce will be rectangular in nature; that is, it will be organized into columns and rows. Rectangular data can be stored in many file formats with \texttt{xlsx} perhaps being the one you'll be most familiar with, which is an Excel file. To be fair, we could store this data within a Word document in a table. But if we want to be able to work programmatically with the data - if we want to be able to use a computer program to help interpret the data, perform calculations, make inferences, and build visualizations - the data needs to be in a file format that will allow for this. A Word document does not allow for this. An Excel file allows for this within Excel. But we can do better.
+Most of the data that you\textquotesingle ll encounter or produce will be rectangular in nature; that is, it will be organized into columns and rows. Rectangular data can be stored in many file formats with \texttt{xlsx} perhaps being the one you\textquotesingle ll be most familiar with, which is an Excel file. To be fair, we could store this data within a Word document in a table. But if we want to be able to work programmatically with the data - if we want to be able to use a computer program to help interpret the data, perform calculations, make inferences, and build visualizations - the data needs to be in a file format that will allow for this. A Word document does not allow for this. An Excel file allows for this within Excel. But we can do better.
 
 A common file format for storing rectangular data is a \texttt{csv} file, or comma separated value file. Each row in a \texttt{csv} file contains data for a single observation, and each piece of data - or each potential variable value - is separated by a comma. If we were to look at the \texttt{palmerpenguin} data from Lab 7 saved as a \texttt{csv}, it would look something like this
 
@@ -1658,7 +1661,7 @@ A common file format for storing rectangular data is a \texttt{csv} file, or com
 
 \texttt{csv} \& Open Science
 
-\texttt{csv} files are particularly important when we think about transparency, reproducibility, and accessibility. \texttt{csv} files are plain text files, which means they can be read by virtually any operating system and any text editor. A \texttt{csv} file produced in 1975 can still be opened on the computer you're using right now.
+\texttt{csv} files are particularly important when we think about transparency, reproducibility, and accessibility. \texttt{csv} files are plain text files, which means they can be read by virtually any operating system and any text editor. A \texttt{csv} file produced in 1975 can still be opened on the computer you\textquotesingle re using right now.
 
 Conversely, your prof probably has a mountain of early spreadsheet data stored in proprietary file formats that predate Excel somewhere on a floppy disk from about 15 years ago that they can no longer read because the file format is no longer supported.
 
@@ -1692,7 +1695,7 @@ Now that your data is tidy and saved in the CSV UTF-8 format, you're ready to up
 \chapter*{Lab 9 Activity}\label{lab-9-activity}}
 \addcontentsline{toc}{chapter}{Lab 9 Activity}
 
-Similar to Lab 7, take a bit of time to upload your data into the Shiny App and explore it - run some descriptive and inferential statistics and attempt some visualizations. Make sure that you understand the type of data that you've collected and ensure that the analyses that you're performing are suitable to the data types you're selecting.
+Similar to Lab 7, take a bit of time to upload your data into the Shiny App and explore it - run some descriptive and inferential statistics and attempt some visualizations. Make sure that you understand the type of data that you\textquotesingle ve collected and ensure that the analyses that you\textquotesingle re performing are suitable to the data types you\textquotesingle re selecting.
 
 The Shiny App is available \href{https://openscience.ok.ubc.ca/shiny/BIOL-116/}{here}
 
@@ -1712,7 +1715,7 @@ Please use the following template for this assignment:
 \chapter*{Poster Presentation}\label{poster-presentation}}
 \addcontentsline{toc}{chapter}{Poster Presentation}
 
-\emph{Last updated 2022-09-06}
+\emph{Last updated 2023-09-13}
 
 \hypertarget{what-is-a-research-poster}{%
 \section*{What is a Research Poster?}\label{what-is-a-research-poster}}
@@ -1735,7 +1738,7 @@ Posters are typically a mix of text, figures, tables, graphs and other data. The
 \item
   Your overall word count should be no less than 300 words and no more than 800.
 \item
-  Your content needs to be clear (i.e., easy for the audience to interpret without help, in case you're busy with someone else) and concise (stick to the point, so you get it across in the fewest possible words).
+  Your content needs to be clear (i.e., easy for the audience to interpret without help, in case you\textquotesingle re busy with someone else) and concise (stick to the point, so you get it across in the fewest possible words).
 \item
   Wherever possible use graphics, colour, font etc. to help guide your audience through the key information.
 \item
@@ -1754,7 +1757,7 @@ Additional Resources
 
 \href{http://www.colby.edu/acits/student-academic-poster-guidelines/}{Colby College page on Student Academic posters}. We especially like the additional links in this one, including a nice video from University of Guelph.
 
-\href{https://guides.douglascollege.ca/ResearchPoster}{Douglas College page on Student Research Presentations}. This link has lots of really good resources, including poster templates, potential sources for creative commons-licenced images (which means you're allowed to use them) and more.
+\href{https://guides.douglascollege.ca/ResearchPoster}{Douglas College page on Student Research Presentations}. This link has lots of really good resources, including poster templates, potential sources for creative commons-licenced images (which means you\textquotesingle re allowed to use them) and more.
 
 \hypertarget{getting-started-the-hardest-part}{%
 \section*{Getting started\ldots{} the hardest part!}\label{getting-started-the-hardest-part}}
@@ -1762,11 +1765,11 @@ Additional Resources
 
 Start by thinking about who this presentation is for. So, in your case you will be presenting to your BIOL116 lab mates and some of the teaching assistants.
 
-Next think about what exactly you want to tell them. For example, to understand your research, they likely need to know what your \textbf{research question} was, how you went about \textbf{testing your hypothesis}, and, most importantly, what were the \textbf{conclusions} that you drew, based on the research that you conducted. Some of the details of your work will be vital to the understanding of the work, while others maybe don't need to be highlighted quite so prominently on the poster.
+Next think about what exactly you want to tell them. For example, to understand your research, they likely need to know what your \textbf{research question} was, how you went about \textbf{testing your hypothesis}, and, most importantly, what were the \textbf{conclusions} that you drew, based on the research that you conducted. Some of the details of your work will be vital to the understanding of the work, while others maybe don\textquotesingle t need to be highlighted quite so prominently on the poster.
 
-Don't Procrastinate!
+Don\textquotesingle t Procrastinate!
 
-Think about these things well ahead of time and make a list of all the things you want to say and put them in a list of priority. The top items should make it on the poster while the rest can be saved for your presentation. If there was one thing you wanted your audience to know (we often call this the 'take home message') what would that be?
+Think about these things well ahead of time and make a list of all the things you want to say and put them in a list of priority. The top items should make it on the poster while the rest can be saved for your presentation. If there was one thing you wanted your audience to know (we often call this the \textquotesingle take home message\textquotesingle) what would that be?
 
 Next take a step back, grab a pencil and start to sketch out a small poster to scale. What are the proportions you will be working with and what all do you need to include? Play around with the overall look placing content and diagrams/figures where you think it visually looks nice. A little bit of graphic design experience can be helpful here, but its not required. You can also do this by marking off an area on the floor or table base on the exact size of your poster, print off your content and/or diagrams and figures and see what needs to change.
 
@@ -1798,7 +1801,7 @@ Here is an example of a poster which scored 46.5/93 (50\%).
 
 The poster shown below was one that Dr.~Robin built during her Ph.D.~Since this poster was developed for a different purpose than BIOL116, it had a different goal than your BIOL116 poster, and was considered to be an excellent poster for that purpose. If we apply the BIOL116 poster rubric to the poster, we see that it scores only 46.5/ 93. Not only does this show you some examples of what not to do for your BIOL116 poster session, it also highlights why it is so important you use the Rubric you are given in order to do the very best you can.
 
-Although the example below does have three distinct columns (as is common in academic posters) There is no experimental design described and there is no much text on this poster, making it look quite gray and boring. Charts and other data are also presented in grey, which doesn't help. There isn't enough white space, and what space there is gets further broken down by the divider lines. This is often done when students try to fit too much information on the poster. Less is more in the case of a poster! This poster and others can be found on Canvas.
+Although the example below does have three distinct columns (as is common in academic posters) There is no experimental design described and there is no much text on this poster, making it look quite gray and boring. Charts and other data are also presented in grey, which doesn\textquotesingle t help. There isn\textquotesingle t enough white space, and what space there is gets further broken down by the divider lines. This is often done when students try to fit too much information on the poster. Less is more in the case of a poster! This poster and others can be found on Canvas.
 
 \begin{figure}
 \centering
@@ -1852,13 +1855,13 @@ Open-source alternatives include:
 \chapter*{Presenting Your Poster}\label{presenting-your-poster}}
 \addcontentsline{toc}{chapter}{Presenting Your Poster}
 
-Now that you've got the poster, it's time for the poster session, where you will be presenting your poster to your classmates.
+Now that you\textquotesingle ve got the poster, it\textquotesingle s time for the poster session, where you will be presenting your poster to your classmates.
 
 You can think of your poster presentation as a type of performance, but also a conversation with your audience. You should know what you want to tell them, but also be prepared for the fact that they will have questions, and specific interests. Before you present, you will need to prepare, much like any singer or actor. This is going to set you up for success!
 
 Rehearse \& Get Feedback
 
-Rehearse what you will be saying to your friends and/or family and ask for feedback. Were you speaking at a normal pace? Were you fidgety? Did your voice carry well enough so that everyone could hear clearly? We often don't realize some of the things we do out of habit when we get nervous or are feeling a bit uncertain and so getting that feedback can help you determine where you need to put your energy.
+Rehearse what you will be saying to your friends and/or family and ask for feedback. Were you speaking at a normal pace? Were you fidgety? Did your voice carry well enough so that everyone could hear clearly? We often don\textquotesingle t realize some of the things we do out of habit when we get nervous or are feeling a bit uncertain and so getting that feedback can help you determine where you need to put your energy.
 
 The more you practice the more comfortable you will be presenting on the day of your presentations. Also have you friends and/or family ask questions to be sure you have a solid understanding of the material you are presenting. You may even want to give them some example questions alongside questions they will have on their own.
 
@@ -1907,19 +1910,20 @@ This is YOUR research, and no one knows it better than you! You have worked hard
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Excellent1.5 pts & All 3 criteria are met \\
 Satisfactory1 pts & 2 of the 3 criteria are met \\
 Poor0.5 pts & Only 1 of the criteria is met \\
 Absent0 pts & None of the criteria are met and/or no title was provided \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{introductionbackground-information}{%
@@ -1949,14 +1953,16 @@ Absent0 pts & None of the criteria are met and/or no title was provided \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Exceeds Expectations6 pts & All 6 criteria are met \\
 Excellent5 pts & 5 of the 6 criteria are met \\
 Proficient4 pts & 4 of the 6 criteria are met \\
@@ -1964,7 +1970,6 @@ Satisfactory3 pts & 3 of the 6 criteria are met \\
 Poor2 pts & 2 of the 6 criteria are met \\
 Unsatisfactory1 pts & 1 of the 6 criteria are met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{hypothesis}{%
@@ -1988,19 +1993,20 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Excellent3 pts & All 3 criteria are met \\
 Satisfactory2 pts & 2 of the 3 criteria are met \\
 Unsatisfactory1 pts & Only 1 of the criteria is met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{experimental-design}{%
@@ -2032,14 +2038,16 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Exceeds Expectations7 pts & All 7 criteria are met \\
 Excellent6 pts & 6 of the 7 criteria are met \\
 Satisfactory5 pts & 5 of the 7 criteria are met \\
@@ -2048,7 +2056,6 @@ Unsatisfactory3 pts & 3 of the 7 criteria are met \\
 Below Expectations2 pts & 2 of the 7 criteria are met \\
 Unacceptable1 pts & 1 of the 7 criteria are met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{figures}{%
@@ -2080,14 +2087,16 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Exceeds Expectations7 pts & All 7 criteria are met \\
 Excellent6 pts & 6 of the 7 criteria are met \\
 Satisfactory5 pts & 5 of the 7 criteria are met \\
@@ -2096,7 +2105,6 @@ Unsatisfactory3 pts & 3 of the 7 criteria are met \\
 Below Expectations2 pts & 2 of the 7 criteria are met \\
 Unacceptable1 pts & 1 of the 7 criteria are met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{results}{%
@@ -2120,19 +2128,20 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Excellent3 pts & All 3 criteria are met \\
 Fair2 pts & 2 of the 3 criteria are met \\
 Poor1 pts & Only 1 of the criteria is met \\
 Unacceptable0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{references-in-text-citation}{%
@@ -2156,19 +2165,20 @@ Unacceptable0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Satisfactory3 pts & All 3 criteria are met \\
 Fair2 pts & 2 of the 3 criteria are met \\
 Poor1 pts & Only 1 of the criteria is met \\
 Unacceptable0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{plagiarism}{%
@@ -2190,18 +2200,19 @@ Unacceptable0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Satisfactory2 pts & All 2 criteria are met \\
 Satisfactory1 pts & 1 of the 2 criteria are met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{presentation}{%
@@ -2227,20 +2238,21 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Excellent4 pts & All 4 criteria are met \\
 Proficient3 pts & 3 of the 4 criteria are met \\
 Fair2 pts & 2 of the 4 criteria are met \\
 Unsatisfactory1 pts & Only 1 of the criteria is met \\
 Absent0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \hypertarget{poster}{%
@@ -2272,21 +2284,22 @@ Absent0 pts & None of the criteria are met \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
-\toprule()
+\toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Points
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 {Criteria}
 \end{minipage} \\
-\midrule()
+\midrule\noalign{}
 \endhead
+\bottomrule\noalign{}
+\endlastfoot
 Full Marks5 pts & All 5 criteria are met \\
 Proficient4 pts & 4 of the 5 criteria are met \\
 Satisfactory3 pts & 3 of the 5 criteria are met \\
 Poor2 pts & 2 of the 5 criteria are met \\
 Unsatisfactory1 pts & Only 1 of the criteria is met \\
 No Marks0 pts & None of the criteria are met \\
-\bottomrule()
 \end{longtable}
 
 \end{document}

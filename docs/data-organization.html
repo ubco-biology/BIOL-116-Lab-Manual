@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Data Organization | Biology 116 Lab Manual</title>
   <meta name="description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
-  <meta name="generator" content="bookdown 0.28 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Data Organization | Biology 116 Lab Manual" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2022-09-06" />
+<meta name="date" content="2023-09-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -64,6 +64,10 @@
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
@@ -288,9 +292,9 @@
 </div>
 <p>Once you've got your data organized in Excel - or whichever program your are using - according to the principles of Tidy Data and you've ensured that any missing data points are filled with <code>NA</code>, you're ready to save your file in a format for import into the Shiny App.</p>
 <p>If we were to use the <code>palmerpenguin</code> data from Lab 7 as an example, following is what our data in Excel might look like:</p>
-<div class="figure">
-<img src="figures_images/Penguins-Excel.png" alt="" />
-<p class="caption">Screenshot of <code>Penguins</code> data</p>
+<div class="float">
+<img src="figures_images/Penguins-Excel.png" alt="Screenshot of Penguins data" />
+<div class="figcaption">Screenshot of <code>Penguins</code> data</div>
 </div>
 <p>Note that we have a header row with values for each of the variables, including the species, island and various measurements taken. Since we have a header, when we import our data into the Shiny App, we'll want to make sure we're indicating that there's a header. We also have one row for each observation of an individual penguin.</p>
 <div class="note">

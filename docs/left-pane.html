@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Left Pane | Biology 116 Lab Manual</title>
   <meta name="description" content="Biology lab manual for BIOL 116 at the UBC Okanagan Campus" />
-  <meta name="generator" content="bookdown 0.28 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.35 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Left Pane | Biology 116 Lab Manual" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="Dr. Tristyn Hay and Dr. Robin Young" />
 
 
-<meta name="date" content="2022-09-06" />
+<meta name="date" content="2023-09-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -64,6 +64,10 @@
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
@@ -310,29 +314,29 @@
 <p>Here is a brief description of how to interpret the different plots created by the Shiny App.</p>
 <p><strong>Scatterplot</strong></p>
 <p>If you input a continuous numeric dependent variable with a continuous numeric independent variable, you will be presented with a scatterplot. An example of a scatterplot is shown below:</p>
-<div class="figure">
-<img src="figures_images/scatterplot_ex.png" alt="" />
-<p class="caption">Figure 1. Scatterplot of the association between bill length (mm) and depth (mm) among 342 penguins.</p>
+<div class="float">
+<img src="figures_images/scatterplot_ex.png" alt="Figure 1. Scatterplot of the association between bill length (mm) and depth (mm) among 342 penguins." />
+<div class="figcaption">Figure 1. Scatterplot of the association between bill length (mm) and depth (mm) among 342 penguins.</div>
 </div>
 <p>The blue line on the figure is the “line of best fit” aka a linear regression model. In other words, it is simply a straight line that represents the best approximation of the data points. This line helps you interpret the relationship between the variables. For example, the strength and direction of the relationship is described by the slope. The grey shaded region surrounding the line of best fit represents the 95% confidence interval for the model.</p>
 <p><strong>Stripchart &amp; Boxplot</strong></p>
 <p>If you input a continuous numeric dependent variable with a categorical independent variable, you have the option to produce a stripchart or boxplot.</p>
-<div class="figure">
-<img src="figures_images/stripchart_ex.png" alt="" />
-<p class="caption">Figure 2. Stripchart showing bill length (mm) in Adelie (n=152), Chinstrap (n=68), and Gentoo (n=124) penguins.</p>
+<div class="float">
+<img src="figures_images/stripchart_ex.png" alt="Figure 2. Stripchart showing bill length (mm) in Adelie (n=152), Chinstrap (n=68), and Gentoo (n=124) penguins." />
+<div class="figcaption">Figure 2. Stripchart showing bill length (mm) in Adelie (n=152), Chinstrap (n=68), and Gentoo (n=124) penguins.</div>
 </div>
 <p>In a stripchart every data point is shown. On the figure above, individual data points are shown as hollow circles. The mean value is shown by the red circle and the 95% confidence intervals are displayed alongside the mean.</p>
-<div class="figure">
-<img src="figures_images/boxplot_ex.png" alt="" />
-<p class="caption">Figure 3. Boxplot of bill length (mm) in Adelie (n=152), Chinstrap (n=68), and Gentoo (n=124) penguins.</p>
+<div class="float">
+<img src="figures_images/boxplot_ex.png" alt="Figure 3. Boxplot of bill length (mm) in Adelie (n=152), Chinstrap (n=68), and Gentoo (n=124) penguins." />
+<div class="figcaption">Figure 3. Boxplot of bill length (mm) in Adelie (n=152), Chinstrap (n=68), and Gentoo (n=124) penguins.</div>
 </div>
 <p>A boxplot differs from a stripchart in that it doesn’t show every data point. On the figure above, the thick horizontal lines represent group medians, boxes delimit 1st to 3rd quartiles, whiskers extend to 1.5 x the inter-quartile range, and small circles represent extreme observations (aka outliers).</p>
 <p>Adjacent to the box and whiskers, the mean value is shown by the red circle and the 95% confidence intervals are displayed alongside the mean.</p>
 <p><strong>Mosaic Plot</strong></p>
 <p>If you input a categorical dependent variable with a categorical independent variable, you will be presented with a mosaic plot.</p>
-<div class="figure">
-<img src="figures_images/mosaic_plot_ex.png" alt="" />
-<p class="caption">Figure 4. Relative frequency of different species of penguins found on Biscoe (n=168), Dream (n=124), and Torgersen (n=52) islands.</p>
+<div class="float">
+<img src="figures_images/mosaic_plot_ex.png" alt="Figure 4. Relative frequency of different species of penguins found on Biscoe (n=168), Dream (n=124), and Torgersen (n=52) islands." />
+<div class="figcaption">Figure 4. Relative frequency of different species of penguins found on Biscoe (n=168), Dream (n=124), and Torgersen (n=52) islands.</div>
 </div>
 <p>In a mosaic plot, the height of the bars describes the relative frequency for each category of the response variable (denoted by the “fill” colours) in relation to the categories of the explanatory variable (shown on the x-axis). The width of the bars are proportional to the sample size in each category of the explanatory variable.</p>
 </div>
